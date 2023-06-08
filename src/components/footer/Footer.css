@@ -1,0 +1,86 @@
+.Footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    /* margin-top: 10rem; */
+    font-size: 2rem;
+    color: #fff7e3;
+    border-top: 1px solid gold;
+    padding: 0 0 6rem 0;
+}
+
+.Footer ul li {
+    list-style: none;
+}
+
+.Footer ul li a {
+    text-decoration: none;
+    color: #fff7e3;
+}
+
+.footerContainer {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 6rem 2rem;
+    margin: 0 auto;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footerLogoADes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.footerLogo {
+    width: auto;
+    height: 18rem;
+}
+
+.footerDes {
+    font-size: 1.8rem;
+}
+
+.footerCompanyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 1rem;
+}
+
+.footerPerTitle {
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.footerContactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 1rem;
+}
+
+.footerResourcesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 1rem;
+}
+.privacy{
+    color: #fff7e3;
+    text-decoration: none;
+}
+
+.footerCopyright {
+    width: 90%;
+    padding: 0 3rem;
+    margin: 0 auto;
+}

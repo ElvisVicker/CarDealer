@@ -12,8 +12,6 @@ export default function CarList() {
     // console.log(data);
     return (
         <div className="main">
-
-
             {
                 list.map((data, index) => {
                     return (

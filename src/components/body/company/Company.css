@@ -1,0 +1,70 @@
+.Company {
+    font-size: 1.6rem;
+    display: flex;
+    color: #fff7e3;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto 10rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4rem 6rem;
+   
+}
+
+
+.companyTitle {
+    font-size: 5.2rem;
+    color: #fff7e3;
+    font-weight: bold;
+    padding: 20rem 0 6rem 0;
+}
+
+
+.companyContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 247, 227, 0.2);
+
+}
+
+.companyLogoName {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 247, 227, 0.5);
+    margin: 0rem 0 4.4rem 0;
+}
+
+.companyLogo {
+    height: 16rem;
+}
+
+.companyName {
+    font-size: 4.4rem;
+    font-weight: bold;
+}
+
+.companyDescription {
+    font-size: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 4rem;
+    text-align: justify;
+}
+
+.companyLink {
+    margin: 1rem 0 10rem 4rem;
+    width: 16rem;
+    /* background-color: azure; */
+}
+
+.btnLink {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: rgb(0, 174, 255);
+    font-size: 1.8rem;
+}

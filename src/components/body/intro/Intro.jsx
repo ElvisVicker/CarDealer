@@ -2,33 +2,42 @@ import './Intro.css'
 import { AppContext } from '../../../AppContext';
 import { useContext } from 'react';
 import { Link } from "react-router-dom";
+
 export default function Intro() {
 
-    const { scroll, list } = useContext(AppContext)
-    let fadeOutTitle, fadeOut, fadeOut1, fadeOut2
+    const { list, cus1, TextSlideshow1, cus2, TextSlideshow2,logoCompany } = useContext(AppContext)
 
-    if (scroll >= 600) {
-        fadeOutTitle = {
-            filter: "opacity(1)",
-        };
-    }
+    // let fadeOutTitle, fadeOut, fadeOut1, fadeOut2, fadeOutOurCar
 
-    if (scroll >= 750) {
-        fadeOut = {
-            filter: "opacity(1)",
-        };
-    }
-    if (scroll >= 1300) {
-        fadeOut1 = {
-            filter: "opacity(1)",
-        };
-    }
+ 
+    // if (scroll >= 600) {
+    //     fadeOutTitle = {
+    //         filter: "opacity(1)",
+    //     };
+    // }
 
-    if (scroll >= 1800) {
-        fadeOut2 = {
-            filter: "opacity(1)",
-        };
-    }
+    // if (scroll >= 750) {
+    //     fadeOut = {
+    //         filter: "opacity(1)",
+    //     };
+    // }
+    // if (scroll >= 1300) {
+    //     fadeOut1 = {
+    //         filter: "opacity(1)",
+    //     };
+    // }
+
+    // if (scroll >= 1800) {
+    //     fadeOut2 = {
+    //         filter: "opacity(1)",
+    //     };
+    // }
+
+    // if (scroll >= 2300) {
+    //     fadeOutOurCar = {
+    //         filter: "opacity(1)",
+    //     };
+    // }
 
     return (
         <div className='Intro'>
@@ -38,35 +47,35 @@ export default function Intro() {
             </div>
 
             <div className='exploreContainer'>
-                <div className='exploreTitle' style={fadeOutTitle}>
+                <div className='exploreTitle' >
                     EXPLORE MORE
                 </div>
 
                 <div className='companyIntro' >
-                    <div className='introTitle' style={fadeOut}>
+                    <div className='introTitle' >
                         The AUDI AG stands for sporty vehicles, high build quality and progressive design – for “Vorsprung durch Technik.” The Audi Group is among the world’s leading producers of premium cars. To play an instrumental role in shaping the transformation as we head into a new age of mobility the Company is implementing its strategy step by step.
                     </div>
-                    <iframe className='introVideo' style={fadeOut}
+                    <iframe className='introVideo'
                         src="https://www.youtube.com/embed/BNVZmrxXuuU?autoplay=1&mute=1&loop=1&playlist=BNVZmrxXuuU">
                     </iframe>
                 </div>
 
                 <div className='companyIntro' >
 
-                    <iframe className='introVideo' style={fadeOut1}
+                    <iframe className='introVideo'
                         src="https://www.youtube.com/embed/EOtjvBy1vDw?autoplay=1&mute=1&loop=1&playlist=EOtjvBy1vDw">
                     </iframe>
 
-                    <div className='introTitle' style={fadeOut1}>
+                    <div className='introTitle'>
                         Ford is a family company, one that spans the globe and has shared ideals. We value service to each other and the world as much as to our customers. Generations have made their memories with us and included us in their hopes and dreams. After 117 years, we’re used to adapting to and leading change. That’s why we’re evolving to focus on services, experiences and software as well as vehicles.
                     </div>
                 </div>
 
                 <div className='companyIntro' >
-                    <div className='introTitle' style={fadeOut2}>
+                    <div className='introTitle'>
                         From the very outset Volvo Cars has been a brand for people who care about the world we live in and the people around us. We have made it our mission to make life easier, better and safer for everyone.
                     </div>
-                    <iframe className='introVideo' style={fadeOut2}
+                    <iframe className='introVideo'
                         src="https://www.youtube.com/embed/9u4Ejwfiqlo?autoplay=1&mute=1&loop=1&playlist=9u4Ejwfiqlo">
                     </iframe>
                 </div>
@@ -75,11 +84,11 @@ export default function Intro() {
 
 
             <div className='introOurCars'>
-                <div className='ourCarsTitle' style={fadeOutTitle}>
+                <div className='ourCarsTitle'  >
                     OUR CARS
                 </div>
 
-                <div className='introCarImgs'>
+                <div className='introCarImgs' >
                     <div className='ourCarImgContainer'>
                         <img className='introCarImg' src={list[0].img[0]} alt="" />
                         <div className='nameAndPrice'>
@@ -128,9 +137,26 @@ export default function Intro() {
                         </div>
                     </div>
                 </div>
-                <Link to="/Inventory" >
+
+                <Link className='noUnderline' to="/Inventory" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
                     <button className='btnViewInventory'>View Inventory</button>
                 </Link>
+            </div>
+
+
+
+            <div className='introClient'>
+
+                <div className='ourClientReviews'>
+                    CLIENT REVIEWS
+                </div>
+
+
+
+                <div className='reviewContainer'>
+                    <TextSlideshow1 cus1={cus1} />
+                    <TextSlideshow2 cus2={cus2} />
+                </div>
             </div>
 
 
@@ -139,7 +165,24 @@ export default function Intro() {
 
 
 
+            <div className='ourPartnersContainer'>
 
+                <div className='ourPartnersTitle'  >
+                    OUR PARTNERS
+                </div>
+
+                <div className='logoContainer'>
+                    {
+                        logoCompany.map((data, index) => {
+                            return (
+                                <div key={index} className='introLogo'>
+                                    <img src={data} alt="" />
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            </div>
 
 
 

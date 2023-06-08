@@ -15,5 +15,9 @@ html {
     height: 100%;
     position: fixed;
     z-index: -5;
-    filter: brightness(10%);
+    filter: brightness(20%);
+}
+
+.noUnderline {
+    text-decoration: none;
 }

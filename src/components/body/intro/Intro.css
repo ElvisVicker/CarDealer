@@ -1,9 +1,7 @@
 .Intro {
     position: relative;
-    /* display: block; */
+    margin-bottom: 10rem;
 }
-
-
 
 .Background {
     width: 100%;
@@ -14,14 +12,15 @@
     display: block;
     width: 100%;
     height: 100%;
+    /* height: 3rem; */
     z-index: 1;
-    filter: brightness(40%);
+    filter: brightness(60%);
     object-fit: cover;
 }
 
 .mainTitle {
     position: absolute;
-    font-size: 4.4rem;
+    font-size: 6.4rem;
     color: #fff7e3;
     top: 30rem;
     left: 20rem;
@@ -39,6 +38,8 @@
 }
 
 
+
+/* EXPLORE MORE */
 .exploreContainer {
     padding-top: 14rem;
     width: 80%;
@@ -54,7 +55,7 @@
     font-size: 5.2rem;
     color: #fff7e3;
     margin-bottom: 4rem;
-    filter: opacity(0);
+    /* filter: opacity(0); */
     transition: 0.6s;
     font-weight: bold;
 }
@@ -71,24 +72,28 @@
     flex-basis: 50%;
     color: #ffffff;
     font-size: 2.8rem;
-    filter: opacity(0);
+    /* filter: opacity(0); */
     transition: 0.6s;
 }
 
 .introVideo {
     flex-basis: 50%;
     border: none;
-    filter: opacity(0);
+    /* filter: opacity(0); */
     transition: 0.6s;
 }
 
+
+
+/* OUR CARS */
 .introOurCars {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin: 6rem auto 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
     padding: 2rem;
 }
 
@@ -97,8 +102,8 @@
     color: #fff7e3;
     margin-bottom: 10rem;
     padding-top: 4rem;
-    filter: opacity(0);
-    transition: 0.6s;
+    /* filter: opacity(0); */
+    transition: 1s;
     font-weight: bold;
 }
 
@@ -106,9 +111,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    width: 80%;
+    width: 100%;
     gap: 2rem;
+    /* filter: opacity(0); */
     margin: 0 auto;
+    transition: 1s;
 }
 
 .ourCarImgContainer {
@@ -151,15 +158,107 @@
     color: #2e291f;
     border-radius: 2px;
     font-weight: bold;
-
 }
 
 
-/* .introCarImg:nth-child(odd) {
-    clip-path: polygon(90% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
 
+/* CLIENT REVIEWS */
+.introClient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.introCarImg:nth-child(even) {
-    clip-path: polygon(90% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
-} */
+.ourClientReviews {
+    font-size: 5.2rem;
+    color: #fff7e3;
+    font-weight: bold;
+    margin: 6rem 0;
+}
+
+.reviewContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.slideCus {
+    filter: brightness(80%);
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    grid-template-rows: 20rem;
+    gap: 2rem;
+    padding: 2rem;
+    background-image: linear-gradient(to top right, #aa9100, #fde776);
+    border-radius: 2px;
+}
+
+.cusImgContainer {
+    overflow: hidden;
+    border-radius: 150px;
+}
+
+.cusImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviewNameADes {
+    padding: 1rem 0;
+    color: #2e291f;
+    text-align: justify;
+}
+
+.cusName {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.cusDes {
+    font-size: 2.2rem;
+}
+
+
+
+/* OUR PARTNERS */
+.ourPartnersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem 0;
+    gap: 4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ourPartnersTitle {
+    font-size: 5.2rem;
+    color: #fff7e3;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.logoContainer {
+    display: flex;
+    gap: 4rem;
+    background-color: rgba(255, 238, 165, 0.5);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+}
+
+.introLogo img {
+    height: 10rem;
+    filter: brightness(85%);
+}
+
+.mapdm {
+    width: 500px;
+    height: 500px;
+}

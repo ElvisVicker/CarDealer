@@ -1,0 +1,188 @@
+.Inventory {
+    font-size: 1.6rem;
+    display: flex;
+    color: #fff7e3;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto 10rem auto;
+}
+
+.inventoryTitle {
+    font-size: 5.2rem;
+    color: #fff7e3;
+    font-weight: bold;
+    padding: 20rem 0 6rem 0;
+}
+
+.carListContainer {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.perCarContainer {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1fr;
+    grid-template-rows: 20rem;
+    background-color: rgb(0, 0, 0); 
+    padding: 0.5rem 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.carImgContainer {
+    overflow: hidden;
+    height: 20rem;
+    width: 100%;
+}
+
+.carImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+.carImg:hover {
+    transform: scale(1.3);
+    transition: 0.6s;
+}
+
+.carCardInfo {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-transform: uppercase;
+}
+
+.carName {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.carPrice {
+    font-size: 2rem;
+}
+
+.carBodyStyle {
+    font-size: 2rem;
+}
+
+
+.btnCheckOut {
+    width: 18rem;
+    height: 4rem;
+    font-size: 2.4rem;
+    align-self: flex-end;
+    justify-self: center;
+    margin-bottom: 1rem;
+    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
+    cursor: pointer;
+    border: 2px solid goldenrod;
+}
+
+.span1 {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(to left, rgb(255, 251, 0), transparent);
+    position: absolute;
+    animation: move1 5s linear infinite;
+
+}
+
+@keyframes move1 {
+    100% {
+        transform: translateX(200%);
+    }
+}
+
+.span2 {
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+    background: linear-gradient(to top, #fff7e3, transparent);
+    position: absolute;
+    animation: move2 5s linear 2.5s infinite;
+}
+
+@keyframes move2 {
+    100% {
+        transform: translateY(200%);
+    }
+}
+
+
+.span3 {
+    width: 100%;
+    height: 1px;
+    top: calc(100% - 1px);
+    left: 100%;
+    background: linear-gradient(to right, rgb(255, 251, 0), transparent);
+    position: absolute;
+    animation: move3 5s linear infinite;
+}
+
+@keyframes move3 {
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+
+.span4 {
+    width: 1px;
+    height: 100%;
+    top: 100%;
+    right: calc(100% - 1px);
+    background: linear-gradient(to bottom, #fff7e3, transparent);
+    position: absolute;
+    animation: move4 5s linear 2.5s infinite;
+
+}
+
+@keyframes move4 {
+    100% {
+        transform: translateY(-200%);
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    font-size: 2.4rem;
+    padding: 0.5rem 2rem;
+}
+
+.paginationNoClick {
+    text-align: center;
+    cursor: pointer;
+    width: 6rem;
+    color: #fff;
+    background-image: linear-gradient(to top right, #000000, #000000);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.4rem;
+
+}
+
+.paginationClick {
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    width: 6rem;
+    background-image: linear-gradient(to top right, #fff, #fff);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0.4rem;
+}
