@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: 1.5fr 3fr 1fr;
     grid-template-rows: 20rem;
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0);
     padding: 0.5rem 1rem;
     position: relative;
     overflow: hidden;
@@ -87,6 +87,16 @@
     cursor: pointer;
     border: 2px solid goldenrod;
 }
+
+.btnCheckOut:hover {
+    background-image: linear-gradient(to top right, #698f00, #88ff00);
+    border: 2px solid rgb(33, 143, 0);
+    color: #000000;
+    transition: 0.4s;
+}
+
+
+
 
 .span1 {
     width: 100%;

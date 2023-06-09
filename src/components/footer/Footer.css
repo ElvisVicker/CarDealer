@@ -17,6 +17,13 @@
     color: #fff7e3;
 }
 
+.Footer ul li a:hover {
+    text-decoration: underline;
+
+}
+
+
+
 .footerContainer {
     display: grid;
     width: 90%;
@@ -74,9 +81,14 @@
     gap: 4rem;
     padding: 0 1rem;
 }
-.privacy{
+
+.privacy {
     color: #fff7e3;
     text-decoration: none;
+}
+
+.privacy:hover {
+    text-decoration: underline;
 }
 
 .footerCopyright {

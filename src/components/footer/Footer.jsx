@@ -39,7 +39,7 @@ export default function Footer() {
                 <div className='footerResourcesContainer'>
                     <div className='footerPerTitle'>Resources</div>
 
-                    <Link to="/Privacy" className="noLinkUnderline privacy" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
+                    <Link to="/Privacy" className="privacy" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
                         <div>Privacy Policy</div>
                     </Link>
 

@@ -160,6 +160,14 @@
     font-weight: bold;
 }
 
+.btnViewInventory:hover {
+    background-image: linear-gradient(to top right, #698f00, #88ff00);
+    border: 2px solid rgb(33, 143, 0);
+    color: #000000;
+    transition: 0.4s;
+}
+
+
 
 
 /* CLIENT REVIEWS */

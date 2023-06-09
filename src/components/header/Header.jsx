@@ -13,20 +13,13 @@ export default function Header() {
                 </Link>
 
                 <div className="listlink">
-                    <Link to="/" className="noUnderline" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>Home</Link>
-
-                    <Link className='noUnderline' to="/Inventory" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
-                        <Link to="/Inventory" className="noUnderline">Inventory</Link>
-                    </Link>
-
-                    <Link className='noUnderline' to="/Company" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
-                        <Link to="/Company" className="noUnderline">Company</Link>
-                    </Link>
+                    <Link to="/" className="listPerLink" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>Home</Link>
+                    <Link className='listPerLink' to="/Inventory" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>Inventory</Link>
+                    <Link className='listPerLink' to="/Company" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>Company</Link>
 
 
-
-                    <Link to="/Contact" className="noUnderline">Contact</Link>
-                    <Link to="/About" className="noUnderline">About</Link>
+                    <Link to="/Contact" className="listPerLink">Contact</Link>
+                    <Link to="/About" className="listPerLink">About</Link>
                 </div>
             </div>
         </div>
