@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 export default function Intro() {
 
-    const { list, cus1, TextSlideshow1, cus2, TextSlideshow2,logoCompany } = useContext(AppContext)
+    const { list, cus1, TextSlideshow1, cus2, TextSlideshow2, logoCompany } = useContext(AppContext)
 
     // let fadeOutTitle, fadeOut, fadeOut1, fadeOut2, fadeOutOurCar
 
- 
+
     // if (scroll >= 600) {
     //     fadeOutTitle = {
     //         filter: "opacity(1)",
@@ -143,27 +143,15 @@ export default function Intro() {
                 </Link>
             </div>
 
-
-
             <div className='introClient'>
-
                 <div className='ourClientReviews'>
                     CLIENT REVIEWS
                 </div>
-
-
-
                 <div className='reviewContainer'>
                     <TextSlideshow1 cus1={cus1} />
                     <TextSlideshow2 cus2={cus2} />
                 </div>
             </div>
-
-
-
-
-
-
 
             <div className='ourPartnersContainer'>
 
@@ -183,17 +171,6 @@ export default function Intro() {
                     }
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
         </div>
     );
 }

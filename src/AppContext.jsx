@@ -2,6 +2,9 @@ import { createContext, useEffect, useState } from "react";
 import axios from "axios";
 import { json } from "react-router-dom";
 import data from "./components/CarList/data.json"
+import dataFounder from "./components/PeopleList/dataFounder.json"
+import dataLeader from "./components/PeopleList/dataLeader.json"
+
 
 export const AppContext = createContext({})
 export const AppProvider = ({ children }) => {
@@ -12,20 +15,30 @@ export const AppProvider = ({ children }) => {
     setList(list)
   }, [])
 
+  const [listLeaders, setListLeaders] = useState(dataLeader)
+  useEffect(() => {
+    setListLeaders(listLeaders)
+  }, [])
+
+
+  const [listFounders, setListFounders] = useState(dataFounder)
+  useEffect(() => {
+    setListFounders(listFounders)
+  }, [])
+
 
   // SCROLL POSITION
-  // const [scroll, setScroll] = useState(0);
-  // useEffect(() => {
-  //   function handleScroll() {
-  //     setScroll(window.scrollY);
-  //   }
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
-
+  //   const [scroll, setScroll] = useState(0);
+  //   useEffect(() => {
+  //     function handleScroll() {
+  //       setScroll(window.scrollY);
+  //     }
+  //     window.addEventListener("scroll", handleScroll);
+  //     return () => {
+  //       window.removeEventListener("scroll", handleScroll);
+  //     };
+  //   }, []);
+  // console.log(scroll)
 
   // SCROLL TO TOP========================================================
   useEffect(() => {
@@ -160,10 +173,26 @@ export const AppProvider = ({ children }) => {
     );
   }
 
+
+
+  //SHOW LEADER OR FOUNDER
+  const [showLeader, setshowLeader] = useState(true);
+  const [showFounder, setshowFounder] = useState(false);
+
+  const clickLeader = () => {
+    setshowLeader(true);
+    setshowFounder(false);
+  };
+
+  const clickFounder = () => {
+    setshowLeader(false);
+    setshowFounder(true);
+  };
+
+
   return (
     <AppContext.Provider value={{
-      list, cus1, TextSlideshow1, cus2, TextSlideshow2, itemsToDisplay
-      ,pageLinks, logoCompany
+      list, cus1, TextSlideshow1, cus2, TextSlideshow2, itemsToDisplay, pageLinks, logoCompany, listLeaders, listFounders, showLeader, showFounder, clickLeader, clickFounder
     }}>
       {children}
     </AppContext.Provider>

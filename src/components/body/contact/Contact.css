@@ -1,0 +1,141 @@
+.Contact {}
+
+.contactImgTitle {
+    position: relative;
+
+}
+
+.contactMainImg {
+    width: 100%;
+    height: 58rem;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.contactMainTitle {
+    position: absolute;
+    font-size: 5.2rem;
+    color: #fff;
+    left: 85rem;
+    font-weight: bold;
+    top: 30rem;
+    transform: translateY(-3.6rem);
+    animation: titleUp 1s;
+}
+
+@keyframes titleUp {
+    0% {
+        transform: translateY(0);
+        filter: opacity(0);
+    }
+}
+
+.contactMainList {
+    font-size: 1.6rem;
+    color: #fff7e3;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto 10rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 12rem 6rem 8rem 6rem;
+    gap: 4rem;
+}
+
+.contactMap {
+    width: 100%;
+    height: 50rem;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contactMainDes {
+    font-size: 1.8rem;
+}
+
+.contactOpenTimeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.contactOpenTime {
+    font-weight: bold;
+}
+
+.contactOpenContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.contactOpenDes {
+    font-size: 1.6rem;
+}
+
+
+.contactClientInfo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.nameEmailContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputName {
+    height: 5rem;
+    width: 47.5%;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 4px;
+
+}
+
+.inputEmail {
+    height: 5rem;
+    width: 47.5%;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.inputMessage {
+    height: 26rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.btnSubmit {
+    width: 18rem;
+    height: 4rem;
+    justify-self: end;
+    font-weight: bold;
+    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
+    cursor: pointer;
+    border: 2px solid goldenrod;
+}
+
+.btnSubmit:hover {
+    background-image: linear-gradient(to top right, #698f00, #88ff00);
+    border: 2px solid rgb(33, 143, 0);
+    color: #000000;
+    transition: 0.4s;
+}

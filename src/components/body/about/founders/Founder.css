@@ -1,0 +1,29 @@
+.Founder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 6rem 0;
+    gap: 3.6rem;
+}
+
+
+.founderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+    padding: 1rem;
+}
+
+.founderImg {
+    height: 16rem;
+    width: 16rem;
+    border-radius: 100px;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+
+.founderName {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
