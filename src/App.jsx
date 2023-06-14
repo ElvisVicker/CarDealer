@@ -2,7 +2,6 @@
 import Header from "./components/header/Header";
 import Body from "./components/body/Body";
 import Footer from "./components/footer/Footer"
-
 import './App.css'
 import { AppProvider } from "./AppContext";
 export default function App() {
@@ -14,6 +13,14 @@ export default function App() {
         <Body />
         <Footer />
       </AppProvider>
+
+
+
+
+
+
+
+
     </div>
   );
 }

@@ -4,6 +4,7 @@
     justify-content: center;
     margin: 6rem 0;
     gap: 3.6rem;
+    position: relative;
 }
 
 
@@ -11,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.8rem;
+    gap: 1.6rem;
     padding: 1rem;
 }
 
@@ -26,4 +27,77 @@
 .founderName {
     font-size: 2.6rem;
     font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.showPeopleModal {
+    position: fixed;
+    background-color: rgb(26, 26, 26);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    z-index: 4;
+}
+
+.btnClosePeople {
+    position: absolute;
+    top: 2.5%;
+    left: 97.5%;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.modalImgInfo {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    gap: 4rem;
+}
+
+.modalNameRoleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.showPeopleImg {
+    height: 16rem;
+    width: 16rem;
+    border-radius: 100px;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+
+.showPeopleName {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.showPeopleRole {
+    font-size: 2.2rem;
+}
+
+.showPeopleDesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.showPeopleDes {
+    letter-spacing: 0.6px;
 }

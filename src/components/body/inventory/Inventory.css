@@ -30,10 +30,6 @@
     }
 }
 
-
-
-
-
 .carMainList {
     font-size: 1.6rem;
     display: flex;
@@ -107,13 +103,16 @@
     font-size: 2rem;
 }
 
+.linkDetail {
+    align-self: flex-end;
+    justify-self: center;
+
+}
 
 .btnCheckOut {
     width: 18rem;
     height: 4rem;
     font-size: 2.4rem;
-    align-self: flex-end;
-    justify-self: center;
     margin-bottom: 1rem;
     background-image: linear-gradient(to top right, #D1B000, #FFE55C);
     cursor: pointer;

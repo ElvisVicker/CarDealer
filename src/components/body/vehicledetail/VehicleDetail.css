@@ -1,0 +1,162 @@
+.VehicleDetail {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20rem 0;
+    margin: 0 auto;
+    color: #fff7e3;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+
+
+}
+
+.fullInfoVehicleContainer {
+    display: grid;
+    grid-template-columns: 75rem 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+
+.selectedImgContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 0.6rem;
+}
+
+.selectedMainImg {
+    width: 100%;
+    height: 40rem;
+}
+
+.selectedMainVehicleImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.selectedListImg {
+    display: flex;
+
+    overflow-x: scroll;
+}
+
+.scrollImg {
+    display: flex;
+    gap: 0.4rem;
+    border: 1px solid black;
+}
+
+.selectedVehicleImg {
+    width: 18rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.vehicleNamePriceContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 5.2rem;
+}
+
+.vehicleDetailName {
+    font-size: 5.2rem;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.vehicleDetailPrice {
+    font-size: 3.6rem;
+    color: #3b3b0f;
+    font-weight: bold;
+    width: 20rem;
+    padding: 0.5rem 0.5rem 0.5rem 3rem;
+    text-align: center;
+    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0 50%);
+}
+
+
+
+
+.infoPerCarContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    gap: 1rem;
+    /* border: 2px solid goldenrod; */
+}
+
+.overviewTitle {
+    font-size: 3.6rem;
+    font-weight: bold;
+
+}
+
+.companyALogo {
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(170, 170, 170), black);
+    padding: 0.5rem 1rem;
+    width: 60%;
+}
+
+.perCarLogo {
+    height: 6.4rem;
+}
+
+.perCarDes {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.detailInfoContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2.2rem;
+    gap: 0.6rem;
+    margin-bottom: 3.6rem;
+}
+
+.linkPerCar {
+    width: 18rem;
+    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
+    text-decoration: none;
+    color: #3b3b0f;
+    font-weight: bold;
+    height: 4rem;
+    padding: 1rem 1.5rem;
+    clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 0 0);
+}
+
+
+
+.btnBuyNow {
+    width: 20rem;
+    height: 5rem;
+    font-size: 2.4rem;
+    /* margin-bottom: 1rem; */
+    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
+    cursor: pointer;
+    border: 2px solid goldenrod;
+    align-self: flex-end;
+    justify-self: flex-end;
+
+}
+
+.btnBuyNow:hover {
+    background-image: linear-gradient(to top right, #698f00, #88ff00);
+    border: 2px solid rgb(33, 143, 0);
+    color: #000000;
+    transition: 0.4s;
+}

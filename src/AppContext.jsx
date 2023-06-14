@@ -9,7 +9,7 @@ import dataLeader from "./components/PeopleList/dataLeader.json"
 export const AppContext = createContext({})
 export const AppProvider = ({ children }) => {
 
-  // DATA FROM JSON
+  // DATA FROM JSON========================================================
   const [list, setList] = useState(data)
   useEffect(() => {
     setList(list)
@@ -20,14 +20,14 @@ export const AppProvider = ({ children }) => {
     setListLeaders(listLeaders)
   }, [])
 
-
   const [listFounders, setListFounders] = useState(dataFounder)
   useEffect(() => {
     setListFounders(listFounders)
   }, [])
 
 
-  // SCROLL POSITION
+
+  // SCROLL POSITION========================================================
   //   const [scroll, setScroll] = useState(0);
   //   useEffect(() => {
   //     function handleScroll() {
@@ -39,6 +39,8 @@ export const AppProvider = ({ children }) => {
   //     };
   //   }, []);
   // console.log(scroll)
+
+
 
   // SCROLL TO TOP========================================================
   useEffect(() => {
@@ -59,22 +61,21 @@ export const AppProvider = ({ children }) => {
         console.log(error);
       })
   }
+
   useEffect(() => {
     getCus1()
   }, [])
+
   const TextSlideshow1 = ({ cus1 }) => {
     const [currentDataIndex, setCurrentDataIndex] = useState(0);
-
     useEffect(() => {
       const interval = setInterval(() => {
         setCurrentDataIndex((currentDataIndex) =>
           currentDataIndex + 1 === cus1.length ? 0 : currentDataIndex + 1
         );
       }, 3000);
-
       return () => clearInterval(interval);
     }, [cus1]);
-
     return (
       <div className="slideCus">
         <div className="cusImgContainer">
@@ -102,22 +103,21 @@ export const AppProvider = ({ children }) => {
         console.log(error);
       })
   }
+
   useEffect(() => {
     getCus2()
   }, [])
+
   const TextSlideshow2 = ({ cus2 }) => {
     const [currentDataIndex, setCurrentDataIndex] = useState(0);
-
     useEffect(() => {
       const interval = setInterval(() => {
         setCurrentDataIndex((currentDataIndex) =>
           currentDataIndex + 1 === cus2.length ? 0 : currentDataIndex + 1
         );
       }, 3000);
-
       return () => clearInterval(interval);
     }, [cus2]);
-
     return (
       <div className="slideCus">
         <div className="cusImgContainer">
@@ -132,7 +132,8 @@ export const AppProvider = ({ children }) => {
   };
 
 
-  //LOGO COMPANY
+
+  //LOGO COMPANY========================================================
   let allLogoCompany = []
   for (let x of list) {
     allLogoCompany.push(x.logo)
@@ -141,12 +142,11 @@ export const AppProvider = ({ children }) => {
 
 
 
-
-
   // PAGINATION==============================================
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 8;
   const totalItems = list.length;
+
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
@@ -156,7 +156,6 @@ export const AppProvider = ({ children }) => {
   const itemsToDisplay = list.slice(indexOfFirstItem, indexOfLastItem);
   const pageLinks = [];
   const totalPages = Math.ceil(totalItems / itemsPerPage);
-
   for (let i = 1; i <= totalPages; i++) {
     pageLinks.push(
       <div
@@ -175,10 +174,9 @@ export const AppProvider = ({ children }) => {
 
 
 
-  //SHOW LEADER OR FOUNDER
+  //SHOW LEADER OR FOUNDER========================================================
   const [showLeader, setshowLeader] = useState(true);
   const [showFounder, setshowFounder] = useState(false);
-
   const clickLeader = () => {
     setshowLeader(true);
     setshowFounder(false);
@@ -190,9 +188,40 @@ export const AppProvider = ({ children }) => {
   };
 
 
+
+  // SELECTED A VEHICLE========================================================
+  const [selectedCar, setSelectedCar] = useState([]);
+
+
+
+  // SELECTED LEADER========================================================
+  const [selectedLeader, setSelectedLeader] = useState([]);
+  if (!localStorage.getItem("selectedLeader")) {
+    localStorage.setItem("selectedLeader", JSON.stringify(selectedLeader))
+  }
+  let selectedLeaderStored = JSON.parse(localStorage.getItem("selectedLeader"));
+  const [showModalLeader, setShowModalLeader] = useState(false);
+
+
+
+  // SELECTED FOUNDER========================================================
+  const [selectedFounder, setSelectedFounder] = useState([]);
+  if (!localStorage.getItem("selectedFounder")) {
+    localStorage.setItem("selectedFounder", JSON.stringify(selectedFounder))
+  }
+  let selectedFounderStored = JSON.parse(localStorage.getItem("selectedFounder"));
+  const [showModalFounder, setShowModalFounder] = useState(false);
+
+
+
   return (
     <AppContext.Provider value={{
-      list, cus1, TextSlideshow1, cus2, TextSlideshow2, itemsToDisplay, pageLinks, logoCompany, listLeaders, listFounders, showLeader, showFounder, clickLeader, clickFounder
+      list, cus1, TextSlideshow1, cus2, TextSlideshow2, itemsToDisplay, pageLinks,
+      logoCompany, listLeaders, listFounders, showLeader, showFounder, clickLeader,
+      clickFounder, selectedCar, setSelectedCar,
+      selectedLeader, setSelectedLeader,
+      selectedFounder, setSelectedFounder, showModalLeader, setShowModalLeader, selectedLeaderStored,
+      showModalFounder, setShowModalFounder, selectedFounderStored
     }}>
       {children}
     </AppContext.Provider>

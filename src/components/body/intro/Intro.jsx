@@ -138,7 +138,10 @@ export default function Intro() {
                     </div>
                 </div>
 
-                <Link className='noUnderline' to="/Inventory" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
+                <Link className='noUnderline' to="/Inventory" onClick={() => {
+                    window.scrollTo({ top: 0, left: 0 });
+                    localStorage.removeItem("carSelectedInfo");
+                }}>
                     <button className='btnViewInventory'>View Inventory</button>
                 </Link>
             </div>

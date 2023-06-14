@@ -1,12 +1,11 @@
 import './AboutUs.css'
-import { useState } from 'react';
 import Leader from './leaders/Leader';
 import Founder from './founders/Founder';
 import { AppContext } from '../../../AppContext';
 import { useContext } from 'react';
 
 export default function AboutUs() {
-    const { showLeader, showFounder, clickLeader, clickFounder } = useContext(AppContext)
+    const { showLeader, showFounder, clickLeader, clickFounder, showModalLeader, setShowModalLeader, showModalFounder, setShowModalFounder } = useContext(AppContext)
     return (
         <div className='AboutUs'>
 
@@ -54,12 +53,16 @@ export default function AboutUs() {
 
 
 
+            {showModalLeader && (
+                <div className='outline' onClick={() => { setShowModalLeader(false) }} ></div>
+            )}
 
-            {/* <div>
-                CONTACT US TODAY
+
+            {showModalFounder && (
+                <div className='outline' onClick={() => { setShowModalFounder(false) }} ></div>
+            )}
 
 
-            </div> */}
 
 
 
