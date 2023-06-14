@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    letter-spacing: 0.4px;
 }
 
 html {
     font-size: 10px;
     scroll-behavior: smooth;
     font-family: 'Oxygen', sans-serif;
+
 }
 
 .backgroundAll {

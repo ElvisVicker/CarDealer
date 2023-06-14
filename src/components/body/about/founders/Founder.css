@@ -14,7 +14,13 @@
     align-items: center;
     gap: 1.6rem;
     padding: 1rem;
+    cursor: pointer;
 }
+
+.founderContainer:hover {
+    box-shadow: 0.5px 0.5px 1px #fff;
+}
+
 
 .founderImg {
     height: 16rem;

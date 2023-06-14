@@ -2,21 +2,19 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding: 20rem 0;
+    padding: 20rem 0 10rem 0;
     margin: 0 auto;
     color: #fff7e3;
     background-color: rgba(0, 0, 0, 0.5);
-
-
-
-
 }
 
 .fullInfoVehicleContainer {
     display: grid;
     grid-template-columns: 75rem 1fr;
+    grid-template-rows: 1fr;
     gap: 2rem;
-    padding: 0 2rem;
+    padding: 5rem 2rem;
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -26,6 +24,74 @@
     width: 100%;
     height: 100%;
     gap: 0.6rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    filter: brightness(75%);
+}
+
+.span1 {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(to left, rgb(255, 251, 0), transparent);
+    position: absolute;
+    animation: move1 5s linear infinite;
+}
+
+@keyframes move1 {
+    100% {
+        transform: translateX(200%);
+    }
+}
+
+.span2 {
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+    background: linear-gradient(to top, #fff7e3, transparent);
+    position: absolute;
+    animation: move2 5s linear 2.5s infinite;
+}
+
+@keyframes move2 {
+    100% {
+        transform: translateY(200%);
+    }
+}
+
+.span3 {
+    width: 100%;
+    height: 1px;
+    top: calc(100% - 1px);
+    left: 100%;
+    background: linear-gradient(to right, rgb(255, 251, 0), transparent);
+    position: absolute;
+    animation: move3 5s linear infinite;
+}
+
+@keyframes move3 {
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+.span4 {
+    width: 1px;
+    height: 100%;
+    top: 100%;
+    right: calc(100% - 1px);
+    background: linear-gradient(to bottom, #fff7e3, transparent);
+    position: absolute;
+    animation: move4 5s linear 2.5s infinite;
+}
+
+@keyframes move4 {
+    100% {
+        transform: translateY(-200%);
+    }
 }
 
 .selectedMainImg {
@@ -91,7 +157,8 @@
     flex-direction: column;
     font-size: 1.8rem;
     gap: 1rem;
-    /* border: 2px solid goldenrod; */
+    padding: 1rem;
+    border: 1px solid goldenrod;
 }
 
 .overviewTitle {
@@ -139,6 +206,10 @@
     clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 0 0);
 }
 
+.linkPerCar:hover {
+    background-image: linear-gradient(to top right, #698f00, #88ff00);
+
+}
 
 
 .btnBuyNow {

@@ -33,6 +33,10 @@ export default function VehicleDetail() {
                             ))}
                         </div>
                     </div>
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                    <span class="span4"></span>
                 </div>
 
                 <div className='infoPerCarContainer'>
