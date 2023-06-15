@@ -2,6 +2,10 @@ import './VehicleDetail.css'
 import { useContext } from 'react';
 import { AppContext } from '../../../AppContext';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Offer from './buyvehicle/offer/Offer';
+import { Routes, Route } from 'react-router-dom';
+
 
 export default function VehicleDetail() {
     const { selectedCar, setSelectedCar } = useContext(AppContext)
@@ -60,9 +64,40 @@ export default function VehicleDetail() {
                         <div>Seat: {selectedCarStored.sittingfor}</div>
                     </div>
                     <a href={selectedCarStored.video} target='blank' className='linkPerCar'>WATCH IT NOW</a>
-                    <button className='btnBuyNow'>BUY NOW</button>
+
+
+                    <Link to={`/Inventory/VehicleDetail/${selectedCarStored.id}/Offer`} className='linkDetail' onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} >
+                        <button className='btnBuyNow'>BUY NOW</button>
+                    </Link>
+
+
+
+
+
+
+
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     );
 }

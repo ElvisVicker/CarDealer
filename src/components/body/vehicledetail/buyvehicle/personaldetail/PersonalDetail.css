@@ -1,0 +1,122 @@
+.PersonalDetail {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 18rem;
+    padding: 17rem 4rem 5rem;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0);
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.stepOffer {
+    text-align: center;
+    margin: 4rem;
+    font-size: 2.2rem;
+}
+
+.personalDetailInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4.4rem;
+
+}
+
+.personalDetailMainTitle {
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+.personalDetailTitle {
+    font-size: 3.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+}
+
+.personalDetailInput {
+    width: 38rem;
+    height: 4rem;
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+
+.personalDetailGender {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4.4rem;
+}
+
+.genderContainer {
+    display: flex;
+    gap: 4rem;
+    font-size: 2.4rem;
+}
+
+.genderContainer input {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnNAPContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnPrevOffer {
+    width: 20rem;
+    height: 5rem;
+    font-size: 2.4rem;
+    /* margin-bottom: 1rem; */
+    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
+    cursor: pointer;
+    border: 2px solid goldenrod;
+    align-self: flex-end;
+    justify-self: flex-end;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0 50%);
+}
+
+.btnPrevOffer:hover {
+    background-image: linear-gradient(to top right, #698f00, #88ff00);
+    border: 2px solid rgb(33, 143, 0);
+    color: #000000;
+    transition: 0.4s;
+}
+
+
+.btnNextOffer {
+    width: 20rem;
+    height: 5rem;
+    font-size: 2.4rem;
+    /* margin-bottom: 1rem; */
+    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
+    cursor: pointer;
+    border: 2px solid goldenrod;
+    align-self: flex-end;
+    justify-self: flex-end;
+    clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 0 0);
+}
+
+.btnNextOffer:hover {
+    background-image: linear-gradient(to top right, #698f00, #88ff00);
+    border: 2px solid rgb(33, 143, 0);
+    color: #000000;
+    transition: 0.4s;
+}
