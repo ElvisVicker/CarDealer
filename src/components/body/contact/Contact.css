@@ -123,10 +123,13 @@
     border-radius: 4px;
 }
 
+.linkBtnContact{
+    justify-self: end;
+} 
+
 .btnSubmit {
     width: 18rem;
     height: 4rem;
-    justify-self: end;
     font-weight: bold;
     background-image: linear-gradient(to top right, #D1B000, #FFE55C);
     cursor: pointer;

@@ -141,11 +141,37 @@ export const AppProvider = ({ children }) => {
   const logoCompany = allLogoCompany.filter((item, index) => allLogoCompany.indexOf(item) === index)
 
 
+  // setCurrentPage(1)
+  // setFilteredData(list)
+
+  let allCompany = []
+  for (let x of list) {
+    allCompany.push(x.company)
+  }
+  const company = allCompany.filter((item, index) => allCompany.indexOf(item) === index)
+
+
+
+
+
+
+
+
+
+  //FILTER==============================================================
+  const [currentPage, setCurrentPage] = useState(1);
+  const [filteredData, setFilteredData] = useState(list);
+  let handleFilter = function (company) {
+    let filteredCar = list.filter(item => item.company === company)
+    setFilteredData(filteredCar);
+    setCurrentPage(1)
+    if (company == 'All') setFilteredData(list);
+  }
 
   // PAGINATION==============================================
-  const [currentPage, setCurrentPage] = useState(1);
+
   const itemsPerPage = 8;
-  const totalItems = list.length;
+  const totalItems = filteredData.length;
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -153,9 +179,10 @@ export const AppProvider = ({ children }) => {
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const itemsToDisplay = list.slice(indexOfFirstItem, indexOfLastItem);
+  const itemsToDisplay = filteredData.slice(indexOfFirstItem, indexOfLastItem);
   const pageLinks = [];
   const totalPages = Math.ceil(totalItems / itemsPerPage);
+
   for (let i = 1; i <= totalPages; i++) {
     pageLinks.push(
       <div
@@ -171,6 +198,11 @@ export const AppProvider = ({ children }) => {
       </div>
     );
   }
+
+
+
+
+
 
 
 
@@ -216,12 +248,13 @@ export const AppProvider = ({ children }) => {
 
   return (
     <AppContext.Provider value={{
-      list, cus1, TextSlideshow1, cus2, TextSlideshow2, itemsToDisplay, pageLinks,
+      list, cus1, TextSlideshow1, cus2, TextSlideshow2,
       logoCompany, listLeaders, listFounders, showLeader, showFounder, clickLeader,
       clickFounder, selectedCar, setSelectedCar,
       selectedLeader, setSelectedLeader,
       selectedFounder, setSelectedFounder, showModalLeader, setShowModalLeader, selectedLeaderStored,
-      showModalFounder, setShowModalFounder, selectedFounderStored
+      showModalFounder, setShowModalFounder, selectedFounderStored, handleFilter, itemsToDisplay, pageLinks
+      , setCurrentPage, setFilteredData, company
     }}>
       {children}
     </AppContext.Provider>

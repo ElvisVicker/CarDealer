@@ -17,8 +17,6 @@ export default function Offer() {
         setIsCheckedBuy(e.target.checked);
     }
 
-    console.log(isCheckedBuy)
-
 
 
     return (
@@ -49,7 +47,7 @@ export default function Offer() {
                     <div className='offerCarTitle'>Use of your personal information</div>
 
                     <div className='offerCarCheckContainer'>
-                        <input type="checkbox" name="" id="" checked={isCheckedBuy}
+                        <input type="checkbox" name="" id="" checked={isCheckedBuy} className='offerCheckBox'
                             onChange={checkBoxBuyChange} />
                         <div className='offerCarPolicy'>
                             I accept that you may use my information in the ways described in the privacy notice and I have read and understood the Evolution Disclosure document

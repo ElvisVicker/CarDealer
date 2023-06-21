@@ -2,18 +2,19 @@
     width: 80%;
     margin: 0 auto;
     padding-top: 18rem;
-    padding: 17rem 4rem 5rem;
+    padding: 17rem 8.4rem 5rem;
     color: aliceblue;
     background-color: rgba(0, 0, 0);
     font-size: 1.8rem;
     display: flex;
     flex-direction: column;
+  box-shadow: 0px 0px 10px goldenrod;
 }
 
 .stepOffer {
     text-align: center;
     margin: 4rem;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
 }
 
 .offerCarInfoContainer {
@@ -25,6 +26,9 @@
 .offerCarMainTitle {
     font-size: 3.6rem;
     font-weight: bold;
+    color: rgb(241, 205, 0);
+    margin-bottom: 4rem;
+    text-align: center;
 }
 
 
@@ -33,6 +37,7 @@
     font-size: 3.2rem;
     margin-bottom: 0.6rem;
     font-weight: bold;
+    color: rgb(240, 204, 0);
 }
 
 .offerCarDes {
@@ -52,6 +57,11 @@
     margin-bottom: 4.4rem;
 }
 
+.offerCheckBox{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
 .offerCarPolicy {
     font-size: 1.8rem;
 }
@@ -59,6 +69,7 @@
 .btnNAPContainer {
     display: flex;
     justify-content: space-between;
+   
 }
 
 
@@ -72,6 +83,7 @@
     border: 2px solid goldenrod;
     align-self: flex-end;
     justify-self: flex-end;
+    font-weight: bold;
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0 50%);
 }
 
@@ -93,6 +105,7 @@
     border: 2px solid goldenrod;
     align-self: flex-end;
     justify-self: flex-end;
+    font-weight: bold;
     clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 0 0);
 }
 

@@ -5,15 +5,43 @@ import { useContext } from 'react';
 import { Link } from "react-router-dom";
 import { Route, Routes } from 'react-router-dom';
 export default function Inventory() {
-  const { itemsToDisplay, pageLinks, selectedCar, setSelectedCar } = useContext(AppContext)
+  const { pageLinks, itemsToDisplay, setSelectedCar, handleFilter, company } = useContext(AppContext)
+
   return (
     <div className='Inventory'>
       <div className='inventoryImgTitle'>
         <img className='inventoryMainImg' src="https://www.supercars.net/blog/wp-content/uploads/2020/09/wallpaperflare.com_wallpaper-1-1.jpg" alt="" srcset="" />
         <div className='inventoryMainTitle'>  OUR VEHICLES</div>
       </div>
-
       <div className='carMainList'>
+
+
+
+
+        <div className='filterArea'>
+
+          <div className='filterTitle'>Search by Categories</div>
+
+          <div className='filterContainer'>
+            <div className='filterBtn' onClick={() => handleFilter("All")}  >
+              All
+            </div>
+            {company.map((data, index) => (
+              <div key={index} className='filterBtn' onClick={() => handleFilter(`${data}`)}  >
+                {data}
+              </div>
+            ))}
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
         <div className='carListContainer'>
           {itemsToDisplay.map((item, index) => (
             <div className='perCarContainer' key={index}>
