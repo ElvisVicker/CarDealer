@@ -32,14 +32,7 @@ export default function Inventory() {
               </div>
             ))}
           </div>
-
         </div>
-
-
-
-
-
-
 
 
         <div className='carListContainer'>

@@ -3,7 +3,14 @@ import { Link } from "react-router-dom";
 import cycauto from './cycauto.png'
 import { Route, Routes } from 'react-router-dom';
 import Privacy from './privacy/Privacy';
+import { useContext } from 'react';
+import { AppContext } from '../../AppContext';
+
+
 export default function Footer() {
+
+    const { setCurrentPage, setFilteredData, list } = useContext(AppContext)
+
     return (
         <div className="Footer">
             <Routes>
@@ -13,7 +20,11 @@ export default function Footer() {
 
             <div className='footerContainer'>
                 <div className='footerLogoADes'>
-                    <Link to="/" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
+                    <Link to="/" onClick={() => {
+                        window.scrollTo({ top: 0, left: 0 });
+                        setCurrentPage(1)
+                        setFilteredData(list)
+                    }}>
                         <img className='footerLogo' src={cycauto} alt="" />
                     </Link>
                     <div className='footerDes'>We provide not only the best quality cars around, but give the best buying experience available!</div>
