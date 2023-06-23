@@ -1,4 +1,5 @@
 import './Footer.css'
+import './FooterResponsive.css'
 import { Link } from "react-router-dom";
 import cycauto from './cycauto.png'
 import { Route, Routes } from 'react-router-dom';
@@ -6,18 +7,13 @@ import Privacy from './privacy/Privacy';
 import { useContext } from 'react';
 import { AppContext } from '../../AppContext';
 
-
 export default function Footer() {
-
     const { setCurrentPage, setFilteredData, list } = useContext(AppContext)
-
     return (
         <div className="Footer">
             <Routes>
                 <Route path="/Privacy" element={<Privacy />}></Route>
             </Routes>
-
-
             <div className='footerContainer'>
                 <div className='footerLogoADes'>
                     <Link to="/" onClick={() => {
@@ -49,11 +45,9 @@ export default function Footer() {
                 </div>
                 <div className='footerResourcesContainer'>
                     <div className='footerPerTitle'>Resources</div>
-
                     <Link to="/Privacy" className="privacy" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
                         <div>Privacy Policy</div>
                     </Link>
-
                 </div>
             </div>
             <div className='footerCopyright'>© Copyright 2018-2023, CycAuto Ltd.</div>

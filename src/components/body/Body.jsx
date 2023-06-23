@@ -10,8 +10,6 @@ import Offer from './vehicledetail/buyvehicle/offer/Offer';
 import PersonalDetail from './vehicledetail/buyvehicle/personaldetail/PersonalDetail';
 import Confirm from './vehicledetail/buyvehicle/confirm/Confirm';
 
-
-
 export default function Body() {
     return (
         <div className="Body">
@@ -25,11 +23,7 @@ export default function Body() {
                 <Route path="/Inventory/VehicleDetail/:id/Offer" element={< Offer />}></Route>
                 <Route path="/Inventory/VehicleDetail/:id/PersonalDetail" element={< PersonalDetail />}></Route>
                 <Route path="/Inventory/VehicleDetail/:id/Confirm" element={< Confirm />}></Route>
-
-
             </Routes>
-
-
         </div>
     );
 }

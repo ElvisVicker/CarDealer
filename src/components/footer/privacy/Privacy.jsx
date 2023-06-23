@@ -6,7 +6,6 @@ export default function Privacy() {
             <div className='privacyMainTitle'>
                 PRIVACY
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Revised: 1/22/2021</div>
                 <div className='privacyDescription'>
@@ -15,7 +14,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Our Promise</div>
                 <div className='privacyDescription'>
@@ -27,7 +25,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>What information does our dealership collect? </div>
                 <div className='privacyDescription'>
@@ -100,7 +97,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Cookies:</div>
                 <div className='privacyDescription'>
@@ -140,7 +136,6 @@ export default function Privacy() {
                     </ul>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Internet-Based Ads:</div>
                 <div className='privacyDescription'>
@@ -152,7 +147,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Updating Your Advertising and Privacy Preferences:</div>
                 <div className='privacyDescription'>
@@ -176,7 +170,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Does our dealership track my visits?</div>
                 <div className='privacyDescription'>
@@ -185,7 +178,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>How is email used on our dealership?</div>
                 <div className='privacyDescription'>
@@ -194,7 +186,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Does our dealership share any information it collects with outside parties?</div>
                 <div className='privacyDescription'>
@@ -206,7 +197,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Sharing of Information among affiliates</div>
                 <div className='privacyDescription'>
@@ -215,7 +205,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Does our dealership provide a way to update or remove personal information?</div>
                 <div className='privacyDescription'>
@@ -224,7 +213,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Why are we telling you all this?</div>
                 <div className='privacyDescription'>
@@ -233,7 +221,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Your Consent</div>
                 <div className='privacyDescription'>
@@ -242,7 +229,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Changes in this Privacy Statement</div>
                 <div className='privacyDescription'>
@@ -251,7 +237,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Our dealership Security Statement</div>
                 <div className='privacyDescription'>
@@ -263,7 +248,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Secure Technology</div>
                 <div className='privacyDescription'>
@@ -273,7 +257,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>How do I know when my information is protected?</div>
                 <div className='privacyDescription'>
@@ -282,7 +265,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Security and Applying for a Loan</div>
                 <div className='privacyDescription'>
@@ -291,7 +273,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Privacy and Applying for a Loan</div>
                 <div className='privacyDescription'>
@@ -300,7 +281,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>Legal Disclaimer</div>
                 <div className='privacyDescription'>
@@ -309,7 +289,6 @@ export default function Privacy() {
                     </div>
                 </div>
             </div>
-
             <div className='privacyContainer'>
                 <div className='privacyTitle'>How This Policy Applies to You</div>
                 <div className='privacyDescription'>

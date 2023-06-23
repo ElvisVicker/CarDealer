@@ -1,13 +1,12 @@
 import { createContext, useEffect, useState } from "react";
 import axios from "axios";
-import { json } from "react-router-dom";
 import data from "./components/CarList/data.json"
 import dataFounder from "./components/PeopleList/dataFounder.json"
 import dataLeader from "./components/PeopleList/dataLeader.json"
-
-
 export const AppContext = createContext({})
 export const AppProvider = ({ children }) => {
+
+
 
   // DATA FROM JSON========================================================
   const [list, setList] = useState(data)
@@ -24,21 +23,6 @@ export const AppProvider = ({ children }) => {
   useEffect(() => {
     setListFounders(listFounders)
   }, [])
-
-
-
-  // SCROLL POSITION========================================================
-  //   const [scroll, setScroll] = useState(0);
-  //   useEffect(() => {
-  //     function handleScroll() {
-  //       setScroll(window.scrollY);
-  //     }
-  //     window.addEventListener("scroll", handleScroll);
-  //     return () => {
-  //       window.removeEventListener("scroll", handleScroll);
-  //     };
-  //   }, []);
-  // console.log(scroll)
 
 
 
@@ -139,22 +123,11 @@ export const AppProvider = ({ children }) => {
     allLogoCompany.push(x.logo)
   }
   const logoCompany = allLogoCompany.filter((item, index) => allLogoCompany.indexOf(item) === index)
-
-
-  // setCurrentPage(1)
-  // setFilteredData(list)
-
   let allCompany = []
   for (let x of list) {
     allCompany.push(x.company)
   }
   const company = allCompany.filter((item, index) => allCompany.indexOf(item) === index)
-
-
-
-
-
-
 
 
 
@@ -168,8 +141,9 @@ export const AppProvider = ({ children }) => {
     if (company == 'All') setFilteredData(list);
   }
 
-  // PAGINATION==============================================
 
+
+  // PAGINATION==============================================
   const itemsPerPage = 8;
   const totalItems = filteredData.length;
 
@@ -201,8 +175,8 @@ export const AppProvider = ({ children }) => {
 
 
 
-
-
+  //SHOW LIST LINK MODAL========================================================
+  const [showListLink, setShowListLink] = useState(false);
 
 
 
@@ -243,9 +217,6 @@ export const AppProvider = ({ children }) => {
   }
   let selectedFounderStored = JSON.parse(localStorage.getItem("selectedFounder"));
   const [showModalFounder, setShowModalFounder] = useState(false);
-
-
-
   return (
     <AppContext.Provider value={{
       list, cus1, TextSlideshow1, cus2, TextSlideshow2,
@@ -254,7 +225,8 @@ export const AppProvider = ({ children }) => {
       selectedLeader, setSelectedLeader,
       selectedFounder, setSelectedFounder, showModalLeader, setShowModalLeader, selectedLeaderStored,
       showModalFounder, setShowModalFounder, selectedFounderStored, handleFilter, itemsToDisplay, pageLinks
-      , setCurrentPage, setFilteredData, company
+      , setCurrentPage, setFilteredData, company, showListLink,
+      setShowListLink
     }}>
       {children}
     </AppContext.Provider>

@@ -8,7 +8,7 @@
     font-size: 1.8rem;
     display: flex;
     flex-direction: column;
-  box-shadow: 0px 0px 10px goldenrod;
+    box-shadow: 0px 0px 10px goldenrod;
 }
 
 .stepOffer {
@@ -30,8 +30,6 @@
     margin-bottom: 4rem;
     text-align: center;
 }
-
-
 
 .offerCarTitle {
     font-size: 3.2rem;
@@ -57,9 +55,9 @@
     margin-bottom: 4.4rem;
 }
 
-.offerCheckBox{
-    width: 1.6rem;
-    height: 1.6rem;
+.offerCheckBox {
+    width: 1.8rem;
+    height: 1.8rem;
 }
 
 .offerCarPolicy {
@@ -69,15 +67,12 @@
 .btnNAPContainer {
     display: flex;
     justify-content: space-between;
-   
 }
-
 
 .btnPrevOffer {
     width: 20rem;
     height: 5rem;
     font-size: 2.4rem;
-    /* margin-bottom: 1rem; */
     background-image: linear-gradient(to top right, #D1B000, #FFE55C);
     cursor: pointer;
     border: 2px solid goldenrod;
@@ -94,12 +89,10 @@
     transition: 0.4s;
 }
 
-
 .btnNextOffer {
     width: 20rem;
     height: 5rem;
     font-size: 2.4rem;
-    /* margin-bottom: 1rem; */
     background-image: linear-gradient(to top right, #D1B000, #FFE55C);
     cursor: pointer;
     border: 2px solid goldenrod;

@@ -9,7 +9,6 @@ html {
     font-size: 10px;
     scroll-behavior: smooth;
     font-family: 'Oxygen', sans-serif;
-
 }
 
 .backgroundAll {
@@ -17,5 +16,31 @@ html {
     height: 100%;
     position: fixed;
     z-index: -5;
-    filter: brightness(20%);
+    filter: brightness(25%);
+    object-fit: cover;
+}
+
+/* RESPONSIVE======================== */
+@media (max-width: 100rem) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 70rem) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 40rem) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 32rem) {
+    html {
+        font-size: 5px;
+    }
 }

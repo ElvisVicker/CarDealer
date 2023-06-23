@@ -99,9 +99,6 @@
     font-size: 1.8rem;
 }
 
-
-
-
 .aboutUsOurPeople {
     font-size: 1.6rem;
     display: flex;
@@ -114,7 +111,6 @@
     background-color: rgba(0, 0, 0);
     gap: 4rem;
 }
-
 
 .aboutUsOurPeopleTitle {
     font-size: 4.4rem;
@@ -130,7 +126,6 @@
 .btnLeader {}
 
 .btnFounder {}
-
 
 .outline {
     position: fixed;

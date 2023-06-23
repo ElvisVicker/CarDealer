@@ -1,10 +1,7 @@
 .Company {}
 
-
-
 .companyImgTitle {
     position: relative;
-
 }
 
 .companyMainImg {
@@ -25,20 +22,12 @@
     animation: titleUp 1s;
 }
 
-
-
 @keyframes titleUp {
     0% {
         transform: translateY(0);
         filter: opacity(0);
     }
 }
-
-
-
-
-
-
 
 .companyMainList {
     font-size: 1.6rem;
@@ -53,12 +42,10 @@
     padding: 12rem 6rem 8rem 6rem;
 }
 
-
 .companyContainer {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 247, 227, 0.2);
-
+    background-color: rgba(255, 247, 227, 0.05);
 }
 
 .companyLogoName {
@@ -101,7 +88,6 @@
     color: rgb(0, 174, 255);
     font-size: 1.8rem;
 }
-
 
 .btnLink:hover {
     text-decoration: underline;

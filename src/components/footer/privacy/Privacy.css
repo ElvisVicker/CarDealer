@@ -7,18 +7,15 @@
     margin: 0 auto 10rem auto;
     text-align: justify;
     padding: 2rem 4rem;
-
 }
-
 
 .privacyMainTitle {
     font-size: 5.2rem;
     color: #fff7e3;
     font-weight: bold;
-    padding: 20rem 0 0;
+    padding: 18rem 0 0;
     margin-bottom: 6rem;
     align-self: center;
-
 }
 
 .privacyContainer {
@@ -26,7 +23,7 @@
     flex-direction: column;
     gap: 2rem;
     padding: 2rem 4rem;
-    background-color: rgba(73, 0, 0, 0.4);
+    background-color: rgba(218, 165, 32, 0.1);
 }
 
 .privacyTitle {
@@ -40,4 +37,10 @@
     font-size: 1.8rem;
     gap: 2rem;
     margin-bottom: 5rem;
+}
+
+@media (max-width: 100rem) {
+    .Privacy {
+        width: 90%;
+    }
 }

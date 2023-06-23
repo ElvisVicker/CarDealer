@@ -1,0 +1,68 @@
+@media (max-width: 100rem) {
+    .contactImgTitle {
+        position: relative;
+    }
+
+    .contactMainImg {
+        height: 54rem;
+    }
+
+    .contactMainTitle {
+        font-size: 5.4rem;
+        top: 30rem;
+        left: 70rem;
+    }
+}
+
+@media (max-width: 85rem) {
+    .contactMainTitle {
+        font-size: 5rem;
+        left: 60rem;
+    }
+}
+
+@media (max-width: 70rem) {
+    .contactMainTitle {
+        font-size: 4.6rem;
+        left: 56rem;
+    }
+}
+
+@media (max-width: 55rem) {
+    .contactMainTitle {
+        font-size: 4.2rem;
+        left: 45rem;
+    }
+
+    .contactMap {
+        height: 40rem;
+    }
+
+    .contactMainList {
+        width: 100%;
+        padding: 12rem 8rem 8rem;
+    }
+}
+
+@media (max-width: 40rem) {
+    .contactMap {
+        height: 34rem;
+    }
+
+    .inputMessage {
+        height: 22rem;
+    }
+
+    .btnSubmit {
+        width: 16rem;
+        height: 4rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 32rem) {
+    .contactMainTitle {
+        font-size: 4.6rem;
+        left: 40rem;
+    }
+}

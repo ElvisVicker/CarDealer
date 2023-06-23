@@ -1,0 +1,92 @@
+@media (max-width: 100rem) {
+    .Offer {
+        width: 90%;
+        padding: 18rem 8.4rem 5rem;
+    }
+
+    .offerCarInfoContainer {
+        gap: 2rem;
+    }
+
+    .offerCarMainTitle {
+        font-size: 3.8rem;
+        margin-bottom: 3.6rem;
+    }
+
+    .offerCarTitle {
+        font-size: 3.4rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .offerCarDes {
+        font-size: 2.6rem;
+    }
+
+    .offerCarImg {
+        height: 40rem;
+    }
+
+    .offerCarPolicy {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 85rem) {
+    .Offer {
+        padding: 16rem 8.4rem 5rem;
+    }
+
+    .offerCarInfoContainer {
+        gap: 1.6rem;
+    }
+
+    .offerCarMainTitle {
+        font-size: 3.2rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .offerCarTitle {
+        font-size: 2.8rem;
+    }
+
+    .offerCarDes {
+        font-size: 2.4rem;
+    }
+
+    .offerCarImg {
+        height: 34rem;
+    }
+
+    .offerCarPolicy {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 70rem) {
+    .offerCarInfoContainer {
+        gap: 1.8rem;
+    }
+
+    .offerCarMainTitle {
+        font-size: 3rem;
+        margin-bottom: 3.2rem;
+    }
+}
+
+@media (max-width: 55rem) {
+    .offerCarMainTitle {
+        font-size: 2.8rem;
+    }
+
+    .offerCarTitle {
+        font-size: 2.6rem;
+    }
+
+    .offerCarImg {
+        height: 28rem;
+    }
+
+    .offerCarPolicy {
+        font-size: 1.6rem;
+    }
+}

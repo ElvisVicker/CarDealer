@@ -1,0 +1,398 @@
+@media (max-width: 100rem) {
+    .mainTitle {
+        font-size: 5.8rem;
+    }
+
+    /* EXPLORE MORE */
+    .exploreContainer {
+        padding-top: 12rem;
+        gap: 2rem;
+        width: 90%;
+    }
+
+    .exploreTitle {
+        font-size: 4.8rem;
+    }
+
+    .companyIntro {
+        width: 100%;
+        gap: 4.8rem;
+    }
+
+    .introTitle {
+        font-size: 2.6rem;
+    }
+
+    .introVideo {
+        flex-basis: 50%;
+        border: none;
+        transition: 0.6s;
+    }
+
+    /* OUR CARS */
+    .introOurCars {
+        width: 90%;
+        margin: 4rem auto 0 auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem 4rem;
+    }
+
+    .ourCarsTitle {
+        font-size: 4.8rem;
+        margin-bottom: 8rem;
+        padding-top: 3.6rem;
+    }
+
+    .introCarImgs {
+        gap: 2rem;
+    }
+
+    .introCarImg {
+        object-fit: cover;
+        width: 100%;
+        height: 36rem;
+    }
+
+    .introCarImg:hover {
+        transform: scale(1.2);
+    }
+
+    .nameAndPrice {
+        font-size: 3.4rem;
+    }
+
+    .btnViewInventory {
+        width: 38rem;
+        height: 6rem;
+        margin-top: 7.2rem;
+    }
+
+    /* CLIENT REVIEWS */
+    .introClient {
+        width: 90%;
+        padding: 2rem 4rem;
+        margin: 0 auto;
+    }
+
+    .ourClientReviews {
+        font-size: 4.8rem;
+        margin: 3.6rem 0 4rem;
+    }
+
+    .slideCus {
+        grid-template-columns: 18rem 1fr;
+        grid-template-rows: 18rem;
+    }
+
+    .cusName {
+        font-size: 2.6rem;
+        text-transform: uppercase;
+    }
+
+    .cusDes {
+        font-size: 2rem;
+    }
+
+    /* OUR PARTNERS */
+    .ourPartnersContainer {
+        gap: 2rem;
+    }
+
+    .ourPartnersTitle {
+        font-size: 4.8rem;
+    }
+
+    .logoContainer {
+        gap: 6rem;
+    }
+
+    .introLogo img {
+        height: 9.6rem;
+    }
+
+}
+
+@media (max-width: 85rem) {
+    .mainTitle {
+        font-size: 5.2rem;
+    }
+
+    /* EXPLORE MORE */
+    .exploreContainer {
+        padding-top: 10rem;
+        gap: 0rem;
+    }
+
+    .exploreTitle {
+        font-size: 4.6rem;
+    }
+
+    .companyIntro {
+        width: 100%;
+        gap: 3.6rem;
+        padding: 4rem;
+    }
+
+    .introTitle {
+        font-size: 2.4rem;
+    }
+
+    .introVideo {
+        flex-basis: 55%;
+        height: 90%;
+    }
+
+    /* OUR CARS */
+    .introOurCars {
+        width: 90%;
+        margin: 4rem auto 0 auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem 6rem;
+    }
+
+    .ourCarsTitle {
+        font-size: 4.6rem;
+        margin-bottom: 6.4rem;
+    }
+
+    .introCarImg {
+        height: 32rem;
+    }
+
+    .nameAndPrice {
+        font-size: 3rem;
+    }
+
+    .btnViewInventory {
+        width: 32rem;
+        height: 5.2rem;
+    }
+
+    /* CLIENT REVIEWS */
+    .introClient {
+        width: 90%;
+        padding: 2rem 4rem;
+        margin: 0 auto;
+    }
+
+    .ourClientReviews {
+        font-size: 4.6rem;
+        margin: 3.6rem 0 4rem;
+    }
+
+    .cusName {
+        font-size: 2.2rem;
+    }
+
+    .cusDes {
+        font-size: 1.8rem;
+    }
+
+    /* OUR PARTNERS */
+    .ourPartnersTitle {
+        font-size: 4.6rem;
+        padding-top: 1rem;
+    }
+
+    .logoContainer {
+        gap: 6.4rem;
+    }
+}
+
+@media (max-width: 70rem) {
+    .mainTitle {
+        font-size: 5rem;
+        top: 30rem;
+        left: 10rem;
+    }
+
+    /* EXPLORE MORE */
+    .exploreContainer {
+        padding-top: 8rem;
+    }
+
+    .exploreTitle {
+        font-size: 4.4rem;
+    }
+
+    .companyIntro {
+        gap: 3.2rem;
+    }
+
+    .introTitle {
+        font-size: 2.6rem;
+    }
+
+    /* CLIENT REVIEWS */
+    .introClient {
+        width: 90%;
+        padding: 2rem 4rem;
+        margin: 0 auto;
+    }
+
+    .ourClientReviews {
+        font-size: 4.4rem;
+        margin: 4.4rem 0 4.4rem;
+    }
+
+    .slideCus {
+        grid-template-columns: 16rem 1fr;
+        grid-template-rows: 16rem;
+        padding: 2rem;
+    }
+
+    .cusName {
+        font-size: 2rem;
+    }
+
+    .cusDes {
+        font-size: 1.6rem;
+    }
+
+    /* OUR PARTNERS */
+    .ourPartnersTitle {
+        font-size: 4.4rem;
+        padding-top: 2rem;
+    }
+
+    .logoContainer {
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 55rem) {
+    .exploreContainer {
+        width: 100%;
+        padding: 1rem 8rem;
+    }
+
+    .mainTitle {
+        font-size: 5.4rem;
+        top: 40rem;
+        left: 6rem;
+    }
+
+    .exploreTitle {
+        font-size: 4.6rem;
+    }
+
+    .companyIntro {
+        height: 50rem;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .introTitle {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .introVideo {
+        flex-basis: 50%;
+        height: 30rem;
+        width: 30rem;
+    }
+
+    .introOurCars {
+        width: 100%;
+    }
+
+    .introCarImgs {
+        padding: 1rem 8rem;
+        grid-template-columns: 1fr;
+    }
+
+    .introCarImg {
+        height: 34rem;
+    }
+
+    .btnViewInventory {
+        width: 28rem;
+        height: 5.2rem;
+        font-size: 2.4rem;
+    }
+
+    /* CLIENT REVIEWS */
+    .introClient {
+        width: 100%;
+        padding: 1rem 6rem;
+    }
+
+    .ourClientReviews {
+        font-size: 4.6rem;
+        margin: 4.4rem 0 5.2rem;
+    }
+
+    .slideCus {
+        grid-template-columns: 16rem 1fr;
+        grid-template-rows: 16rem;
+        padding: 1rem;
+    }
+
+    .reviewNameADes {
+        padding: 0.4rem 0;
+    }
+
+    .cusName {
+        font-size: 1.8rem;
+    }
+
+    .cusDes {
+        font-size: 1.4rem;
+        line-height: 14px;
+    }
+
+    /* OUR PARTNERS */
+    .ourPartnersTitle {
+        font-size: 4.6rem;
+    }
+
+    .logoContainer {
+        gap: 3.6rem;
+    }
+
+    .introLogo img {
+        height: 7.2rem;
+    }
+}
+
+@media (max-width: 40rem) {
+    .companyIntro {
+        height: 38rem;
+    }
+
+    .introTitle {
+        padding: 0rem;
+        line-height: 14px;
+        font-size: 1.8rem;
+    }
+
+    .introVideo {
+        height: 30rem;
+        width: 40rem;
+    }
+
+    /* CLIENT REVIEWS */
+    .cusName {
+        font-size: 1.7rem;
+    }
+
+    .cusDes {
+        font-size: 1.5rem;
+        line-height: 10px;
+    }
+
+    /* OUR PARTNERS */
+    .introLogo img {
+        height: 6.4rem;
+    }
+}
+
+@media (max-width: 32rem) {
+    .mainTitle {
+        font-size: 6.8rem;
+        color: #fff7e3;
+        top: 50rem;
+        left: 10rem;
+    }
+}

@@ -1,0 +1,168 @@
+@media (max-width: 100rem) {
+    .footerLogo {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 85rem) {
+    .footerLogo {
+        height: 16rem;
+    }
+
+    .footerCompanyContainer {
+        gap: 2.8rem;
+    }
+
+    .footerPerTitle {
+        font-size: 3.2rem;
+    }
+
+    .footerContactContainer {
+        gap: 2.8rem;
+    }
+
+    .footerResourcesContainer {
+        gap: 2.8rem;
+    }
+
+    .footerList,
+    .privacy {
+        font-size: 2rem;
+    }
+
+    .footerCopyright {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 70rem) {
+    .footerCompanyContainer {
+        gap: 2.6rem;
+    }
+
+    .footerPerTitle {
+        font-size: 3rem;
+    }
+
+    .footerContactContainer {
+        gap: 2.6rem;
+    }
+
+    .footerResourcesContainer {
+        gap: 2.6rem;
+    }
+
+    .footerList,
+    .privacy {
+        font-size: 1.8rem;
+    }
+
+    .footerCopyright {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 55rem) {
+    .footerContainer {
+        display: grid;
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 6rem 2rem;
+        margin: 0 auto;
+        gap: 5.2rem;
+    }
+
+    .footerLogoADes {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        gap: 0rem;
+    }
+
+    .footerLogo {
+        height: 18rem;
+    }
+
+    .footerCompanyContainer {
+        padding: 0 2rem;
+        gap: 3rem;
+    }
+
+    .footerPerTitle {
+        font-size: 2.8rem;
+    }
+
+    .footerContactContainer {
+        padding: 0 2rem;
+        gap: 3rem;
+    }
+
+    .footerResourcesContainer {
+        padding: 0 2rem;
+        gap: 3rem;
+    }
+
+    .footerList,
+    .privacy {
+        font-size: 1.8rem;
+    }
+
+    .footerCopyright {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width: 40rem) {
+    .footerContainer {
+        padding: 3.2rem 0rem;
+    }
+
+    .footerList {
+        gap: 1rem;
+    }
+
+    .footerLogoADes {
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+
+    .footerLogo {
+        width: auto;
+        height: 14rem;
+    }
+
+    .footerDes {
+        font-size: 1.6rem;
+    }
+
+    .footerPerTitle {
+        font-size: 2.4rem;
+    }
+
+    .footerCompanyContainer {
+        padding: 0 2rem;
+        gap: 2.4rem;
+    }
+
+    .footerContactContainer {
+        padding: 0 2rem;
+        gap: 2.4rem;
+    }
+
+    .footerResourcesContainer {
+        padding: 0 2rem;
+        gap: 2.4rem;
+    }
+
+    .footerList,
+    .privacy {
+        font-size: 1.6rem;
+    }
+
+    .footerCopyright {
+        padding: 0 2rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 32rem) {}

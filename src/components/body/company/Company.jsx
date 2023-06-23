@@ -1,22 +1,16 @@
 import './Company.css'
+import './CompanyResponsive.css'
 import { useContext } from 'react';
 import { AppContext } from '../../../AppContext';
+
 export default function Company() {
-
     const { logoCompany } = useContext(AppContext)
-
     return (
         <div className='Company'>
-
-
             <div className='companyImgTitle'>
                 <img className='companyMainImg' src="https://wallpaperaccess.com/full/656670.jpg" alt="" srcset="" />
                 <div className='companyMainTitle'>   COMPANY</div>
             </div>
-
-
-
-
             <div className='companyMainList'>
                 <div className='companyContainer'>
                     <div className='companyLogoName'>
@@ -24,7 +18,6 @@ export default function Company() {
                         <div className='companyName'>FORD</div>
                     </div>
                     <div className='companyDescription'>
-
                         <div>
                             Ford Motor Company (commonly known as Ford) is an American multinational automobile manufacturer headquartered in Dearborn, Michigan, United States. It was founded by Henry Ford and incorporated on June 16, 1903. The company sells automobiles and commercial vehicles under the Ford brand, and luxury cars under its Lincoln brand. Ford also owns Brazilian SUV manufacturer Troller, an 8% stake in Aston Martin of the United Kingdom and a 32% stake in China's Jiangling Motors. It also has joint ventures in China (Changan Ford), Taiwan (Ford Lio Ho), Thailand (AutoAlliance Thailand), and Turkey (Ford Otosan). The company is listed on the New York Stock Exchange and is controlled by the Ford family; they have minority ownership but the majority of the voting power.
                         </div>
@@ -35,27 +28,16 @@ export default function Company() {
                             Ford is the second-largest U.S.-based automaker (behind General Motors) and the fifth largest in the world (behind Toyota, Volkswagen, Hyundai and General Motors) based on 2015 vehicle production. At the end of 2010, Ford was the fifth-largest automaker in Europe. The company went public in 1956 but the Ford family, through special Class B shares, still retain 40 percent of the voting rights. During the financial crisis of 2007–08, the company struggled financially but did not have to be rescued by the federal government, unlike the other two major US automakers. Ford Motors has since returned to profitability, and was the eleventh-ranked overall American-based company in the 2018 Fortune 500 list, based on global revenues in 2017 of $156.7 billion. In 2008, Ford produced 5.532 million automobiles and employed about 213,000 employees at around 90 plants and facilities worldwide.
                         </div>
                     </div>
-
-
-
                     <a href="https://en.wikipedia.org/wiki/Ford_Motor_Company" target="_blank" className='companyLink'>
                         <button className='btnLink'>More Information &rarr;</button>
                     </a>
-
-
                 </div>
-
-
-
-
-
                 <div className='companyContainer'>
                     <div className='companyLogoName'>
                         <img src={logoCompany[1]} alt="" srcset="" className='companyLogo' />
                         <div className='companyName'>AUDI</div>
                     </div>
                     <div className='companyDescription'>
-
                         <div>
                             Audi AG (German: [ˈaʊ̯di ʔaːˈɡeː] (listen)) is a German automotive manufacturer of luxury vehicles headquartered in Ingolstadt, Bavaria, Germany. As a subsidiary of its parent company, the Volkswagen Group, Audi produces vehicles in nine production facilities worldwide.
                         </div>
@@ -65,25 +47,17 @@ export default function Company() {
                         <div>
                             The company name is based on the Latin translation of the surname of the founder, August Horch. Horch, meaning "listen", becomes audi in Latin. The four rings of the Audi logo each represent one of four car companies that banded together to create Audi's predecessor company, Auto Union. Audi's slogan is Vorsprung durch Technik, meaning "Being Ahead through Technology". Audi, along with German brands BMW and Mercedes-Benz, is among the best-selling luxury automobile brands in the world.
                         </div>
-
                     </div>
                     <a href="https://en.wikipedia.org/wiki/Audi" target="_blank" className='companyLink'>
                         <button className='btnLink'>More Information &rarr;</button>
                     </a>
                 </div>
-
-
-
-
                 <div className='companyContainer'>
-
                     <div className='companyLogoName'>
-
                         <img src={logoCompany[2]} alt="" srcset="" className='companyLogo' />
                         <div className='companyName'>CHEVROLET</div>
                     </div>
                     <div className='companyDescription'>
-
                         <div>
                             Chevrolet (/ˌʃɛvrəˈleɪ/ SHEV-rə-LAY) (colloquially referred to as Chevy and formally the Chevrolet Motor Division of General Motors Company) is an American automobile division of the American manufacturer General Motors (GM). Louis Chevrolet (1878–1941), Arthur Chevrolet (1884–1946) and ousted General Motors founder William C. Durant (1861–1947) started the company on November 3, 1911 as the Chevrolet Motor Car Company. Durant used the Chevrolet Motor Car Company to acquire a controlling stake in General Motors with a reverse merger occurring on May 2, 1918, and propelled himself back to the GM presidency. After Durant's second ousting in 1919, Alfred Sloan, with his maxim "a car for every purse and purpose", would pick the Chevrolet brand to become the volume leader in the General Motors family, selling mainstream vehicles to compete with Henry Ford's Model T in 1919 and overtaking Ford as the best-selling car in the United States by 1929 with the Chevrolet International.
                         </div>
@@ -93,23 +67,17 @@ export default function Company() {
                         <div>
                             In North America, Chevrolet produces and sells a wide range of vehicles, from subcompact automobiles to medium-duty commercial trucks. Due to the prominence and name recognition of Chevrolet as one of General Motors' global marques, 'Chevrolet', 'Chevy' or 'Chev' is used at times as a synonym for General Motors or its products, one example being the GM LS1 engine, commonly known by the name or a variant thereof of its progenitor, the Chevrolet small-block engine.
                         </div>
-
                     </div>
                     <a href="https://en.wikipedia.org/wiki/Chevrolet" target="_blank" className='companyLink'>
                         <button className='btnLink'>More Information &rarr;</button>
                     </a>
                 </div>
-
-
-
-
                 <div className='companyContainer'>
                     <div className='companyLogoName'>
                         <img src={logoCompany[3]} alt="" srcset="" className='companyLogo' />
                         <div className='companyName'>VOLVO</div>
                     </div>
                     <div className='companyDescription'>
-
                         <div>
                             The Volvo Group (Swedish: Volvokoncernen; legally Aktiebolaget Volvo, shortened to AB Volvo, stylized as VOLVO) is a Swedish multinational manufacturing corporation headquartered in Gothenburg. While its core activity is the production, distribution and sale of trucks, buses and construction equipment, Volvo also supplies marine and industrial drive systems and financial services. In 2016, it was the world's second-largest manufacturer of heavy-duty trucks with its subsidiary Volvo Trucks.
                         </div>
@@ -122,25 +90,17 @@ export default function Company() {
                         <div>
                             Volvo was established in 1915 as a subsidiary of SKF, a ball bearing manufacturer; however both the Volvo Group and Volvo Cars regard the rollout of the company's first car series, the Volvo ÖV 4, on 14 April 1927, as their beginning.
                         </div>
-
                     </div>
                     <a href="https://en.wikipedia.org/wiki/Volvo" target="_blank" className='companyLink'>
                         <button className='btnLink'>More Information &rarr;</button>
                     </a>
                 </div>
-
-
-
-
-
-
                 <div className='companyContainer'>
                     <div className='companyLogoName'>
                         <img src={logoCompany[4]} alt="" srcset="" className='companyLogo' />
                         <div className='companyName'>RANGE ROVER</div>
                     </div>
                     <div className='companyDescription'>
-
                         <div>
                             The Rover Company (originator of the Land Rover marque) was experimenting with a larger model than the Land Rover Series in 1951, when the Rover P4-based two-wheel-drive "Road Rover" project was developed by Gordon Bashford. This was shelved in 1958 and the idea lay dormant until 1966, when engineers Spen King and Bashford set to work on a new model.
                         </div>
@@ -162,9 +122,7 @@ export default function Company() {
                         <div>
                             Range Rover sub-brands have been launched. In 2004, Land Rover debuted the Range Rover Sport, based on the Land Rover Discovery platform. Later models received the latest Range Rover platform. In 2011 came the Range Rover Evoque, and in 2017 the Range Rover Velar (re-using the name of the very first, pre-production Range Rovers).
                         </div>
-
                     </div>
-
                     <a href="https://en.wikipedia.org/wiki/Range_Rover" target="_blank" className='companyLink'>
                         <button className='btnLink'>More Information &rarr;</button>
                     </a>

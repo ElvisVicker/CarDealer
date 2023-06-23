@@ -39,17 +39,14 @@
     width: 80%;
     align-items: center;
     margin: 0 auto 10rem auto;
-
 }
-
 
 .filterArea {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
     gap: 4rem;
-    padding: 6rem 8rem 0rem;
-    margin-top: 6rem;
+    padding: 8rem 8rem 0rem;
     width: 100%;
 }
 
@@ -59,7 +56,6 @@
     font-size: 3.6rem;
 }
 
-
 .filterContainer {
     display: grid;
     gap: 4rem;
@@ -67,7 +63,6 @@
 }
 
 .filterBtn {
-    /* border: 2px solid gold; */
     font-size: 2.2rem;
     padding: 1rem;
     color: #FFE55C;
@@ -82,8 +77,6 @@
     color: rgb(0, 0, 0);
 }
 
-
-
 .carListContainer {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -92,7 +85,6 @@
     flex-direction: column;
     gap: 2rem;
 }
-
 
 .perCarContainer {
     display: grid;
@@ -166,9 +158,6 @@
     transition: 0.4s;
 }
 
-
-
-
 .span1 {
     width: 100%;
     height: 1px;
@@ -177,7 +166,6 @@
     background: linear-gradient(to left, rgb(255, 251, 0), transparent);
     position: absolute;
     animation: move1 5s linear infinite;
-
 }
 
 @keyframes move1 {
@@ -202,7 +190,6 @@
     }
 }
 
-
 .span3 {
     width: 100%;
     height: 1px;
@@ -219,7 +206,6 @@
     }
 }
 
-
 .span4 {
     width: 1px;
     height: 100%;
@@ -228,7 +214,6 @@
     background: linear-gradient(to bottom, #fff7e3, transparent);
     position: absolute;
     animation: move4 5s linear 2.5s infinite;
-
 }
 
 @keyframes move4 {
@@ -245,12 +230,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-top: 4rem;
     font-size: 2.4rem;
+    flex-wrap: wrap;
 }
-
-
 
 .paginationNoClick {
     text-align: center;
@@ -260,7 +244,6 @@
     background-image: linear-gradient(to top right, #000000, #000000);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 0.4rem;
-
 }
 
 .paginationClick {

@@ -22,7 +22,6 @@
     flex-direction: column;
     gap: 4.4rem;
     margin: 0 auto 10rem auto;
-
 }
 
 .personalDetailMainTitle {
@@ -65,22 +64,6 @@
     height: 1.8rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .btnNAPContainer {
     display: flex;
     justify-content: space-between;
@@ -107,12 +90,10 @@
     transition: 0.4s;
 }
 
-
 .btnNextOffer {
     width: 20rem;
     height: 5rem;
     font-size: 2.4rem;
-    /* margin-bottom: 1rem; */
     background-image: linear-gradient(to top right, #D1B000, #FFE55C);
     cursor: pointer;
     border: 2px solid goldenrod;

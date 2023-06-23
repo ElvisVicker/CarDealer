@@ -1,12 +1,12 @@
 import './Inventory.css'
+import './InventoryResponsive.css'
 import React, { useState } from 'react';
 import { AppContext } from '../../../AppContext';
 import { useContext } from 'react';
 import { Link } from "react-router-dom";
-import { Route, Routes } from 'react-router-dom';
+
 export default function Inventory() {
   const { pageLinks, itemsToDisplay, setSelectedCar, handleFilter, company } = useContext(AppContext)
-
   return (
     <div className='Inventory'>
       <div className='inventoryImgTitle'>
@@ -14,14 +14,8 @@ export default function Inventory() {
         <div className='inventoryMainTitle'>  OUR VEHICLES</div>
       </div>
       <div className='carMainList'>
-
-
-
-
         <div className='filterArea'>
-
           <div className='filterTitle'>Search by Categories</div>
-
           <div className='filterContainer'>
             <div className='filterBtn' onClick={() => handleFilter("All")}  >
               All
@@ -33,8 +27,6 @@ export default function Inventory() {
             ))}
           </div>
         </div>
-
-
         <div className='carListContainer'>
           {itemsToDisplay.map((item, index) => (
             <div className='perCarContainer' key={index}>

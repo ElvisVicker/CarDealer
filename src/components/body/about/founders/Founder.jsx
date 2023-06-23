@@ -1,9 +1,10 @@
 import { AppContext } from '../../../../AppContext';
 import { useContext } from 'react';
 import './Founder.css'
+import './FounderResponsive.css'
+
 export default function Founder() {
     const { listFounders, setSelectedFounder, showModalFounder, setShowModalFounder, selectedFounderStored } = useContext(AppContext)
-
     return (
         <div className='Founder'>
             {
@@ -20,7 +21,6 @@ export default function Founder() {
                     )
                 })
             }
-
             {showModalFounder && (
                 <div className='showPeopleModal'>
                     <div className='btnClosePeople' onClick={() => { setShowModalFounder(false) }}>x</div>
@@ -41,6 +41,3 @@ export default function Founder() {
         </div>
     );
 }
-
-
-

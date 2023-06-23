@@ -1,4 +1,5 @@
 import './AboutUs.css'
+import './AboutUsResponsive.css'
 import Leader from './leaders/Leader';
 import Founder from './founders/Founder';
 import { AppContext } from '../../../AppContext';
@@ -13,7 +14,6 @@ export default function AboutUs() {
                 <img className='aboutUsMainImg' src="https://wallpaperaccess.com/full/3692584.jpg" alt="" srcset="" />
                 <div className='aboutUsMainTitle'>ABOUT CYCAUTO</div>
             </div>
-
             <div className='aboutUsMainList'>
                 <div className='aboutUsInfo'>
                     <div className='aboutUsInfoWho'>
@@ -26,7 +26,6 @@ export default function AboutUs() {
                     </div>
                 </div>
             </div>
-
             <div className='aboutUsImgRootInfo'>
                 <img className='aboutUsImgRoot' src="https://beta.cstatic-images.com/xxlarge/in/v2/static/about-us/13-cars-20.jpg" alt="" srcset="" />
                 <div className='aboutUsRootContainer'>
@@ -36,12 +35,8 @@ export default function AboutUs() {
                     <div className='aboutUsRootBot'>Alex Vetter, President and CEO, CycAuto</div>
                 </div>
             </div>
-
-
-
             <div className='aboutUsOurPeople'>
                 <div className='aboutUsOurPeopleTitle' >Our people</div>
-
                 <div className='leaderFounderContainer'>
                     <div onClick={clickLeader} className='btnLeader'>Leader</div>
                     <div onClick={clickFounder} className='btnFounder'>Founder</div>
@@ -49,37 +44,12 @@ export default function AboutUs() {
                 {showLeader && <Leader />}
                 {showFounder && <Founder />}
             </div>
-
-
-
-
             {showModalLeader && (
                 <div className='outline' onClick={() => { setShowModalLeader(false) }} ></div>
             )}
-
-
             {showModalFounder && (
                 <div className='outline' onClick={() => { setShowModalFounder(false) }} ></div>
             )}
-
-
-
-
-
-
-
-
-
-
         </div >
     );
 }
-
-
-
-
-
-
-
-
-

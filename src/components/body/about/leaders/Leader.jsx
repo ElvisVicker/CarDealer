@@ -1,9 +1,10 @@
 import { AppContext } from '../../../../AppContext';
 import { useContext } from 'react';
 import './Leader.css'
+import './LeaderResponsive.css'
+
 export default function Leader() {
     const { listLeaders, setSelectedLeader, showModalLeader, setShowModalLeader, selectedLeaderStored } = useContext(AppContext)
-
     return (
         <div className='Leader'>
             {
@@ -21,7 +22,6 @@ export default function Leader() {
                     )
                 })
             }
-
             {showModalLeader && (
                 <div className='showPeopleModal'>
                     <div className='btnClosePeople' onClick={() => { setShowModalLeader(false) }}  >x</div>
@@ -42,9 +42,3 @@ export default function Leader() {
         </div>
     );
 }
-
-
-
-
-
-
