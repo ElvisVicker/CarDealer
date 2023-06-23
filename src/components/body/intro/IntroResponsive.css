@@ -33,7 +33,6 @@
     .introOurCars {
         width: 90%;
         margin: 4rem auto 0 auto;
-        background-color: rgba(0, 0, 0, 0.5);
         padding: 1rem 4rem;
     }
 
@@ -146,7 +145,6 @@
     .introOurCars {
         width: 90%;
         margin: 4rem auto 0 auto;
-        background-color: rgba(0, 0, 0, 0.5);
         padding: 1rem 6rem;
     }
 

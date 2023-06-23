@@ -93,7 +93,8 @@
     .leaderName {
         font-size: 2rem;
         padding: 1rem;
-        color: black;
+        background-color: var(--normalTitle);
+        color: #000;
         clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
     }
 
