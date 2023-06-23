@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deploy-github/static/css/main.71db89e4.css",
+    "main.js": "/deploy-github/static/js/main.8d5e15d9.js",
+    "static/media/cycauto.png": "/deploy-github/static/media/cycauto.79eb1a948f418860d5fb.png",
+    "index.html": "/deploy-github/index.html",
+    "main.71db89e4.css.map": "/deploy-github/static/css/main.71db89e4.css.map",
+    "main.8d5e15d9.js.map": "/deploy-github/static/js/main.8d5e15d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71db89e4.css",
+    "static/js/main.8d5e15d9.js"
+  ]
+}
