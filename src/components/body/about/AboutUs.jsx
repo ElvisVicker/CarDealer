@@ -9,9 +9,8 @@ export default function AboutUs() {
     const { showLeader, showFounder, clickLeader, clickFounder, showModalLeader, setShowModalLeader, showModalFounder, setShowModalFounder } = useContext(AppContext)
     return (
         <div className='AboutUs'>
-
             <div className='aboutUsImgTitle'>
-                <img className='aboutUsMainImg' src="https://wallpaperaccess.com/full/3692584.jpg" alt="" srcset="" />
+                <img className='aboutUsMainImg' src="https://images.wallpaperscraft.com/image/single/tables_cafe_view_39232_1920x1080.jpg" alt="" srcset="" />
                 <div className='aboutUsMainTitle'>ABOUT CYCAUTO</div>
             </div>
             <div className='aboutUsMainList'>

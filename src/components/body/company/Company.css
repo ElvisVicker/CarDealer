@@ -8,13 +8,13 @@
     width: 100%;
     height: 58rem;
     object-fit: cover;
-    filter: brightness(70%);
+    filter: brightness(40%);
 }
 
 .companyMainTitle {
     position: absolute;
     font-size: 5.2rem;
-    color: #fff;
+    color: var(--mainTitle);
     left: 85rem;
     font-weight: bold;
     top: 30rem;
@@ -55,6 +55,8 @@
     padding: 1rem 2rem;
     background-color: rgba(255, 247, 227, 0.3);
     margin: 0rem 0 4.4rem 0;
+    color: var(--normalTitle);
+
 }
 
 .companyLogo {
@@ -74,6 +76,7 @@
     gap: 2rem;
     padding: 2rem 4rem;
     text-align: justify;
+    color: var(--normalText);
 }
 
 .companyLink {

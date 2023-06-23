@@ -1,6 +1,5 @@
 .Privacy {
     font-size: 1.6rem;
-    color: #fff7e3;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -11,7 +10,7 @@
 
 .privacyMainTitle {
     font-size: 5.2rem;
-    color: #fff7e3;
+    color: var(--mainTitle);
     font-weight: bold;
     padding: 18rem 0 0;
     margin-bottom: 6rem;
@@ -29,6 +28,7 @@
 .privacyTitle {
     font-size: 3.2rem;
     font-weight: bold;
+    color: var(--normalTitle);
 }
 
 .privacyDescription {
@@ -37,6 +37,7 @@
     font-size: 1.8rem;
     gap: 2rem;
     margin-bottom: 5rem;
+    color: var(--normalText);
 }
 
 @media (max-width: 100rem) {

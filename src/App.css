@@ -20,6 +20,36 @@ html {
     object-fit: cover;
 }
 
+
+
+/* GOLD, SILVER, BLACK */
+
+:root {
+    --mainTitle: #ffee32;
+    --normalTitle: #fecf3e;
+    --normalTitleHover: #f9a620;
+    --normalText: #d9d9d9;
+    --normalTextDark: #353535;
+
+    --inputText: #000;
+    --tags: #fcf300;
+    --tagsHover: #dbb42c;
+    --tagsText: #242424;
+    --tagsTextHover: #000;
+    --btnBackground: #fcf300;
+    --btnBackgroundHover: #fdb833;
+    --btnBorderBackground: #ffc300;
+    --btnBorderBackgroundHover: #e97100;
+
+    --btnText: #212529;
+    --btnTextHover: #0a0b0c;
+
+}
+
+
+
+
+
 /* RESPONSIVE======================== */
 @media (max-width: 100rem) {
     html {

@@ -73,7 +73,7 @@
     }
 }
 
-@media (max-width: 55rem) {
+@media (max-width: 40rem) {
     .Leader {
         grid-template-columns: 1fr;
     }
@@ -81,7 +81,7 @@
     .leaderContainer {
         display: grid;
         grid-template-columns: 1fr 2fr 2fr;
-        gap: 2rem;
+        gap: 4rem;
     }
 
     .leaderImg {
@@ -92,7 +92,6 @@
 
     .leaderName {
         font-size: 2rem;
-        background-color: goldenrod;
         padding: 1rem;
         color: black;
         clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);

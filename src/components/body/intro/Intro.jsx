@@ -21,12 +21,12 @@ export default function Intro() {
                         The AUDI AG stands for sporty vehicles, high build quality and progressive design – for “Vorsprung durch Technik.” The Audi Group is among the world’s leading producers of premium cars. To play an instrumental role in shaping the transformation as we head into a new age of mobility the Company is implementing its strategy step by step.
                     </div>
                     <iframe className='introVideo'
-                        src="https://www.youtube.com/embed/BNVZmrxXuuU?autoplay=1&mute=1&loop=1&playlist=BNVZmrxXuuU">
+                        src="https://www.youtube.com/embed/BNVZmrxXuuU?&mute=1&loop=1&playlist=BNVZmrxXuuU">
                     </iframe>
                 </div>
                 <div className='companyIntro' >
                     <iframe className='introVideo'
-                        src="https://www.youtube.com/embed/EOtjvBy1vDw?autoplay=1&mute=1&loop=1&playlist=EOtjvBy1vDw">
+                        src="https://www.youtube.com/embed/EOtjvBy1vDw?&mute=1&loop=1&playlist=EOtjvBy1vDw">
                     </iframe>
                     <div className='introTitle'>
                         Ford is a family company, one that spans the globe and has shared ideals. We value service to each other and the world as much as to our customers. Generations have made their memories with us and included us in their hopes and dreams. After 117 years, we’re used to adapting to and leading change. That’s why we’re evolving to focus on services, experiences and software as well as vehicles.
@@ -37,7 +37,7 @@ export default function Intro() {
                         From the very outset Volvo Cars has been a brand for people who care about the world we live in and the people around us. We have made it our mission to make life easier, better and safer for everyone.
                     </div>
                     <iframe className='introVideo'
-                        src="https://www.youtube.com/embed/9u4Ejwfiqlo?autoplay=1&mute=1&loop=1&playlist=9u4Ejwfiqlo">
+                        src="https://www.youtube.com/embed/9u4Ejwfiqlo?&mute=1&loop=1&playlist=9u4Ejwfiqlo">
                     </iframe>
                 </div>
             </div>

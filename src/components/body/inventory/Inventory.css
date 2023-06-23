@@ -9,13 +9,13 @@
     width: 100%;
     height: 58rem;
     object-fit: cover;
-    filter: brightness(70%);
+    filter: brightness(40%);
 }
 
 .inventoryMainTitle {
     position: absolute;
     font-size: 5.2rem;
-    color: #fff;
+    color: var(--mainTitle);
     top: 30rem;
     left: 80rem;
     font-weight: bold;
@@ -51,7 +51,7 @@
 }
 
 .filterTitle {
-    color: #ffffff;
+    color: var(--mainTitle);
     font-weight: bold;
     font-size: 3.6rem;
 }
@@ -125,14 +125,18 @@
 .carName {
     font-size: 2.6rem;
     font-weight: bold;
+    color: var(--normalTitle);
 }
 
 .carPrice {
     font-size: 2rem;
+    color: var(--normalText);
 }
 
 .carBodyStyle {
     font-size: 2rem;
+    color: var(--normalText);
+
 }
 
 .linkDetail {
@@ -146,15 +150,17 @@
     height: 4rem;
     font-size: 2.4rem;
     margin-bottom: 1rem;
-    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
+
+    background-color: var(--btnBackground);
     cursor: pointer;
-    border: 2px solid goldenrod;
+    border: 2px solid var(--btnBorderBackground);
+    color: var(--btnText);
 }
 
 .btnCheckOut:hover {
-    background-image: linear-gradient(to top right, #698f00, #88ff00);
-    border: 2px solid rgb(33, 143, 0);
-    color: #000000;
+    background-color: var(--btnBackgroundHover);
+    border: 2px solid var(--btnBorderBackgroundHover);
+    color: var(--btnTextHover);
     transition: 0.4s;
 }
 
@@ -240,18 +246,18 @@
     text-align: center;
     cursor: pointer;
     width: 6rem;
-    color: #fff;
-    background-image: linear-gradient(to top right, #000000, #000000);
-    border: 2px solid rgb(255, 255, 255);
+    color: var(--normalText);
+    background-color: #000;
+    border: 2px solid var(--normalText);
     border-radius: 0.4rem;
 }
 
 .paginationClick {
     text-align: center;
-    color: black;
+    color: var(--normalTextDark);
     cursor: pointer;
     width: 6rem;
-    background-image: linear-gradient(to top right, #fff, #fff);
-    border: 2px solid rgb(0, 0, 0);
+    background-color: var(--normalText);
+    border: 2px solid var(--normalTextDark);
     border-radius: 0.4rem;
 }

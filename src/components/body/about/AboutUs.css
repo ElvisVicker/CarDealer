@@ -6,13 +6,13 @@
     width: 100%;
     height: 58rem;
     object-fit: cover;
-    filter: brightness(60%);
+    filter: brightness(40%);
 }
 
 .aboutUsMainTitle {
     position: absolute;
     font-size: 5.2rem;
-    color: #fff;
+    color: var(--mainTitle);
     left: 75rem;
     font-weight: bold;
     top: 30rem;
@@ -30,7 +30,6 @@
 .aboutUsMainList {
     font-size: 1.6rem;
     display: flex;
-    color: #fff7e3;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -54,6 +53,7 @@
 .aboutUsInfoWho {
     font-size: 4.4rem;
     font-weight: bold;
+    color: var(--normalTitle);
 }
 
 .aboutUsInfoDes {
@@ -63,15 +63,16 @@
     text-align: justify;
     letter-spacing: 0.4px;
     font-size: 2.4rem;
+    color: var(--normalText);
 }
 
 .aboutUsImgRootInfo {
-    color: #fff;
     display: flex;
     width: 100%;
     height: 56rem;
     gap: 2rem;
-    background-image: linear-gradient(to top right, #b39800, #a7943a);
+    background-color: var(--tagsText);
+
 }
 
 .aboutUsImgRoot {
@@ -88,21 +89,26 @@
     font-size: 2.6rem;
     gap: 2rem;
     padding: 4rem 2rem;
+    color: var(--normalText);
 }
 
 .aboutUsRootTop {
     font-size: 4.4rem;
     font-weight: bold;
+    color: var(--mainTitle);
 }
 
+
+
 .aboutUsRootBot {
+
     font-size: 1.8rem;
 }
 
 .aboutUsOurPeople {
     font-size: 1.6rem;
     display: flex;
-    color: #fff7e3;
+    color: var(--normalText);
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -115,12 +121,25 @@
 .aboutUsOurPeopleTitle {
     font-size: 4.4rem;
     font-weight: bold;
+    color: var(--mainTitle);
 }
 
 .leaderFounderContainer {
     display: flex;
     gap: 4rem;
     font-size: 2.8rem;
+    color: var(--normalTitle);
+    cursor: pointer;
+}
+
+.btnLeader:hover {
+    color: var(--normalTitleHover);
+    box-shadow: 0px 1px 0px var(--btnBorderBackgroundHover);
+}
+
+.btnFounder:hover {
+    color: var(--normalTitleHover);
+    box-shadow: 0px 1px 0px var(--btnBorderBackgroundHover);
 }
 
 .btnLeader {}

@@ -17,7 +17,7 @@
 }
 
 .founderContainer:hover {
-    box-shadow: 0.5px 0.5px 1px #fff;
+    box-shadow: 0.5px 0.5px 1px var(--btnBorderBackground);
 }
 
 .founderImg {
@@ -32,6 +32,7 @@
     font-size: 2.6rem;
     font-weight: bold;
     text-align: center;
+    color: var(--normalTitle);
 }
 
 .showPeopleModal {
@@ -59,7 +60,6 @@
 .modalImgInfo {
     display: flex;
     align-items: center;
-    /* border: 2px solid black; */
     gap: 4rem;
 }
 
@@ -80,6 +80,7 @@
 .showPeopleName {
     font-size: 3.2rem;
     font-weight: bold;
+    color: var(--normalTitle);
 }
 
 .showPeopleRole {

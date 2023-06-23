@@ -8,7 +8,10 @@
     font-size: 1.8rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 10px goldenrod;
+
+
+
+    box-shadow: 0px 0px 10px var(--btnBorderBackground);
 }
 
 .stepPersonalDetail {
@@ -27,7 +30,7 @@
 .personalDetailMainTitle {
     font-size: 3.6rem;
     font-weight: bold;
-    color: rgb(241, 205, 0);
+    color: var(--mainTitle);
     margin-bottom: 4rem;
     text-align: center;
 }
@@ -36,7 +39,7 @@
     font-size: 3.2rem;
     margin-bottom: 0.6rem;
     font-weight: bold;
-    color: rgb(240, 204, 0);
+    color: var(--normalTitle);
 }
 
 .personalDetailInput {
@@ -44,6 +47,7 @@
     height: 4rem;
     padding: 0 1rem;
     font-size: 2rem;
+    color: var(--inputText);
 }
 
 .personalDetailGender {
@@ -51,6 +55,7 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 4.4rem;
+    color: var(--normalTitle);
 }
 
 .genderContainer {
@@ -74,19 +79,20 @@
     height: 5rem;
     font-size: 2.4rem;
     /* margin-bottom: 1rem; */
-    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
     cursor: pointer;
-    border: 2px solid goldenrod;
+    background-color: var(--btnBackground);
+    border: 2px solid var(--btnBorderBackground);
     align-self: flex-end;
     justify-self: flex-end;
     font-weight: bold;
+    color: var(--btnText);
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0 50%);
 }
 
 .btnPrevOffer:hover {
-    background-image: linear-gradient(to top right, #698f00, #88ff00);
-    border: 2px solid rgb(33, 143, 0);
-    color: #000000;
+    background-color: var(--btnBackgroundHover);
+    border: 2px solid var(--btnBorderBackgroundHover);
+    color: var(--btnTextHover);
     transition: 0.4s;
 }
 
@@ -94,18 +100,19 @@
     width: 20rem;
     height: 5rem;
     font-size: 2.4rem;
-    background-image: linear-gradient(to top right, #D1B000, #FFE55C);
     cursor: pointer;
-    border: 2px solid goldenrod;
+    background-color: var(--btnBackground);
+    border: 2px solid var(--btnBorderBackground);
     align-self: flex-end;
     justify-self: flex-end;
     font-weight: bold;
+    color: var(--btnText);
     clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 0 0);
 }
 
 .btnNextOffer:hover {
-    background-image: linear-gradient(to top right, #698f00, #88ff00);
-    border: 2px solid rgb(33, 143, 0);
-    color: #000000;
+    background-color: var(--btnBackgroundHover);
+    border: 2px solid var(--btnBorderBackgroundHover);
+    color: var(--btnTextHover);
     transition: 0.4s;
 }

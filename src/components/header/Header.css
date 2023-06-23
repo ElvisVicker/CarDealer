@@ -13,6 +13,7 @@
 .headerLogo {
     width: auto;
     height: 8.4rem;
+    filter: brightness(90%);
 }
 
 .listlink {
@@ -23,13 +24,13 @@
 }
 
 .listPerLink {
-    color: rgb(233, 198, 0);
+    color: var(--normalTitle);
     text-decoration: none;
 }
 
 .listPerLink:hover {
     transition: 0.3s;
-    box-shadow: 0px 2px 1px rgb(233, 198, 0);
+    box-shadow: 0px 2px 1px var(--btnBorderBackgroundHover);
 }
 
 .btnListLinkToggle {
@@ -39,12 +40,16 @@
     height: 6rem;
     font-size: 2rem;
     font-weight: bold;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--mainTitle);
     color: #000000;
-    border: 2px solid goldenrod;
+    border: 2px solid var(--btnBorderBackground);
     border-radius: 4px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.3s;
+}
+
+.btnListLinkToggle:hover {
+    background-color: var(--normalTitleHover);
 }
 
 .listlinkShowToggle {
@@ -81,7 +86,7 @@
 }
 
 .listPerLinkToggle {
-    color: gold;
+    color: var(--normalTitle);
     text-decoration: none;
     font-size: 3.6rem;
     font-weight: bold;
@@ -89,8 +94,8 @@
 
 .listPerLinkToggle:hover {
     transition: 0.3s;
-    color: goldenrod;
-    box-shadow: 0px 1px 0px goldenrod;
+    color: var(--normalTitleHover);
+    box-shadow: 0px 1px 0px var(--btnBorderBackgroundHover);
 }
 
 
