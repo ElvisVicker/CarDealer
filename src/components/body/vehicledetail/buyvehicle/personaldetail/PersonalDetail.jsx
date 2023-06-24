@@ -43,7 +43,7 @@ export default function PersonalDetail() {
     }
 
     let saveBuyerInfo = (e) => {
-        if (firstNameValue && lastNameValue && phoneNumberValue && emailValue && genderValue) {
+        if (firstNameValue && lastNameValue && phoneNumberValue && phoneNumberValue.length == 10 && emailValue && emailValue.includes('@') && genderValue) {
             e.preventDefault()
             localStorage.setItem("buyerInfoWillStore", JSON.stringify(buyerInfo))
             window.location.href = `/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`;
@@ -99,18 +99,8 @@ export default function PersonalDetail() {
                 <Link to={`/Inventory/VehicleDetail/${selectedCarStored.id}/Offer`} onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} >
                     <button className='btnPrevOffer'>PREVIOUS</button>
                 </Link>
-                {/* <Link to={`/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`} onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} >
-                    <button className='btnNextOffer' onClick={saveBuyerInfo}>NEXT</button>
-                </Link>  */}
-
-
                 <button type="submit" className='btnNextOffer' onClick={saveBuyerInfo}>NEXT</button>
-
             </div>
-
-
-
-
         </form>
     );
 }

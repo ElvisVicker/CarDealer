@@ -20,16 +20,20 @@ export default function Inventory() {
         email: `${contactEmail}`,
         message: `${contactMessage}`
     }
-    let submitContact = () => {
-        if (contactInfo.name == '' && contactInfo.email == '' && contactInfo.message == '') {
-            alert('Please fill in if you want to submit a new contact')
-        } else {
+
+    let submitContact = (e) => {
+        if (contactName && contactEmail && contactEmail.includes('@') && contactMessage) {
+            e.preventDefault()
+            localStorage.setItem("contactInfo", JSON.stringify(contactInfo))
             if (!localStorage.getItem("contactInfo")) {
                 localStorage.setItem("contactInfo", JSON.stringify(contactInfo))
             }
             alert('Thank you for submiting, Have a nice day :D')
+            window.location.href = `/`;
         }
     }
+
+
     return (
         <div className='Contact'>
             <div className='contactImgTitle'>
@@ -66,17 +70,17 @@ export default function Inventory() {
                         <div className='contactOpenDes'>Please call to arrange an appointment</div>
                     </div>
                 </div>
-                <div className='contactClientInfo'>
-                    <div className='nameEmailContainer'>
-                        <input type="text" className='inputName' onfocus="this.value=''" placeholder='Name' contactName={contactName} onChange={changeContactName} />
-                        <input type="email" className='inputEmail' onfocus="this.value=''" placeholder='Email' contactEmail={contactEmail} onChange={changeContactEmail} />
-                    </div>
-                    <textarea rows="20" cols="50" className='inputMessage' onfocus="this.value=''" placeholder='Message' contactMessage={contactMessage} onChange={changeContactMessage}></textarea>
 
-                    <Link to="/" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} className='linkBtnContact' >
-                        <button className='btnSubmit' onClick={submitContact}>SUBMIT</button>
-                    </Link>
-                </div>
+
+                <form className='contactClientInfo'>
+                    <div className='nameEmailContainer'>
+                        <input type="text" required className='inputName' onfocus="this.value=''" placeholder='Name' contactName={contactName} onChange={changeContactName} />
+                        <input type="email" required className='inputEmail' onfocus="this.value=''" placeholder='Email' contactEmail={contactEmail} onChange={changeContactEmail} />
+                    </div>
+                    <textarea rows="20" cols="50" required className='inputMessage' onfocus="this.value=''" placeholder='Message' contactMessage={contactMessage} onChange={changeContactMessage}></textarea>
+
+                    <button type="submit" className='btnSubmit linkBtnContact' onClick={submitContact}>SUBMIT</button>
+                </form>
             </div>
         </div>
     );

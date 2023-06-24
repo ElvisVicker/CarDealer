@@ -13,7 +13,8 @@ export default function Body() {
     return (
         <div className="Body">
             <Routes>
-                <Route exact path="/" element={<Intro />} ></Route>
+                <Route exact path="/CarDealer" element={<Intro />} ></Route>
+                <Route path="/" element={<Intro />} ></Route>
                 <Route path="/Inventory" element={<Inventory />}></Route>
                 <Route path="/Inventory/VehicleDetail/:id" element={<VehicleDetail />}></Route>
                 <Route path="/Company" element={<Company />}></Route>
