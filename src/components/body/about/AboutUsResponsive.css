@@ -213,4 +213,86 @@
         font-size: 4.6rem;
         left: 30rem;
     }
+
+
+    .aboutUsImgRootInfo {
+        height: 30rem;
+    }
+
+    .aboutUsRootContainer {
+        gap: 1rem;
+        font-size: 1.6rem;
+        line-height: 10px;
+    }
+
+    .aboutUsRootTop {
+        font-size: 2.4rem;
+    }
+
+    .aboutUsRootBot {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 30rem) {
+    .aboutUsImgRootInfo {
+        height: 24rem;
+    }
+
+    .aboutUsRootContainer {
+        gap: 0.4rem;
+        font-size: 1.4rem;
+        line-height: 10px;
+    }
+
+    .aboutUsRootTop {
+        font-size: 2.2rem;
+    }
+    .aboutUsRootBot {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+
+@media (max-width: 28rem) {
+    .aboutUsMainTitle {
+        left: 24rem;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 26rem) {
+    .aboutUsMainTitle {
+        left: 22rem;
+    }
+
+    .aboutUsImgRootInfo {
+        height: 20rem;
+    }
+
+    .aboutUsRootContainer {
+        gap: 0rem;
+        font-size: 1.4rem;
+        line-height: 8px;
+    }
+
+    .aboutUsRootTop {
+        font-size: 1.8rem;
+    }
+    .aboutUsRootBot {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 24rem) {
+    .aboutUsMainTitle {
+        left: 17rem;
+    }
 }

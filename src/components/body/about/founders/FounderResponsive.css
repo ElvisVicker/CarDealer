@@ -72,7 +72,7 @@
 
     .founderContainer {
         display: grid;
-        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-columns: 1fr 2.5fr 2fr;
         gap: 4rem;
     }
 
@@ -87,5 +87,41 @@
         padding: 1rem;
         background-color: var(--normalTitle);
         color: #000;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 30rem) {
+    .founderContainer {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+        gap: 4rem;
+    }
+
+} 
+
+
+
+@media (max-width: 28rem) {
+    .founderContainer {
+        grid-template-columns: 1fr 2.5fr 2fr;    
+    }
+}
+
+
+@media (max-width: 26rem) {
+    .founderContainer {
+        grid-template-columns: 1fr 2.8fr 1.6fr;    
+    }
+}
+
+
+@media (max-width: 24rem) {
+    .founderContainer {
+        grid-template-columns: 1fr 3fr 1.4fr;    
     }
 }

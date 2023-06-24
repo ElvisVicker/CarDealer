@@ -80,7 +80,7 @@
 
     .leaderContainer {
         display: grid;
-        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-columns: 1fr 2.5fr 2fr;
         gap: 4rem;
     }
 
@@ -101,5 +101,48 @@
     .leaderRole {
         font-size: 1.6rem;
         text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 30rem) {
+    .leaderContainer {
+        display: grid;
+        grid-template-columns: 1fr 2.8fr 2fr;
+        gap: 2.4rem;
+    }
+
+} 
+
+@media (max-width: 28rem) {
+    .leaderContainer {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1.6fr;
+        gap: 1.4rem;
+    }
+}
+
+
+@media (max-width: 26rem) {
+    .leaderContainer {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1.6fr;
+        gap: 1.4rem;
+
+    }
+
+    .leaderName {
+        font-size: 1.6rem;
+    }
+    .leaderRole {
+        font-size: 1.4rem;
     }
 }

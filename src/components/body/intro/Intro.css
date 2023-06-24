@@ -126,7 +126,7 @@
 }
 
 .nameAndPrice {
-    color: var(--normalText);
+    color: var(--mainTitle);
     position: absolute;
     top: 0;
     left: 0;

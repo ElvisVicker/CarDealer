@@ -120,6 +120,8 @@
     .exploreContainer {
         padding-top: 10rem;
         gap: 0rem;
+        padding-top: 6rem;
+       
     }
 
     .exploreTitle {
@@ -206,7 +208,7 @@
 
     /* EXPLORE MORE */
     .exploreContainer {
-        padding-top: 8rem;
+        padding-top: 6rem;
     }
 
     .exploreTitle {
@@ -261,7 +263,7 @@
 @media (max-width: 55rem) {
     .exploreContainer {
         width: 100%;
-        padding: 1rem 8rem;
+        padding: 6rem 8rem 1rem;
     }
 
     .mainTitle {
@@ -355,19 +357,37 @@
 }
 
 @media (max-width: 40rem) {
+    .exploreContainer {
+        gap: 6rem;
+    }
+
     .companyIntro {
-        height: 38rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 4rem;
+    }
+
+    .companyIntroReverse {
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        align-items: center;
+        gap: 4rem;
     }
 
     .introTitle {
-        padding: 0rem;
+        padding: 1rem;
         line-height: 14px;
-        font-size: 1.8rem;
+        flex-basis: auto;
+        font-size: 2.4rem;
     }
 
     .introVideo {
-        height: 30rem;
-        width: 40rem;
+        width: 90%;
+        flex-basis: auto;
     }
 
     /* CLIENT REVIEWS */
@@ -393,3 +413,45 @@
         left: 10rem;
     }
 }
+
+
+
+@media (max-width: 28rem) {
+    .mainTitle {
+        font-size: 6rem;
+    }
+
+    .exploreContainer {
+        gap: 2rem;
+    }
+
+
+    .introTitle {
+        font-size: 2.2rem;
+    }
+
+    .introVideo {
+        width: 85%;
+        flex-basis: auto;
+    }
+    .cusDes {
+        font-size: 1.6rem;
+        line-height: 8px;
+    }
+
+    .introCarImgs {
+        padding: 1rem 3.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

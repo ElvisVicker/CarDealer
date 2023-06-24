@@ -24,7 +24,7 @@ export default function Intro() {
                         src="https://www.youtube.com/embed/BNVZmrxXuuU?&mute=1&loop=1&playlist=BNVZmrxXuuU">
                     </iframe>
                 </div>
-                <div className='companyIntro' >
+                <div className='companyIntro companyIntroReverse' >
                     <iframe className='introVideo'
                         src="https://www.youtube.com/embed/EOtjvBy1vDw?&mute=1&loop=1&playlist=EOtjvBy1vDw">
                     </iframe>

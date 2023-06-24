@@ -107,3 +107,27 @@
         left: 32rem;
     }
 }
+
+
+@media (max-width: 28rem) {
+    .inventoryMainTitle {
+        left: 28rem;
+    }
+
+    .filterContainer {
+       
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 26rem) {
+    .inventoryMainTitle {
+        left: 24rem;
+    }
+}
+
+@media (max-width: 24rem) {
+    .inventoryMainTitle {
+        left: 20rem;
+    }
+}

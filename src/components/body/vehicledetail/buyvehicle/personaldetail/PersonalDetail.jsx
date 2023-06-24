@@ -41,17 +41,23 @@ export default function PersonalDetail() {
         phoneNumber: `${phoneNumberValue}`, email: `${emailValue}`,
         gender: `${genderValue}`
     }
-    let saveBuyerInfo = () => {
-        localStorage.setItem("buyerInfoWillStore", JSON.stringify(buyerInfo))
+
+    let saveBuyerInfo = (e) => {
+        if (firstNameValue && lastNameValue && phoneNumberValue && emailValue && genderValue) {
+            e.preventDefault()
+            localStorage.setItem("buyerInfoWillStore", JSON.stringify(buyerInfo))
+            window.location.href = `/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`;
+        }
     }
+
     return (
-        <div className='PersonalDetail'>
+        <form className='PersonalDetail'>
             <div className='stepPersonalDetail'>Step 2/3</div>
-            <form className='personalDetailInfoContainer'>
+            <div className='personalDetailInfoContainer' >
                 <div className='personalDetailMainTitle'>Your Information</div>
                 <div>
                     <div className='personalDetailTitle'>First Name</div>
-                    <input type="text" required className='personalDetailInput' firstNameValue={firstNameValue} onChange={changeFirstNameValue} />
+                    <input placeholder="John" type="text" required className='personalDetailInput' firstNameValue={firstNameValue} onChange={changeFirstNameValue} />
                 </div>
                 <div>
                     <div className='personalDetailTitle'>Middle Name (Optional)</div>
@@ -59,42 +65,52 @@ export default function PersonalDetail() {
                 </div>
                 <div>
                     <div className='personalDetailTitle'>Last Name</div>
-                    <input type="text" required className='personalDetailInput' lastNameValue={lastNameValue} onChange={changeLastNameValue} />
+                    <input placeholder="Wick" type="text" required className='personalDetailInput' lastNameValue={lastNameValue} onChange={changeLastNameValue} />
                 </div>
                 <div>
                     <div className='personalDetailTitle'>Your mobile number</div>
 
-                    <input type="text" required className='personalDetailInput' phoneNumberValue={phoneNumberValue} onChange={changePhoneNumberValue} />
+                    <input type="tel" placeholder="0912345678" pattern="[0-9]{10}" required className='personalDetailInput' phoneNumberValue={phoneNumberValue} onChange={changePhoneNumberValue} />
                 </div>
-                <div>
-                    <div className='personalDetailTitle'>Your email address</div>
 
-                    <input type="email" name="" id="" required className='personalDetailInput' emailValue={emailValue} onChange={changeEmailValue} />
+                <div >
+                    <div className='personalDetailTitle'>Your email address</div>
+                    <input type="email" placeholder="address@gmail.com" required className='personalDetailInput' emailValue={emailValue} onChange={changeEmailValue} />
                 </div>
+
+
                 <div className='personalDetailGender'>
                     <div className='personalDetailTitle'>What's your gender?</div>
                     <div className='genderContainer'>
                         <div>
                             <input type="radio" name="genderRatio" value="Male"
                                 checked={genderValue === "Male"}
-                                onChange={changeGenderValue} /> Male
+                                onChange={changeGenderValue} required /> Male
                         </div>
                         <div>
                             <input type="radio" name="genderRatio" value="Female"
                                 checked={genderValue === "Female"}
-                                onChange={changeGenderValue} /> Female
+                                onChange={changeGenderValue} required /> Female
                         </div>
                     </div>
                 </div>
-            </form>
+            </div>
             <div className='btnNAPContainer'>
                 <Link to={`/Inventory/VehicleDetail/${selectedCarStored.id}/Offer`} onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} >
                     <button className='btnPrevOffer'>PREVIOUS</button>
                 </Link>
-                <Link to={`/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`} onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} >
+                {/* <Link to={`/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`} onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} >
                     <button className='btnNextOffer' onClick={saveBuyerInfo}>NEXT</button>
-                </Link>
+                </Link>  */}
+
+
+                <button type="submit" className='btnNextOffer' onClick={saveBuyerInfo}>NEXT</button>
+
             </div>
-        </div>
+
+
+
+
+        </form>
     );
 }

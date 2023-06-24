@@ -66,3 +66,25 @@
         left: 40rem;
     }
 }
+
+
+
+
+@media (max-width: 28rem) {
+    .contactMainTitle {
+        left: 34rem;
+    }
+}
+
+
+@media (max-width: 26rem) {
+    .contactMainTitle {
+        left: 30rem;
+    }
+}
+
+@media (max-width: 24rem) {
+    .contactMainTitle {
+        left: 26rem;
+    }
+}

@@ -11,67 +11,19 @@ export default function Confirm() {
     }
     let selectedCarStored = JSON.parse(localStorage.getItem("carSelectedInfo"));
     let buyerInfoStored = JSON.parse(localStorage.getItem("buyerInfoWillStore"));
-    console.log(buyerInfoStored)
-    function hasNoAlphabetLetters(str) {
-        return /^[^a-zA-Z]*$/.test(str);
-    }
+
     let submitAll = () => {
-        if (buyerInfoStored.firstName == '' || buyerInfoStored.lastName == '' || buyerInfoStored.email == '' || buyerInfoStored.phoneNumber == '' || buyerInfoStored.gender == '') {
-            if (hasNoAlphabetLetters(buyerInfoStored.phoneNumber)) {
-            } else {
-                alert('Your phone number must be number!')
-                window.history.back();
-            }
-            if (buyerInfoStored.phoneNumber.length > 8 && buyerInfoStored.phoneNumber.length < 12) {
-            } else {
-                alert('Your phone number length must be between 9 and 11!')
-                window.history.back();
-            }
-
-            if (buyerInfoStored.email.includes('@')) {
-            } else {
-                alert('Your email must has @!')
-                window.history.back();
-            }
-
-            alert('You have to fill all blanks to submit!')
-            window.history.back();
-        } else {
-            if (hasNoAlphabetLetters(buyerInfoStored.phoneNumber) && buyerInfoStored.email.includes('@') && buyerInfoStored.phoneNumber.length > 8 && buyerInfoStored.phoneNumber < 12) {
-                const allInformation = Object.assign({}, selectedCarStored, buyerInfoStored);
-                if (!localStorage.getItem("allInformation")) {
-                    localStorage.setItem("allInformation", JSON.stringify(allInformation))
-                }
-                localStorage.removeItem("carSelectedInfo");
-                localStorage.removeItem("buyerInfoWillStore");
-                localStorage.removeItem("selectedLeader");
-                localStorage.removeItem("selectedFounder");
-                alert('Thank you for submiting, Have a nice day :D')
-            } else {
-                if (!buyerInfoStored.email.includes('@')) {
-                    alert('Your email must has @!')
-                    window.history.back();
-                } else if (!hasNoAlphabetLetters(buyerInfoStored.phoneNumber)) {
-                    alert('Your phone number must be number!')
-                    window.history.back();
-                } else if (!(buyerInfoStored.phoneNumber.length > 8 && buyerInfoStored.phoneNumber.length < 12)) {
-                    alert('Your phone number length must be between 9 and 11!')
-                    window.history.back();
-                }
-                else {
-                    const allInformation = Object.assign({}, selectedCarStored, buyerInfoStored);
-                    if (!localStorage.getItem("allInformation")) {
-                        localStorage.setItem("allInformation", JSON.stringify(allInformation))
-                    }
-                    localStorage.removeItem("carSelectedInfo");
-                    localStorage.removeItem("buyerInfoWillStore");
-                    localStorage.removeItem("selectedLeader");
-                    localStorage.removeItem("selectedFounder");
-                    alert('Thank you for submiting, Have a nice day :D')
-                }
-            }
+        const allInformation = Object.assign({}, selectedCarStored, buyerInfoStored);
+        if (!localStorage.getItem("allInformation")) {
+            localStorage.setItem("allInformation", JSON.stringify(allInformation))
         }
+        localStorage.removeItem("carSelectedInfo");
+        localStorage.removeItem("buyerInfoWillStore");
+        localStorage.removeItem("selectedLeader");
+        localStorage.removeItem("selectedFounder");
+        alert('Thank you for submiting, Have a nice day :D')
     }
+
     return (
         <div className='Confirm'>
             <div className='stepConfirm'>Step 3/3</div>
@@ -108,23 +60,23 @@ export default function Confirm() {
                     <img className='bgConfirmVehicle' src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D&w=1000&q=80" alt="" />
                     <div className='confirmMainVehicleTitle zindex2'>  Vehicle Information </div>
                     <div className='zindex2'>
-                        <div className='confirmVehicleTitle '>Vehicle Name:</div>
+                        <div className='confirmVehicleTitle '>Name:</div>
                         <div className='confirmVehicleDes '>{selectedCarStored.name}</div>
                     </div>
                     <div className='zindex2'>
-                        <div className='confirmVehicleTitle '>Vehicle Price:</div>
-                        <div className='confirmVehicleDes '>{selectedCarStored.price}</div>
+                        <div className='confirmVehicleTitle '>Price:</div>
+                        <div className='confirmVehicleDes '>{selectedCarStored.price}$</div>
                     </div>
                     <div className='zindex2'>
-                        <div className='confirmVehicleTitle '>Vehicle Company:</div>
+                        <div className='confirmVehicleTitle '>Company:</div>
                         <div className='confirmVehicleDes '>{selectedCarStored.company}</div>
                     </div>
                     <div className='zindex2'>
-                        <div className='confirmVehicleTitle '>Vehicle Color:</div>
+                        <div className='confirmVehicleTitle '>Color:</div>
                         <div className='confirmVehicleDes '>{selectedCarStored.color}</div>
                     </div>
                     <div className='zindex2'>
-                        <div className='confirmVehicleTitle '>Vehicle Year Release:</div>
+                        <div className='confirmVehicleTitle '>Year Release:</div>
                         <div className='confirmVehicleDes '>{selectedCarStored.year}</div>
                     </div>
                 </div>
