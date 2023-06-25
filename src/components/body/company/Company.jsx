@@ -127,6 +127,56 @@ export default function Company() {
                         <button className='btnLink'>More Information &rarr;</button>
                     </a>
                 </div>
+
+
+
+
+                <div className='companyContainer'>
+                    <div className='companyLogoName'>
+                        <img src={logoCompany[5]} alt="" srcset="" className='companyLogo' />
+                        <div className='companyName'>TOYOTA</div>
+                    </div>
+                    <div className='companyDescription'>
+                        <div>
+                            Toyota Motor Corporation (Japanese: トヨタ自動車株式会社, Hepburn: Toyota Jidōsha kabushikigaisha, IPA: [toꜜjota], English: /tɔɪˈjoʊtə/, commonly known as simply Toyota) is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. Toyota is one of the largest automobile manufacturers in the world, producing about 10 million vehicles per year.
+                        </div>
+                        <div>
+                            The company was originally founded as a spinoff of Toyota Industries, a machine maker started by Sakichi Toyoda, Kiichiro's father. Both companies are now part of the Toyota Group, one of the largest conglomerates in the world. While still a department of Toyota Industries, the company developed its first product, the Type A engine, in 1934 and its first passenger car in 1936, the Toyota AA.
+                        </div>
+                        <div>
+                            After World War II, Toyota benefited from Japan's alliance with the United States to learn from American automakers and other companies, which gave rise to The Toyota Way (a management philosophy) and the Toyota Production System (a lean manufacturing practice) that transformed the small company into a leader in the industry and was the subject of many academic studies.
+                        </div>
+                        <div>
+                            In the 1960s, Toyota took advantage of a rapidly growing Japanese economy to sell cars to a growing middle-class, leading to the development of the Toyota Corolla, which became the world's all-time best-selling automobile. The booming economy also funded an international expansion that allowed Toyota to grow into one of the largest automakers in the world, the largest company in Japan and the ninth-largest company in the world by revenue, as of December 2020. Toyota was the world's first automobile manufacturer to produce more than 10 million vehicles per year, a record set in 2012, when it also reported the production of its 200 millionth vehicle.
+                        </div>
+                        <div>
+                            Toyota was praised for being a leader in the development and sales of more fuel-efficient hybrid electric vehicles, starting with the introduction of the Toyota Prius in 1997. The company now sells more than 40 hybrid vehicle models around the world. More recently, the company has also been criticized for being slow to adopt all-electric vehicles and focusing on the development of hydrogen fuel cell vehicles, like the Toyota Mirai, a technology that is costlier and has fallen far behind electric batteries. Still, in late 2022, the company signed an £11.3m government deal with the UK's Department for Business, Energy and Industrial Strategy to help it develop its Hilux FC model, a new range of hydrogen-powered pickup trucks.
+                        </div>
+                        <div>As of 2022, the Toyota Motor Corporation produces vehicles under four brands: Daihatsu, Hino, Lexus and the namesake Toyota. The company also holds a 20% stake in Subaru Corporation, a 5.1% stake in Mazda, a 4.9% stake in Suzuki, a 4.6% stake in Isuzu, a 3.8% stake in Yamaha Motor Corporation, and a 2.8% stake in Panasonic, as well as stakes in vehicle manufacturing joint-ventures in China (FAW Toyota and GAC Toyota), the Czech Republic (TPCA), India (Toyota Kirloskar) and the United States (MTMUS).
+                        </div>
+                        <div>
+                            Toyota is listed on the London Stock Exchange, Nagoya Stock Exchange, New York Stock Exchange and on the Tokyo Stock Exchange, where its stock is a component of the Nikkei 225 and TOPIX Core30 indices.
+                        </div>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Toyota" target="_blank" className='companyLink'>
+                        <button className='btnLink'>More Information &rarr;</button>
+                    </a>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
         </div >
     );

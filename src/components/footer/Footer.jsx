@@ -33,6 +33,7 @@ export default function Footer() {
                         <li><a href="https://www.chevrolet.com/">CHEVROLET</a></li>
                         <li><a href="https://www.volvo.com/en/">VOLVO</a></li>
                         <li><a href="https://www.landrover.com/index.html">LAND ROVER</a></li>
+                        <li><a href="https://www.toyota.com/">TOYOTA</a></li>
                     </ul>
                 </div>
                 <div className='footerContactContainer'>

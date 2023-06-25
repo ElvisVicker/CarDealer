@@ -130,6 +130,7 @@
 @media (max-width: 70rem) {
     .headerContainer {
         padding: 0 6rem;
+        /* background-color: rgb(36, 97, 94); */
     }
 
     .listlink {
@@ -208,4 +209,4 @@
     .headerContainer {
         background-color: rgb(221, 196, 215);
     }
-}  */
+} */

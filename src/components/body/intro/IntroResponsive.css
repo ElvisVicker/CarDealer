@@ -121,7 +121,7 @@
         padding-top: 10rem;
         gap: 0rem;
         padding-top: 6rem;
-       
+
     }
 
     .exploreTitle {
@@ -195,7 +195,7 @@
     }
 
     .logoContainer {
-        gap: 6.4rem;
+        gap: 5.2rem;
     }
 }
 
@@ -257,6 +257,10 @@
 
     .logoContainer {
         gap: 4rem;
+    }
+
+    .introLogo img {
+        height: 7.6rem;
     }
 }
 
@@ -348,11 +352,11 @@
     }
 
     .logoContainer {
-        gap: 3.6rem;
+        gap: 3.2rem;
     }
 
     .introLogo img {
-        height: 7.2rem;
+        height: 5.6rem;
     }
 }
 
@@ -401,8 +405,12 @@
     }
 
     /* OUR PARTNERS */
+    .logoContainer {
+        gap: 2.8rem;
+    }
+
     .introLogo img {
-        height: 6.4rem;
+        height: 6rem;
     }
 }
 
@@ -434,6 +442,7 @@
         width: 85%;
         flex-basis: auto;
     }
+
     .cusDes {
         font-size: 1.6rem;
         line-height: 8px;
@@ -442,16 +451,13 @@
     .introCarImgs {
         padding: 1rem 3.6rem;
     }
+
+
+    .logoContainer {
+        gap: 2.4rem;
+    }
+
+    .introLogo img {
+        height: 4.8rem;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
