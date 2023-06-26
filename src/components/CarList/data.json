@@ -20,7 +20,122 @@
         "video": "https://www.youtube.com/watch?v=DAkiAAueca0",
         "sittingfor": 7,
         "logo": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo-500x281.png",
-        "id": "1"
+        "id": "1",
+        "transmission": {
+            "type": "Automatic"
+        },
+        "dimensions": {
+            "width": 1860,
+            "height": 1837,
+            "length": 4892,
+            "wheelbase": 2850,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 6.9,
+            "motorway": 5.7,
+            "urban": 10.2
+        },
+        "emission": {
+            "co2": 182
+        },
+        "engine": {
+            "size": 3.2
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Power mirrors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Rain sensing wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Cruise control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Apple CarPlay/Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "8-inch touchscreen display",
+                "category": "Entertainment"
+            },
+            {
+                "label": "six-speaker sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "automatic headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "heated front seats",
+                "category": "Interior"
+            },
+            {
+                "label": "dual-zone climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "Adaptive Cruise Control",
+                "category": "Packs"
+            },
+            {
+                "label": "Parking Assistance Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Driver Assistance Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Alarm",
+                "category": "Security"
+            },
+            {
+                "label": "Engine Immobiliser",
+                "category": "Security"
+            },
+            {
+                "label": "Tow Bar",
+                "category": "Other"
+            },
+            {
+                "label": "Terrain Management System",
+                "category": "Other"
+            },
+            {
+                "label": "Off-Road Capability",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 143,
+            "maxHp": 191
+        },
+        "technical": {
+            "acceleration": 10
+        }
     },
     {
         "name": "Ford Explorer",
@@ -44,7 +159,122 @@
         "video": "https://www.youtube.com/watch?v=JvyVKXprw70",
         "sittingfor": 7,
         "logo": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo-500x281.png",
-        "id": "2"
+        "id": "2",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 2004,
+            "height": 1784,
+            "length": 5006,
+            "wheelbase": 3003,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 9.2,
+            "motorway": 7.7,
+            "urban": 11.8
+        },
+        "emission": {
+            "co2": 208
+        },
+        "engine": {
+            "size": 2.3
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power mirrors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rain sensing wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "cruise control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Apple CarPlay/Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "10.1-inch touchscreen display",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bang & Olufsen sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power liftgate",
+                "category": "Exterior"
+            },
+            {
+                "label": "20-inch alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "heated front seats",
+                "category": "Interior"
+            },
+            {
+                "label": " tri-zone electronic automatic temperature control",
+                "category": "Interior"
+            },
+            {
+                "label": "Premium Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Convenience Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Trailer Tow Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Anti-theft alarm",
+                "category": "Security"
+            },
+            {
+                "label": "SecuriCode Keyless Entry Keypad",
+                "category": "Security"
+            },
+            {
+                "label": " Intelligent 4WD",
+                "category": "Other"
+            },
+            {
+                "label": "Hill Descent Control",
+                "category": "Other"
+            },
+            {
+                "label": "Terrain Management System",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 228,
+            "maxHp": 305
+        },
+        "technical": {
+            "acceleration": 7
+        }
     },
     {
         "name": "Ford Transit",
@@ -67,7 +297,118 @@
         "video": "https://www.youtube.com/watch?v=nPOQzty7hL8",
         "sittingfor": 16,
         "logo": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo-500x281.png",
-        "id": "3"
+        "id": "3",
+        "transmission": {
+            "type": "Manual"
+        },
+        "dimensions": {
+            "width": 2474,
+            "height": 2756,
+            "length": 6691,
+            "wheelbase": 3750,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 8.2,
+            "motorway": 7.0,
+            "urban": 10.1
+        },
+        "emission": {
+            "co2": 204
+        },
+        "engine": {
+            "size": 2.5
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power windows",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable and heated mirrors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Ford Sync 3 infotainment system with a 6.0-inch touchscreen display",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "and smartphone integration",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power sliding doors",
+                "category": "Exterior"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Exterior"
+            },
+            {
+                "label": "Vinyl or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "air conditioning",
+                "category": "Interior"
+            },
+            {
+                "label": "power outlets",
+                "category": "Interior"
+            },
+            {
+                "label": "Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Visibility Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Smoker's Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Remote central locking",
+                "category": "Security"
+            },
+            {
+                "label": "load compartment partition with or without window",
+                "category": "Security"
+            },
+            {
+                "label": "optional anti-theft alarm",
+                "category": "Security"
+            },
+            {
+                "label": "Transit Customization",
+                "category": "Other"
+            },
+            {
+                "label": "Cargo Management System",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 125,
+            "maxHp": 169
+        },
+        "technical": {
+            "acceleration": 10.6
+        }
     },
     {
         "name": "Ford Ranger Raptor",
@@ -90,7 +431,126 @@
         "video": "https://www.youtube.com/watch?v=U94wDbctu1U",
         "sittingfor": 4,
         "logo": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo-500x281.png",
-        "id": "4"
+        "id": "4",
+        "transmission": {
+            "type": "automatic "
+        },
+        "dimensions": {
+            "width": 2180,
+            "height": 1873,
+            "length": 5398,
+            "wheelbase": 0,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 8.9,
+            "motorway": 7.7,
+            "urban": 11.4
+        },
+        "emission": {
+            "co2": 233
+        },
+        "engine": {
+            "size": 2.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "front and rear parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "heated front seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "SYNC 3 infotainment system with a 8.0-inch touchscreen display",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bang and Olufsen sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "off-road front bumper",
+                "category": "Exterior"
+            },
+            {
+                "label": "side steps",
+                "category": "Exterior"
+            },
+            {
+                "label": "composite material bed liner",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather-trimmed seats",
+                "category": "Interior"
+            },
+            {
+                "label": "aluminum racing pedals",
+                "category": "Interior"
+            },
+            {
+                "label": " unique Raptor instrumentation",
+                "category": "Interior"
+            },
+            {
+                "label": "None specified",
+                "category": "Packs"
+            },
+            {
+                "label": "Keyless entry",
+                "category": "Security"
+            },
+            {
+                "label": " engine immobilizer",
+                "category": "Security"
+            },
+            {
+                "label": "FOX Shocks absorbers",
+                "category": "Other"
+            },
+            {
+                "label": "Terrain Management System (TMS)",
+                "category": "Other"
+            },
+            {
+                "label": "Electronic Stability Control (ESC)",
+                "category": "Other"
+            },
+            {
+                "label": " Hill Descent Control (HDC)",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 157,
+            "maxHp": 210
+        },
+        "technical": {
+            "acceleration": 10
+        }
     },
     {
         "name": "Ford Ranger",
@@ -113,7 +573,142 @@
         "video": "https://www.youtube.com/watch?v=xjRC6riHZ2M",
         "sittingfor": 4,
         "logo": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo-500x281.png",
-        "id": "5"
+        "id": "5",
+        "transmission": {
+            "type": "automatic "
+        },
+        "dimensions": {
+            "width": 1861,
+            "height": 1821,
+            "length": 5354,
+            "wheelbase": 3220,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 7.9,
+            "motorway": 6.6,
+            "urban": 9.8
+        },
+        "emission": {
+            "co2": 198
+        },
+        "engine": {
+            "size": 2.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "auto on/off headlights",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rain-sensing wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Ford SYNC infotainment system with available navigation",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "smartphone integration",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power-adjustable side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "power tailgate lock",
+                "category": "Exterior"
+            },
+            {
+                "label": "tow hooks",
+                "category": "Exterior"
+            },
+            {
+                "label": " bed liner",
+                "category": "Exterior"
+            },
+            {
+                "label": "Cloth or leather upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "dual-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "power-adjustable driver's seat",
+                "category": "Interior"
+            },
+            {
+                "label": "Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Convenience Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Winter Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Black Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Perimeter alarm",
+                "category": "Security"
+            },
+            {
+                "label": "engine immobilizer",
+                "category": "Security"
+            },
+            {
+                "label": "Trailer Sway Control",
+                "category": "Other"
+            },
+            {
+                "label": "Adaptive Cruise Control",
+                "category": "Other"
+            },
+            {
+                "label": "Hill Start Assist",
+                "category": "Other"
+            },
+            {
+                "label": "Lane Departure Warning",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 157,
+            "maxHp": 210
+        },
+        "technical": {
+            "acceleration": 10.6
+        }
     },
     {
         "name": "Audi A3",
@@ -136,7 +731,142 @@
         "video": "https://www.youtube.com/watch?v=YYlM6y3Sqfs",
         "sittingfor": 4,
         "logo": "https://brademar.com/wp-content/uploads/2022/05/Audi-Logo-PNG-3.png",
-        "id": "6"
+        "id": "6",
+        "transmission": {
+            "type": "Automatic"
+        },
+        "dimensions": {
+            "width": 1796,
+            "height": 1416,
+            "length": 4459,
+            "wheelbase": 2637,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 5.8,
+            "motorway": 4.7,
+            "urban": 7.1
+        },
+        "emission": {
+            "co2": 155
+        },
+        "engine": {
+            "size": 2.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "automatic headlights and wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " Infotainment system with Audi MMI touch technology",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "smartphone integration",
+                "category": "Entertainment"
+            },
+            {
+                "label": " LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "sunroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "dual-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "power-adjustable driver's seat",
+                "category": "Interior"
+            },
+            {
+                "label": "Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Sport Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Comfort Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Parking Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "central locking",
+                "category": "Security"
+            },
+            {
+                "label": "engine immobilizer",
+                "category": "Security"
+            },
+            {
+                "label": "Audi Drive Select",
+                "category": "Other"
+            },
+            {
+                "label": "Adaptive Cruise Control",
+                "category": "Other"
+            },
+            {
+                "label": " Lane Departure Warning",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 221,
+            "maxHp": 300
+        },
+        "technical": {
+            "acceleration": 9.2
+        }
     },
     {
         "name": "Audi A4",
@@ -159,7 +889,166 @@
         "video": "https://www.youtube.com/watch?v=0tJ_79J7Pj4",
         "sittingfor": 4,
         "logo": "https://brademar.com/wp-content/uploads/2022/05/Audi-Logo-PNG-3.png",
-        "id": "7"
+        "id": "7",
+        "transmission": {
+            "type": "Automatic"
+        },
+        "dimensions": {
+            "width": 1842,
+            "height": 1427,
+            "length": 4770,
+            "wheelbase": 2829,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 6.1,
+            "motorway": 4.1,
+            "urban": 9.2
+        },
+        "emission": {
+            "co2": 167
+        },
+        "engine": {
+            "size": 2.0
+        },
+        "equipment": [
+            {
+                "label": " Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "automatic headlights and wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "heated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " memory seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " power tailgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " Infotainment system with Audi MMI touch technology",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bang & Olufsen sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "smartphone integration",
+                "category": "Entertainment"
+            },
+            {
+                "label": " LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": " sunroof",
+                "category": "Exterior"
+            },
+            {
+                "label": " alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": " adaptive headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Interior"
+            },
+            {
+                "label": "ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Comfort Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Parking Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Navigation Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "central locking",
+                "category": "Security"
+            },
+            {
+                "label": "engine immobilizer",
+                "category": "Security"
+            },
+            {
+                "label": "Audi Virtual Cockpit",
+                "category": "Other"
+            },
+            {
+                "label": "adaptive cruise control",
+                "category": "Other"
+            },
+            {
+                "label": " lane departure warning",
+                "category": "Other"
+            },
+            {
+                "label": " automatic emergency braking",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 260,
+            "maxHp": 354
+        },
+        "technical": {
+            "acceleration": 8.1
+        }
     },
     {
         "name": "Audi A5",
@@ -182,7 +1071,182 @@
         "video": "https://www.youtube.com/watch?v=1xXVNqI745I",
         "sittingfor": 4,
         "logo": "https://brademar.com/wp-content/uploads/2022/05/Audi-Logo-PNG-3.png",
-        "id": "8"
+        "id": "8",
+        "transmission": {
+            "type": "Automatic"
+        },
+        "dimensions": {
+            "width": 1846,
+            "height": 1371,
+            "length": 4673,
+            "wheelbase": 2824,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 5.7,
+            "motorway": 4.8,
+            "urban": 7.9
+        },
+        "emission": {
+            "co2": 186
+        },
+        "engine": {
+            "size": 2.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " automatic headlights and wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "heated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "memory seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Infotainment system with Audi MMI touch technology",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bang & Olufsen sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "smartphone integration",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "sunroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "adaptive headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Interior"
+            },
+            {
+                "label": "ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "S Line Sports Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Comfort Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Navigation Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Tour Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Assistance Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "central locking",
+                "category": "Security"
+            },
+            {
+                "label": "engine immobilizer",
+                "category": "Security"
+            },
+            {
+                "label": "Audi Virtual Cockpit",
+                "category": "Other"
+            },
+            {
+                "label": "adaptive cruise control",
+                "category": "Other"
+            },
+            {
+                "label": "lane departure warning",
+                "category": "Other"
+            },
+            {
+                "label": "automatic emergency braking",
+                "category": "Other"
+            },
+            {
+                "label": " parking assistance",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 260,
+            "maxHp": 354
+        },
+        "technical": {
+            "acceleration": 6.4
+        }
     },
     {
         "name": "Audi A6",
@@ -205,7 +1269,186 @@
         "video": "https://www.youtube.com/watch?v=o_UNPQOYRA4",
         "sittingfor": 4,
         "logo": "https://brademar.com/wp-content/uploads/2022/05/Audi-Logo-PNG-3.png",
-        "id": "9"
+        "id": "9",
+        "transmission": {
+            "type": "Automatic"
+        },
+        "dimensions": {
+            "width": 1886,
+            "height": 1457,
+            "length": 4939,
+            "wheelbase": 2912,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 6.1,
+            "motorway": 4.0,
+            "urban": 8.8
+        },
+        "emission": {
+            "co2": 189
+        },
+        "engine": {
+            "size": 3.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "automatic headlights and wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "heated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "memory seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Infotainment system with Audi MMI touch technology",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bang & Olufsen sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "  smartphone integration",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": " power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "sunroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "adaptive headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Interior"
+            },
+            {
+                "label": "ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "S Line Sports Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Comfort Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Navigation Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Tour Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Assistance Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "central locking",
+                "category": "Security"
+            },
+            {
+                "label": "engine immobilizer",
+                "category": "Security"
+            },
+            {
+                "label": " Audi Virtual Cockpit",
+                "category": "Other"
+            },
+            {
+                "label": "adaptive cruise control",
+                "category": "Other"
+            },
+            {
+                "label": "lane departure warning",
+                "category": "Other"
+            },
+            {
+                "label": "automatic emergency braking",
+                "category": "Other"
+            },
+            {
+                "label": " parking assistance",
+                "category": "Other"
+            },
+            {
+                "label": "quattro all-wheel-drive system",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 600,
+            "maxHp": 816
+        },
+        "technical": {
+            "acceleration": 7.4
+        }
     },
     {
         "name": "Audi A7",
@@ -228,7 +1471,198 @@
         "video": "https://www.youtube.com/watch?v=fJq4a4A6ah8",
         "sittingfor": 4,
         "logo": "https://brademar.com/wp-content/uploads/2022/05/Audi-Logo-PNG-3.png",
-        "id": "10"
+        "id": "10",
+        "transmission": {
+            "type": "Automatic"
+        },
+        "dimensions": {
+            "width": 1908,
+            "height": 1422,
+            "length": 4969,
+            "wheelbase": 2914,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 7.4,
+            "motorway": 4.3,
+            "urban": 8.2
+        },
+        "emission": {
+            "co2": 198
+        },
+        "engine": {
+            "size": 3.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "automatic headlights and wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "heated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "memory seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Infotainment system with Audi MMI touch technology",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bang & Olufsen sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "smartphone integration",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "sunroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "adaptive headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": " automatic high beams",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Interior"
+            },
+            {
+                "label": "ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "S Line Sports Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Comfort Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Navigation Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Tour Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Assistance Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Black Edition Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "central locking",
+                "category": "Security"
+            },
+            {
+                "label": "engine immobilizer",
+                "category": "Security"
+            },
+            {
+                "label": "anti-theft wheel bolts",
+                "category": "Security"
+            },
+            {
+                "label": "Audi Virtual Cockpit",
+                "category": "Other"
+            },
+            {
+                "label": " adaptive cruise control",
+                "category": "Other"
+            },
+            {
+                "label": "  lane departure warning",
+                "category": "Other"
+            },
+            {
+                "label": "automatic emergency braking",
+                "category": "Other"
+            },
+            {
+                "label": "  parking assistance",
+                "category": "Other"
+            },
+            {
+                "label": "quattro all-wheel-drive system",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 445,
+            "maxHp": 605
+        },
+        "technical": {
+            "acceleration": 6.6
+        }
     },
     {
         "name": "Audi A8",
@@ -251,7 +1685,226 @@
         "video": "https://www.youtube.com/watch?v=oVaFZwEDv0s",
         "sittingfor": 4,
         "logo": "https://brademar.com/wp-content/uploads/2022/05/Audi-Logo-PNG-3.png",
-        "id": "11"
+        "id": "11",
+        "transmission": {
+            "type": "Automatic"
+        },
+        "dimensions": {
+            "width": 1945,
+            "height": 1473,
+            "length": 5172,
+            "wheelbase": 3127,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 8.2,
+            "motorway": 5.8,
+            "urban": 10.6
+        },
+        "emission": {
+            "co2": 179
+        },
+        "engine": {
+            "size": 4.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "automatic headlights and wipers",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "heated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "memory seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "soft-close doors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Infotainment system with Audi MMI touch technology",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bang & Olufsen sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "smartphone integration",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "sunroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "adaptive headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": " power-closing doors",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " multi-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Interior"
+            },
+            {
+                "label": "ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "massage seats",
+                "category": "Interior"
+            },
+            {
+                "label": "S Line Sports Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Comfort Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Navigation Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Technology Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Tour Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Assistance Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Black Edition Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Rear Seat Entertainment Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "central locking",
+                "category": "Security"
+            },
+            {
+                "label": "engine immobilizer",
+                "category": "Security"
+            },
+            {
+                "label": "anti-theft wheel bolts",
+                "category": "Security"
+            },
+            {
+                "label": "Audi Pre-Sense",
+                "category": "Security"
+            },
+            {
+                "label": "Audi Virtual Cockpit",
+                "category": "Other"
+            },
+            {
+                "label": " adaptive cruise control",
+                "category": "Other"
+            },
+            {
+                "label": "  lane departure warning",
+                "category": "Other"
+            },
+            {
+                "label": "automatic emergency braking",
+                "category": "Other"
+            },
+            {
+                "label": "  parking assistance",
+                "category": "Other"
+            },
+            {
+                "label": "quattro all-wheel-drive system",
+                "category": "Other"
+            },
+            {
+                "label": "Night Vision Assistant",
+                "category": "Other"
+            },
+            {
+                "label": "four-wheel steering system",
+                "category": "Other"
+            },
+            {
+                "label": "predictive active suspension",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 435,
+            "maxHp": 591
+        },
+        "technical": {
+            "acceleration": 6.3
+        }
     },
     {
         "name": "Chevrolet Camaro",
@@ -274,7 +1927,186 @@
         "video": "https://www.youtube.com/watch?v=plp3TeRvhtE",
         "sittingfor": 4,
         "logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
-        "id": "12"
+        "id": "12",
+        "transmission": {
+            "type": "Automatic"
+        },
+        "dimensions": {
+            "width": 1894,
+            "height": 1342,
+            "length": 4784,
+            "wheelbase": 2811,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 9.6,
+            "motorway": 8.1,
+            "urban": 12.5
+        },
+        "emission": {
+            "co2": 201
+        },
+        "engine": {
+            "size": 3.6
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Chevrolet Infotainment system with touchscreen",
+                "category": "Entertainment"
+            },
+            {
+                "label": " nine-speaker Bose audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " wireless smartphone charging",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "rear spoiler",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "dual-mode exhaust system",
+                "category": "Exterior"
+            },
+            {
+                "label": "  heated power-adjustable side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "  ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": " flat-bottomed steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "paddle shifters",
+                "category": "Interior"
+            },
+            {
+                "label": " head-up display",
+                "category": "Interior"
+            },
+            {
+                "label": "Technology Package",
+                "category": "Packs"
+            },
+            {
+                "label": "RS Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Redline Edition",
+                "category": "Packs"
+            },
+            {
+                "label": "  Wild Cherry Design Package",
+                "category": "Packs"
+            },
+            {
+                "label": " Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "remote keyless entry",
+                "category": "Security"
+            },
+            {
+                "label": "OnStar and Chevrolet Connected Services",
+                "category": "Security"
+            },
+            {
+                "label": "rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": "lane change alert with side blind zone alert",
+                "category": "Security"
+            },
+            {
+                "label": "Magnetic Ride Control",
+                "category": "Other"
+            },
+            {
+                "label": " Brembo performance brakes",
+                "category": "Other"
+            },
+            {
+                "label": "   limited-slip differential",
+                "category": "Other"
+            },
+            {
+                "label": "Launch Control",
+                "category": "Other"
+            },
+            {
+                "label": "  Performance Data Recorder",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 485,
+            "maxHp": 650
+        },
+        "technical": {
+            "acceleration": 5.1
+        }
     },
     {
         "name": "Chevrolet Trailblazer",
@@ -297,7 +2129,182 @@
         "video": "https://www.youtube.com/watch?v=eejfNnHdePE",
         "sittingfor": 7,
         "logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
-        "id": "13"
+        "id": "13",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 1876,
+            "height": 1830,
+            "length": 4887,
+            "wheelbase": 2845,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 8.4,
+            "motorway": 7.4,
+            "urban": 9.8
+        },
+        "emission": {
+            "co2": 214
+        },
+        "engine": {
+            "size": 1.3
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Chevrolet Infotainment system with touchscreen",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bose seven-speaker audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " wireless smartphone charging",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": " black roof rails",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "panoramic sunroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "  HID headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "  ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "dual-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": "flat-bottomed steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": " rear seat reminder",
+                "category": "Interior"
+            },
+            {
+                "label": " Sport Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Redline Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Convenience Package",
+                "category": "Packs"
+            },
+            {
+                "label": " Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "remote keyless entry",
+                "category": "Security"
+            },
+            {
+                "label": "OnStar and Chevrolet Connected Services",
+                "category": "Security"
+            },
+            {
+                "label": "rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": "lane change alert with side blind zone alert",
+                "category": "Security"
+            },
+            {
+                "label": "Traction Select System",
+                "category": "Other"
+            },
+            {
+                "label": "Hill Descent Control",
+                "category": "Other"
+            },
+            {
+                "label": "  StabiliTrak electronic stability control",
+                "category": "Other"
+            },
+            {
+                "label": "Rear Park Assist",
+                "category": "Other"
+            },
+            {
+                "label": "  Tire Pressure Monitoring System",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 121,
+            "maxHp": 155
+        },
+        "technical": {
+            "acceleration": 10.3
+        }
     },
     {
         "name": "Chevrolet Traverse",
@@ -320,7 +2327,186 @@
         "video": "https://www.youtube.com/watch?v=JFRs6JprqDo",
         "sittingfor": 7,
         "logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
-        "id": "14"
+        "id": "14",
+        "transmission": {
+            "type": "Manual"
+        },
+        "dimensions": {
+            "width": 1994,
+            "height": 1795,
+            "length": 5189,
+            "wheelbase": 3072,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 10.8,
+            "motorway": 10.4,
+            "urban": 11.3
+        },
+        "emission": {
+            "co2": 152
+        },
+        "engine": {
+            "size": 3.6
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " hands-free liftgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Chevrolet Infotainment system with touchscreen",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bose premium eight-speaker audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " wireless smartphone charging",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "  roof-mounted luggage rack",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "fog lamps",
+                "category": "Exterior"
+            },
+            {
+                "label": " automatic high beams",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "  ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": " advanced safety package",
+                "category": "Interior"
+            },
+            {
+                "label": " Redline Package",
+                "category": "Packs"
+            },
+            {
+                "label": "True North Edition",
+                "category": "Packs"
+            },
+            {
+                "label": "Midnight Edition",
+                "category": "Packs"
+            },
+            {
+                "label": " Security alarm",
+                "category": "Security"
+            },
+            {
+                "label": "remote keyless entry",
+                "category": "Security"
+            },
+            {
+                "label": "OnStar and Chevrolet Connected Services",
+                "category": "Security"
+            },
+            {
+                "label": "rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": "lane change alert with side blind zone alert",
+                "category": "Security"
+            },
+            {
+                "label": "Traction Mode Select",
+                "category": "Other"
+            },
+            {
+                "label": "Forward Collision Alert",
+                "category": "Other"
+            },
+            {
+                "label": "  StabiliTrak electronic stability control",
+                "category": "Other"
+            },
+            {
+                "label": "Rear Park Assist",
+                "category": "Other"
+            },
+            {
+                "label": "Lane Departure Warning",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 228,
+            "maxHp": 310
+        },
+        "technical": {
+            "acceleration": 7.47
+        }
     },
     {
         "name": "Chevrolet Tahoe",
@@ -343,7 +2529,178 @@
         "video": "https://www.youtube.com/watch?v=NmTJ8YdsD3A",
         "sittingfor": 7,
         "logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
-        "id": "15"
+        "id": "15",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 2057,
+            "height": 1890,
+            "length": 5344,
+            "wheelbase": 2985,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 13.6,
+            "motorway": 11.2,
+            "urban": 14.6
+        },
+        "emission": {
+            "co2": 210
+        },
+        "engine": {
+            "size": 6.2
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Push-button ignition",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " tri-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Chevrolet Infotainment system with touchscreen",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bose premium nine-speaker audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " wireless smartphone charging",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": " rear-seat entertainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": " roof rails",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "fog lamps",
+                "category": "Exterior"
+            },
+            {
+                "label": " automatic high beams",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": "  ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "power release second and third-row seats",
+                "category": "Interior"
+            },
+            {
+                "label": " Luxury Package",
+                "category": "Packs"
+            },
+            {
+                "label": " Performance Package",
+                "category": "Packs"
+            },
+            {
+                "label": " Max Trailering Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Remote start",
+                "category": "Security"
+            },
+            {
+                "label": "lane departure warning",
+                "category": "Security"
+            },
+            {
+                "label": "OnStar and Chevrolet Connected Services",
+                "category": "Security"
+            },
+            {
+                "label": "rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": "safety alert seat",
+                "category": "Security"
+            },
+            {
+                "label": "Magnetic Selective Ride Control",
+                "category": "Other"
+            },
+            {
+                "label": "Trailer Sway Control",
+                "category": "Other"
+            },
+            {
+                "label": " Hill Start Assist",
+                "category": "Other"
+            },
+            {
+                "label": "Rear Seat Reminder",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 313,
+            "maxHp": 420
+        },
+        "technical": {
+            "acceleration": 7.7
+        }
     },
     {
         "name": "Chevrolet Silverado",
@@ -366,7 +2723,186 @@
         "video": "https://www.youtube.com/watch?v=PAPLMoCpZcQ",
         "sittingfor": 4,
         "logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
-        "id": "16"
+        "id": "16",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 2499,
+            "height": 1961,
+            "length": 6598,
+            "wheelbase": 3988,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 13.4,
+            "motorway": 10.8,
+            "urban": 15.2
+        },
+        "emission": {
+            "co2": 219
+        },
+        "engine": {
+            "size": 6.2
+        },
+        "equipment": [
+            {
+                "label": "Keyless Open and Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Remote Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver seat",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated front seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " rear window defogger",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power windows with driver express-up/-down",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Chevrolet Infotainment 3 system with 7-inch or 8-inch diagonal color touch screen",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "  Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "USB ports",
+                "category": "Entertainment"
+            },
+            {
+                "label": "  SiriusXM with 360L and HD Radio",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bose premium sound system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": "power mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": " spray-on bedliner",
+                "category": "Exterior"
+            },
+            {
+                "label": "custom or standard wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": " trailering package",
+                "category": "Exterior"
+            },
+            {
+                "label": " black grille",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": " USB ports",
+                "category": "Interior"
+            },
+            {
+                "label": "power outlet",
+                "category": "Interior"
+            },
+            {
+                "label": " storage compartmentst",
+                "category": "Interior"
+            },
+            {
+                "label": " Duramax Plus Package",
+                "category": "Packs"
+            },
+            {
+                "label": " Safety Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Towing Package",
+                "category": "Packs"
+            },
+            {
+                "label": " rear vision camera",
+                "category": "Security"
+            },
+            {
+                "label": "Forward Collision Alert",
+                "category": "Security"
+            },
+            {
+                "label": "OnStar and Chevrolet Connected Services",
+                "category": "Security"
+            },
+            {
+                "label": "Lane Departure Warning",
+                "category": "Security"
+            },
+            {
+                "label": " Teen Driver",
+                "category": "Security"
+            },
+            {
+                "label": " Four-wheel drive",
+                "category": "Other"
+            },
+            {
+                "label": "StabiliTrak electronic stability control",
+                "category": "Other"
+            },
+            {
+                "label": " Hill Start Assist",
+                "category": "Other"
+            },
+            {
+                "label": " trailer sway control",
+                "category": "Other"
+            },
+            {
+                "label": " cargo bed lighting",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 313,
+            "maxHp": 420
+        },
+        "technical": {
+            "acceleration": 7.2
+        }
     },
     {
         "name": "Volvo XC60",
@@ -389,7 +2925,194 @@
         "video": "https://www.youtube.com/watch?v=Tf0NjVJsSUA",
         "sittingfor": 7,
         "logo": "https://1000logos.net/wp-content/uploads/2020/03/Volvo-Logo-2013.png",
-        "id": "17"
+        "id": "17",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 1999,
+            "height": 1714,
+            "length": 4689,
+            "wheelbase": 2774,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 8.4,
+            "motorway": 5.7,
+            "urban": 10.5
+        },
+        "emission": {
+            "co2": 179
+        },
+        "engine": {
+            "size": 2.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "panoramic moonroof",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "hands-free liftgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Sensus Connect with touchscreen",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Harman Kardon premium audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "rear-seat entertainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": " power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": " roof rails",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": " fog lamps",
+                "category": "Exterior"
+            },
+            {
+                "label": "automatic high beams",
+                "category": "Exterior"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "advanced safety package",
+                "category": "Interior"
+            },
+            {
+                "label": "Advanced Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Luxury Seating Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Multimedia Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Oncoming Lane Mitigation",
+                "category": "Security"
+            },
+            {
+                "label": "City Safety Collision Avoidance technology",
+                "category": "Security"
+            },
+            {
+                "label": "rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": " lane departure warning",
+                "category": "Security"
+            },
+            {
+                "label": " vehicle intrusion sensor",
+                "category": "Security"
+            },
+            {
+                "label": " rear collision warning",
+                "category": "Security"
+            },
+            {
+                "label": " Traction Control",
+                "category": "Other"
+            },
+            {
+                "label": "Dynamic Chassis",
+                "category": "Other"
+            },
+            {
+                "label": "Hill Start Assist",
+                "category": "Other"
+            },
+            {
+                "label": " Hill Descent Control",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 300,
+            "maxHp": 400
+        },
+        "technical": {
+            "acceleration": 6.8
+        }
     },
     {
         "name": "Volvo XC40",
@@ -412,7 +3135,194 @@
         "video": "https://www.youtube.com/watch?v=dYo4ETQe71c",
         "sittingfor": 7,
         "logo": "https://1000logos.net/wp-content/uploads/2020/03/Volvo-Logo-2013.png",
-        "id": "18"
+        "id": "18",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 1910,
+            "height": 1658,
+            "length": 4425,
+            "wheelbase": 2702,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 7.2,
+            "motorway": 5.3,
+            "urban": 8.3
+        },
+        "emission": {
+            "co2": 198
+        },
+        "engine": {
+            "size": 2.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Keyless Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "panoramic moonroof",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "parking sensors",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "hands-free liftgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Sensus Connect with touchscreen",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Harman Kardon premium audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "rear-seat entertainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": " power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": " roof rails",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": " fog lamps",
+                "category": "Exterior"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Exterior"
+            },
+            {
+                "label": "heated windshield wipers",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "advanced safety package",
+                "category": "Interior"
+            },
+            {
+                "label": "Advanced Package",
+                "category": "Packs"
+            },
+            {
+                "label": " Premium Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Multimedia Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Lane Departure Warning",
+                "category": "Security"
+            },
+            {
+                "label": "City Safety Collision Avoidance technology",
+                "category": "Security"
+            },
+            {
+                "label": "rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": " vehicle intrusion sensor",
+                "category": "Security"
+            },
+            {
+                "label": " keyless anti-starting theft system",
+                "category": "Security"
+            },
+            {
+                "label": " rear collision warning",
+                "category": "Security"
+            },
+            {
+                "label": " Traction Control",
+                "category": "Other"
+            },
+            {
+                "label": "Dynamic Chassis",
+                "category": "Other"
+            },
+            {
+                "label": "Hill Start Assist",
+                "category": "Other"
+            },
+            {
+                "label": " Hill Descent Control",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 192,
+            "maxHp": 258
+        },
+        "technical": {
+            "acceleration": 8.2
+        }
     },
     {
         "name": "Volvo S60",
@@ -435,7 +3345,182 @@
         "video": "https://www.youtube.com/watch?v=1aLx5GYVI7U",
         "sittingfor": 4,
         "logo": "https://1000logos.net/wp-content/uploads/2020/03/Volvo-Logo-2013.png",
-        "id": "19"
+        "id": "19",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 1850,
+            "height": 1433,
+            "length": 4761,
+            "wheelbase": 2872,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 7.9,
+            "motorway": 5.1,
+            "urban": 9.2
+        },
+        "emission": {
+            "co2": 177
+        },
+        "engine": {
+            "size": 2.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless Start and Entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "panoramic moonroof",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "rearview camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "park assist",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "Sensus Connect with touchscreen",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Harman Kardon premium audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "rear-seat entertainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED headlights",
+                "category": "Exterior"
+            },
+            {
+                "label": " power side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": " fog lamps",
+                "category": "Exterior"
+            },
+            {
+                "label": "power folding side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "advanced safety package",
+                "category": "Interior"
+            },
+            {
+                "label": "Advanced Package",
+                "category": "Packs"
+            },
+            {
+                "label": " Luxury Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Multimedia Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Lane Departure Warning",
+                "category": "Security"
+            },
+            {
+                "label": "City Safety Collision Avoidance technology",
+                "category": "Security"
+            },
+            {
+                "label": "rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": " vehicle intrusion sensor",
+                "category": "Security"
+            },
+            {
+                "label": " keyless anti-starting theft system",
+                "category": "Security"
+            },
+            {
+                "label": " rear collision warning",
+                "category": "Security"
+            },
+            {
+                "label": " Traction Control",
+                "category": "Other"
+            },
+            {
+                "label": "Dynamic Chassis",
+                "category": "Other"
+            },
+            {
+                "label": "Hill Start Assist",
+                "category": "Other"
+            },
+            {
+                "label": " Hill Descent Control",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 298,
+            "maxHp": 400
+        },
+        "technical": {
+            "acceleration": 6.3
+        }
     },
     {
         "name": "Land Rover Defender",
@@ -458,7 +3543,186 @@
         "video": "https://www.youtube.com/watch?v=m8QQ9seF4-E",
         "sittingfor": 8,
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Land_Rover_logo_black.svg/2560px-Land_Rover_logo_black.svg.png",
-        "id": "20"
+        "id": "20",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 1999,
+            "height": 1974,
+            "length": 4758,
+            "wheelbase": 2587,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 10.8,
+            "motorway": 7.6,
+            "urban": 12.8
+        },
+        "emission": {
+            "co2": 217
+        },
+        "engine": {
+            "size": 3.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "push-button start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "backup camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "cruise control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "10-inch Pivi Pro touchscreen infotainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Meridian audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "rear-seat entertainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED headlights and tail lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": "heated windshield and mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "tow hitch receiver",
+                "category": "Exterior"
+            },
+            {
+                "label": "  front and rear fog lamps",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "advanced safety package",
+                "category": "Interior"
+            },
+            {
+                "label": "Explorer Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Adventure Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Country Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Urban Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Off-Road Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Lane Departure Warning",
+                "category": "Security"
+            },
+            {
+                "label": "City Safety Collision Avoidance technology",
+                "category": "Security"
+            },
+            {
+                "label": "emergency braking",
+                "category": "Security"
+            },
+            {
+                "label": "360-degree camera",
+                "category": "Security"
+            },
+            {
+                "label": " rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": " Traction Control",
+                "category": "Other"
+            },
+            {
+                "label": "Terrain Response system",
+                "category": "Other"
+            },
+            {
+                "label": "Hill Start Assist",
+                "category": "Other"
+            },
+            {
+                "label": " Hill Descent Control",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 294,
+            "maxHp": 395
+        },
+        "technical": {
+            "acceleration": 6.2
+        }
     },
     {
         "name": "Range Rover",
@@ -480,7 +3744,190 @@
         "video": "https://www.youtube.com/watch?v=t25w-kQpblM",
         "sittingfor": 5,
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Land_Rover_logo_black.svg/2560px-Land_Rover_logo_black.svg.png",
-        "id": "21"
+        "id": "21",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 2220,
+            "height": 1869,
+            "length": 5200,
+            "wheelbase": 2997,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 10.7,
+            "motorway": 8.6,
+            "urban": 13.5
+        },
+        "emission": {
+            "co2": 232
+        },
+        "engine": {
+            "size": 3.0
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "push-button start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "backup camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "cruise control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "four-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " Touch Pro Duo infotainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Meridian audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "rear-seat entertainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED headlights and tail lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": " panoramic sunroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "power fold side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "  front and rear fog lamps",
+                "category": "Exterior"
+            },
+            {
+                "label": "  tow hitch receiver",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "advanced safety package",
+                "category": "Interior"
+            },
+            {
+                "label": " Dynamics Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Black Exterior Pack",
+                "category": "Packs"
+            },
+            {
+                "label": " Luxury Interior Pack",
+                "category": "Packs"
+            },
+            {
+                "label": "Adaptive Cruise Control",
+                "category": "Security"
+            },
+            {
+                "label": "Lane Departure Warning",
+                "category": "Security"
+            },
+            {
+                "label": "City Safety Collision Avoidance technology",
+                "category": "Security"
+            },
+            {
+                "label": " rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": " 360-degree camera",
+                "category": "Security"
+            },
+            {
+                "label": "emergency braking",
+                "category": "Security"
+            },
+            {
+                "label": "keyless anti-starting theft system",
+                "category": "Security"
+            },
+            {
+                "label": " Traction Control",
+                "category": "Other"
+            },
+            {
+                "label": "Terrain Response 2 system",
+                "category": "Other"
+            },
+            {
+                "label": "Hill Start Assist",
+                "category": "Other"
+            },
+            {
+                "label": " Hill Descent Control",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 423,
+            "maxHp": 567
+        },
+        "technical": {
+            "acceleration": 7.8
+        }
     },
     {
         "name": "Toyota Land Cruiser",
@@ -502,7 +3949,182 @@
         "video": "https://www.youtube.com/watch?v=i95THq89Wkk",
         "sittingfor": 5,
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/ToyotaLogoRedVer.svg/1200px-ToyotaLogoRedVer.svg.png",
-        "id": "22"
+        "id": "22",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 1980,
+            "height": 1850,
+            "length": 4840,
+            "wheelbase": 2700,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 10.9,
+            "motorway": 7.4,
+            "urban": 14.4
+        },
+        "emission": {
+            "co2": 223
+        },
+        "engine": {
+            "size": 5.7
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "push-button start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "backup camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "cruise control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "four-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power tailgate",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " Touchscreen infotainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "rear-seat entertainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "JBL premium audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED headlights and tail lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": " power tilt/slide moonroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "power fold side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "  front and rear mudguards",
+                "category": "Exterior"
+            },
+            {
+                "label": "  running boards",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "advanced safety package",
+                "category": "Interior"
+            },
+            {
+                "label": " Rain Sensing Windshield Wipers",
+                "category": "Packs"
+            },
+            {
+                "label": " Power Doors And Windows",
+                "category": "Packs"
+            },
+            {
+                "label": "Adaptive Cruise Control",
+                "category": "Security"
+            },
+            {
+                "label": "Lane Departure Warning",
+                "category": "Security"
+            },
+            {
+                "label": "City Safety Collision Avoidance technology",
+                "category": "Security"
+            },
+            {
+                "label": " rear cross-traffic alert",
+                "category": "Security"
+            },
+            {
+                "label": " 360-degree camera",
+                "category": "Security"
+            },
+            {
+                "label": "emergency braking",
+                "category": "Security"
+            },
+            {
+                "label": " anti-theft system",
+                "category": "Security"
+            },
+            {
+                "label": " Kinetic Dynamic Suspension System",
+                "category": "Other"
+            },
+            {
+                "label": "Multi Terrain Select",
+                "category": "Other"
+            },
+            {
+                "label": "Crawl Control",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 284,
+            "maxHp": 381
+        },
+        "technical": {
+            "acceleration": 7.5
+        }
     },
     {
         "name": "Toyota Camry",
@@ -524,6 +4146,173 @@
         "video": "https://www.youtube.com/watch?v=XkuW1N3_UC8",
         "sittingfor": 4,
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/ToyotaLogoRedVer.svg/1200px-ToyotaLogoRedVer.svg.png",
-        "id": "23"
+        "id": "23",
+        "transmission": {
+            "type": "automatic"
+        },
+        "dimensions": {
+            "width": 1840,
+            "height": 1445,
+            "length": 4885,
+            "wheelbase": 2825,
+            "unit": "mm"
+        },
+        "efficiency": {
+            "unit": "litersPerKilometers",
+            "combined": 7.6,
+            "motorway": 4.9,
+            "urban": 8.3
+        },
+        "emission": {
+            "co2": 189
+        },
+        "engine": {
+            "size": 2.5
+        },
+        "equipment": [
+            {
+                "label": "Keyless entry",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "push-button start",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "backup camera",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "cruise control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " heated and ventilated seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": "power-adjustable driver and passenger seats",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " dual-zone automatic climate control",
+                "category": "Driver Convenience"
+            },
+            {
+                "label": " Touchscreen display audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": " Bluetooth connectivity",
+                "category": "Entertainment"
+            },
+            {
+                "label": "Apple CarPlay and Android Auto compatibility",
+                "category": "Entertainment"
+            },
+            {
+                "label": "rear-seat entertainment system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "JBL audio system",
+                "category": "Entertainment"
+            },
+            {
+                "label": "wireless smartphone charging",
+                "category": "Entertainment"
+            },
+            {
+                "label": "LED headlights and daytime running lights",
+                "category": "Exterior"
+            },
+            {
+                "label": "alloy wheels",
+                "category": "Exterior"
+            },
+            {
+                "label": " power tilt/slide moonroof",
+                "category": "Exterior"
+            },
+            {
+                "label": "power fold side mirrors",
+                "category": "Exterior"
+            },
+            {
+                "label": "panoramic sunroof (optional)",
+                "category": "Exterior"
+            },
+            {
+                "label": "Leather or cloth upholstery",
+                "category": "Interior"
+            },
+            {
+                "label": " ambient lighting",
+                "category": "Interior"
+            },
+            {
+                "label": "tri-zone automatic climate control",
+                "category": "Interior"
+            },
+            {
+                "label": " heated steering wheel",
+                "category": "Interior"
+            },
+            {
+                "label": "advanced safety package",
+                "category": "Interior"
+            },
+            {
+                "label": " Convenience Package",
+                "category": "Packs"
+            },
+            {
+                "label": " Audio Upgrade Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Navigation Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Premium Package",
+                "category": "Packs"
+            },
+            {
+                "label": "Toyota Safety Sense 2.5+",
+                "category": "Security"
+            },
+            {
+                "label": "lane departure alert with steering assist",
+                "category": "Security"
+            },
+            {
+                "label": "pre-collision system with pedestrian detection",
+                "category": "Security"
+            },
+            {
+                "label": "automatic high beams",
+                "category": "Security"
+            },
+            {
+                "label": "Sport-tuned suspension",
+                "category": "Other"
+            },
+            {
+                "label": "paddle shifters",
+                "category": "Other"
+            },
+            {
+                "label": "rear spoiler",
+                "category": "Other"
+            }
+        ],
+        "power": {
+            "maxKw": 160,
+            "maxHp": 215
+        },
+        "technical": {
+            "acceleration": 7.4
+        }
     }
 ]

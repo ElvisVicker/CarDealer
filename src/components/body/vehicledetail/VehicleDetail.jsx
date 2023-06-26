@@ -4,9 +4,14 @@ import { useContext } from 'react';
 import { AppContext } from '../../../AppContext';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import { SlArrowUp, SlArrowDown } from 'react-icons/sl';
 export default function VehicleDetail() {
     const { selectedCar, setSelectedCar } = useContext(AppContext)
+
+
+
+
+
     if (!localStorage.getItem("carSelectedInfo")) {
         localStorage.setItem("carSelectedInfo", JSON.stringify(selectedCar))
     }
@@ -15,6 +20,44 @@ export default function VehicleDetail() {
     const clickImgAndShow = (imageUrl) => {
         setSelectedImage(imageUrl);
     };
+
+
+
+
+
+    const filteredDC = selectedCarStored.equipment.filter((item) => item.category === "Driver Convenience");
+    let driverConvenience = filteredDC.map((item) => { return (<div>{item.label}</div>) })
+
+
+
+
+
+
+    const filteredEntertainment = selectedCarStored.equipment.filter((item) => item.category === "Entertainment");
+    let entertainment = filteredEntertainment.map((item) => { return (<div>{item.label}</div>) })
+
+    const filteredExterior = selectedCarStored.equipment.filter((item) => item.category === "Exterior");
+    let exterior = filteredExterior.map((item) => { return (<div>{item.label}</div>) })
+
+    const filteredInterior = selectedCarStored.equipment.filter((item) => item.category === "Interior");
+    let interior = filteredInterior.map((item) => { return (<div>{item.label}</div>) })
+
+    const filteredPacks = selectedCarStored.equipment.filter((item) => item.category === "Packs");
+    let packs = filteredPacks.map((item) => { return (<div>{item.label}</div>) })
+
+    const filteredSecurity = selectedCarStored.equipment.filter((item) => item.category === "Security");
+    let security = filteredSecurity.map((item) => { return (<div>{item.label}</div>) })
+
+    const filteredOther = selectedCarStored.equipment.filter((item) => item.category === "Other");
+    let other = filteredOther.map((item) => { return (<div>{item.label}</div>) })
+
+
+    const [showFeature, setShowFeature] = useState(false);
+    const [showSpecification, setShowSpecification] = useState(false);
+    const [showWarranty, setShowWarranty] = useState(false);
+
+
+
     return (
         <div className='VehicleDetail'>
             <div className='vehicleNamePriceContainer'>
@@ -59,6 +102,202 @@ export default function VehicleDetail() {
                     <Link to={`/Inventory/VehicleDetail/${selectedCarStored.id}/Offer`} className='linkDetail' onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} >
                         <button className='btnBuyNow'>BUY NOW</button>
                     </Link>
+                </div>
+
+
+
+                <div className='detailSpecificContainer'>
+                    <div className='detailTitle'>
+                        Detail
+                    </div>
+
+                    <div className='featureContainer'>
+                        <div className='featureBtn' onClick={() => setShowFeature(!showFeature)}>
+                            <div>  Features </div>
+                            <div>  {showFeature ? <SlArrowUp /> : <SlArrowDown />}   </div>
+                        </div>
+                        {showFeature &&
+                            (<div className='featureModal'>
+                                <div className='featureInfo'>
+                                    <div className='featureTitle'>Driver Convenience</div>
+                                    <div className='featureDes'>
+                                        {driverConvenience}
+                                    </div>
+                                </div>
+
+
+                                <div className='featureInfo'>
+                                    <div className='featureTitle'>Entertainment</div>
+                                    <div className='featureDes'>
+                                        {entertainment}
+                                    </div>
+                                </div>
+
+
+                                <div className='featureInfo'>
+                                    <div className='featureTitle'>Exterior</div>
+                                    <div className='featureDes'>
+                                        {exterior}
+                                    </div>
+                                </div>
+
+
+                                <div className='featureInfo'>
+                                    <div className='featureTitle'>Interior</div>
+                                    <div className='featureDes'>
+                                        {interior}
+                                    </div>
+                                </div>
+
+
+                                <div className='featureInfo'>
+                                    <div className='featureTitle'>Packs</div>
+                                    <div className='featureDes'>
+                                        {packs}
+                                    </div>
+                                </div>
+
+
+                                <div className='featureInfo'>
+                                    <div className='featureTitle'>Security</div>
+                                    <div className='featureDes'>
+                                        {security}
+                                    </div>
+                                </div>
+
+
+                                <div className='featureInfo'>
+                                    <div className='featureTitle'>Other</div>
+                                    <div className='featureDes'>
+                                        {other}
+                                    </div>
+                                </div>
+                            </div>
+                            )}
+                    </div>
+
+                    <div className='specificationContainer'>
+                        <div className='specificationBtn' onClick={() => setShowSpecification(!showSpecification)}>
+
+                            <div>Specification </div>
+                            <div> {showSpecification ? <SlArrowUp /> : <SlArrowDown />}</div>
+
+
+                        </div>
+                        {showSpecification &&
+                            (<div className='specificationModal'>
+                                <div className='specificationInfo'>
+                                    <div className='specificationTitle'>Dimensions</div>
+                                    <div className='specificationDesContainer'>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>Length</div>
+                                            <div>{selectedCarStored.dimensions.length} {selectedCarStored.dimensions.unit}</div>
+                                        </div>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>Width</div>
+                                            <div>{selectedCarStored.dimensions.width} {selectedCarStored.dimensions.unit}</div>
+                                        </div>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>Height</div>
+                                            <div>{selectedCarStored.dimensions.height} {selectedCarStored.dimensions.unit}</div>
+                                        </div>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>Wheelbase</div>
+                                            <div>{selectedCarStored.dimensions.wheelbase} {selectedCarStored.dimensions.unit}</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div className='specificationInfo'>
+                                    <div className='specificationTitle'>Engine</div>
+                                    <div className='specificationDesContainer'>
+
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>Engine Size</div>
+                                            <div>{selectedCarStored.engine.size} L</div>
+                                        </div>
+
+
+
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>Engine Power</div>
+                                            <div>{selectedCarStored.power.maxHp} HP</div>
+                                        </div>
+
+
+
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>Engine Power</div>
+                                            <div>{selectedCarStored.power.maxKw} Kw</div>
+                                        </div>
+
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>Transmission</div>
+                                            <div>{selectedCarStored.transmission.type}</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='specificationInfo'>
+                                    <div className='specificationTitle'>Performance</div>
+                                    <div className='specificationDesContainer'>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>0 to 100 km</div>
+                                            <div>{selectedCarStored.technical.acceleration} sec</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='specificationInfo'>
+                                    <div className='specificationTitle'>Emissions</div>
+                                    <div className='specificationDesContainer'>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>CO2</div>
+                                            <div>{selectedCarStored.emission.co2} g/km</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='specificationInfo'>
+                                    <div className='specificationTitle'>Fuel Consumption</div>
+                                    <div className='specificationDesContainer'>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>EC Combined</div>
+                                            <div>{selectedCarStored.efficiency.combined} {selectedCarStored.efficiency.unit}</div>
+                                        </div>
+                                    </div>
+
+                                    <div className='specificationDesContainer'>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>EC Extra Urban</div>
+                                            <div>{selectedCarStored.efficiency.urban} {selectedCarStored.efficiency.unit}</div>
+                                        </div>
+                                    </div>
+
+                                    <div className='specificationDesContainer'>
+                                        <div className='subSpecificationDesContainer'>
+                                            <div className='subDesTitle'>EC Urban</div>
+                                            <div>{selectedCarStored.efficiency.motorway} {selectedCarStored.efficiency.unit}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            )}
+                    </div>
+                    <div className='warrantyContainer'>
+                        <div className='warrantyBtn' onClick={() => setShowWarranty(!showWarranty)}>
+                            <div>Warranty </div>
+                            <div>{showWarranty ? <SlArrowUp /> : <SlArrowDown />}</div>
+                        </div>
+                        {showWarranty &&
+                            (<div className='warrantyModal'>
+                                Please contact us for details of our used vehicle warranty.
+                            </div>
+                            )}
+                    </div>
+
                 </div>
             </div>
         </div>
