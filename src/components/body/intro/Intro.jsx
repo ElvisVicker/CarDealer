@@ -4,6 +4,7 @@ import { AppContext } from '../../../AppContext';
 import { useContext } from 'react';
 import { Link } from "react-router-dom";
 
+
 export default function Intro() {
     const { list, cus1, TextSlideshow1, cus2, TextSlideshow2, logoCompany } = useContext(AppContext)
     return (

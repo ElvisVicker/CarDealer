@@ -14,6 +14,9 @@ export default function Inventory() {
         <div className='inventoryMainTitle'>  OUR VEHICLES</div>
       </div>
       <div className='carMainList'>
+
+
+
         <div className='filterArea'>
           <div className='filterTitle'>Search by Categories</div>
           <div className='filterContainer'>
@@ -27,6 +30,9 @@ export default function Inventory() {
             ))}
           </div>
         </div>
+
+
+
         <div className='carListContainer'>
           {itemsToDisplay.map((item, index) => (
             <div className='perCarContainer' key={index}>

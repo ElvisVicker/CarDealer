@@ -9,6 +9,7 @@ html {
     font-size: 10px;
     scroll-behavior: smooth;
     font-family: 'Oxygen', sans-serif;
+
 }
 
 .backgroundAll {
@@ -26,6 +27,7 @@ html {
 
 :root {
     --mainTitle: #ffee32;
+    --mainTitle: #fff265;
     --normalTitle: #fecf3e;
     --normalTitleHover: #f9a620;
     --normalText: #d9d9d9;

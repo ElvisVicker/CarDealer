@@ -173,24 +173,26 @@
     }
 
     .aboutUsImgRootInfo {
-        height: 30rem;
+        height: 32rem;
+    }
 
+    .aboutUsImgRoot {
+        width: 36rem;
     }
 
     .aboutUsRootContainer {
-        font-size: 1.4rem;
-        gap: 0.2rem;
-        letter-spacing: 0px;
-        line-height: 14px;
+        gap: 0.6rem;
+        font-size: 1.7rem;
+        line-height: 13px;
+        text-align: justify;
     }
 
     .aboutUsRootTop {
         font-size: 2.8rem;
-        margin-bottom: 1rem;
     }
 
     .aboutUsRootBot {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .aboutUsOurPeople {
@@ -208,30 +210,115 @@
     }
 }
 
+
+
+
+
+@media (max-width: 40rem) {
+    .aboutUsMainList {
+        font-size: 2.8rem;
+        padding: 12rem 4.4rem 8rem;
+        gap: 4rem;
+    }
+
+    .aboutUsInfoWho {
+        font-size: 5.4rem;
+
+    }
+
+    .aboutUsInfoDes {
+        font-size: 2.4rem;
+    }
+
+    .aboutUsImgRootInfo {
+        height: 35rem;
+    }
+
+    .aboutUsImgRoot {
+        width: 36rem;
+    }
+
+    .aboutUsRootContainer {
+        gap: 0.7rem;
+        font-size: 2rem;
+        line-height: 13px;
+        text-align: justify;
+    }
+
+    .aboutUsRootTop {
+        font-size: 2.6rem;
+    }
+
+    .aboutUsRootBot {
+        font-size: 1.4rem;
+    }
+
+
+    .aboutUsOurPeople {
+        width: 90%;
+        padding: 10rem 2.4rem 6rem;
+    }
+
+    .aboutUsOurPeopleTitle {
+        font-size: 5.4rem;
+    }
+
+    .leaderFounderContainer {
+        font-size: 3.2rem;
+    }
+
+}
+
+
+
 @media (max-width: 32rem) {
     .aboutUsMainTitle {
         font-size: 4.6rem;
         left: 30rem;
     }
 
+    .aboutUsMainList {
+        font-size: 2.8rem;
+        padding: 12rem 4.4rem 8rem;
+        gap: 4rem;
+    }
+
+
+    .aboutUsInfoWho {
+        font-size: 5.4rem;
+
+    }
+
+    .aboutUsInfoDes {
+        font-size: 2.4rem;
+    }
+
+
 
     .aboutUsImgRootInfo {
-        height: 30rem;
+        height: 35rem;
+    }
+
+    .aboutUsImgRoot {
+        width: 36rem;
     }
 
     .aboutUsRootContainer {
-        gap: 1rem;
-        font-size: 1.6rem;
-        line-height: 10px;
+        gap: 0.7rem;
+        font-size: 2rem;
+        line-height: 13px;
+        text-align: justify;
     }
 
     .aboutUsRootTop {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 
     .aboutUsRootBot {
         font-size: 1.4rem;
     }
+
+
 }
 
 @media (max-width: 30rem) {
@@ -239,18 +326,41 @@
         height: 24rem;
     }
 
+
+
+
+    .aboutUsImgRootInfo {
+        height: 34rem;
+    }
+
+    .aboutUsImgRoot {
+        width: 36rem;
+    }
+
     .aboutUsRootContainer {
-        gap: 0.4rem;
-        font-size: 1.4rem;
-        line-height: 10px;
+        gap: 0.6rem;
+        font-size: 1.8rem;
+        line-height: 12px;
+        text-align: justify;
     }
 
     .aboutUsRootTop {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
     }
+
     .aboutUsRootBot {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -272,21 +382,28 @@
         left: 22rem;
     }
 
+
     .aboutUsImgRootInfo {
-        height: 20rem;
+        height: 32rem;
+    }
+
+    .aboutUsImgRoot {
+        width: 33rem;
     }
 
     .aboutUsRootContainer {
-        gap: 0rem;
-        font-size: 1.4rem;
-        line-height: 8px;
+        gap: 0.4rem;
+        font-size: 1.6rem;
+        line-height: 11px;
+        text-align: justify;
     }
 
     .aboutUsRootTop {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
+
     .aboutUsRootBot {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 

@@ -142,7 +142,6 @@ export const AppProvider = ({ children }) => {
   }
 
 
-
   // PAGINATION==============================================
   const itemsPerPage = 8;
   const totalItems = filteredData.length;
