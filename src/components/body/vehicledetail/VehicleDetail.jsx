@@ -202,7 +202,7 @@ export default function VehicleDetail() {
                                             <div>{selectedCarStored.power.maxHp} HP</div>
                                         </div>
                                         <div className='subSpecificationDesContainer'>
-                                            <div className='subDesTitle'>Engine Power</div>
+                                            <div className='subDesTitle'>Engine Capacity</div>
                                             <div>{selectedCarStored.power.maxKw} Kw</div>
                                         </div>
                                         <div className='subSpecificationDesContainer'>
