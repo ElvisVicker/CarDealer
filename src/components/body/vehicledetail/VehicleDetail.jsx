@@ -5,6 +5,9 @@ import { AppContext } from '../../../AppContext';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SlArrowUp, SlArrowDown } from 'react-icons/sl';
+import { useEffect } from 'react';
+
+
 export default function VehicleDetail() {
     const { selectedCar, setSelectedCar } = useContext(AppContext)
 
@@ -20,6 +23,7 @@ export default function VehicleDetail() {
     const clickImgAndShow = (imageUrl) => {
         setSelectedImage(imageUrl);
     };
+
 
 
 

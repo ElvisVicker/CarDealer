@@ -45,7 +45,12 @@ export default function Inventory() {
                 <div className='carBodyStyle'>Style: {item.bodystyle}</div>
               </div>
               <Link to={`/Inventory/VehicleDetail/${item.id}`} className='linkDetail' onClick={() => { window.scrollTo({ top: 0, left: 0 }); }} >
-                <button className='btnCheckOut' onClick={() => setSelectedCar(item)}>Check Out</button>
+                <button className='btnCheckOut' onClick={() => {
+                  localStorage.removeItem("carSelectedInfo")
+                  setSelectedCar(item)
+                }
+
+                }>Check Out</button>
               </Link>
               <span class="span1"></span>
               <span class="span2"></span>
@@ -54,9 +59,9 @@ export default function Inventory() {
             </div>
           ))}
         </div>
-        <Link className='btnPerLink' to="/Inventory" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
-          <div className="pagination">{pageLinks}</div>
-        </Link>
+
+        <div className="pagination" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>{pageLinks}</div>
+
       </div>
     </div>
   );

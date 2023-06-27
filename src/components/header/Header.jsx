@@ -45,7 +45,6 @@ export default function Header() {
                     </Link>
 
 
-
                     <Link className='listPerLink' to="/Company" onClick={() => { window.scrollTo({ top: 0, left: 0 }); }}>
                         <BiBuildingHouse /> Company
                     </Link>
