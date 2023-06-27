@@ -130,6 +130,8 @@
     font-size: 2.8rem;
     color: var(--normalTitle);
     cursor: pointer;
+
+    width: fit-content;
 }
 
 .btnLeader:hover {
