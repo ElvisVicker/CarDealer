@@ -49,8 +49,11 @@
     .introCarImg {
         object-fit: cover;
         width: 100%;
-        height: 36rem;
+        height: 28rem;
     }
+
+
+
 
     .introCarImg:hover {
         transform: scale(1.2);
@@ -156,11 +159,12 @@
     }
 
     .introCarImg {
-        height: 32rem;
+
+        height: 28rem;
     }
 
     .nameAndPrice {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     .btnViewInventory {
@@ -223,6 +227,10 @@
         font-size: 2.6rem;
     }
 
+    .nameAndPrice {
+        font-size: 3rem;
+    }
+
     /* CLIENT REVIEWS */
     .introClient {
         width: 90%;
@@ -247,6 +255,11 @@
 
     .cusDes {
         font-size: 1.6rem;
+    }
+
+    .introCarImgs {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 
     /* OUR PARTNERS */
@@ -384,13 +397,14 @@
 
     .introTitle {
         padding: 1rem;
-        line-height: 14px;
+        line-height: 20px;
         flex-basis: auto;
-        font-size: 2.4rem;
+        font-size: 3rem;
     }
 
     .introVideo {
-        width: 90%;
+        width: 100%;
+        height: 40rem;
         flex-basis: auto;
     }
 
@@ -435,11 +449,11 @@
 
 
     .introTitle {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
     }
 
     .introVideo {
-        width: 85%;
+        width: 100%;
         flex-basis: auto;
     }
 
