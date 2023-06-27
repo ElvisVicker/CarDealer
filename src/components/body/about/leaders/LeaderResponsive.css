@@ -117,16 +117,36 @@
     .leaderContainer {
         display: grid;
         grid-template-columns: 1fr 2.8fr 2fr;
-        gap: 2.4rem;
+        gap: 4rem;
     }
 
-} 
+    .btnClosePeople {
+        font-size: 2.6rem;
+    }
+
+    .showPeopleName {
+        font-size: 3.6rem;
+
+    }
+
+    .showPeopleRole {
+        font-size: 2.2rem;
+    }
+
+    .showPeopleDes {
+        font-size: 2rem;
+    }
+}
 
 @media (max-width: 28rem) {
     .leaderContainer {
         display: grid;
         grid-template-columns: 1fr 3fr 1.6fr;
-        gap: 1.4rem;
+        gap: 4rem;
+    }
+
+    .showPeopleDes {
+        font-size: 1.8rem;
     }
 }
 
@@ -135,13 +155,14 @@
     .leaderContainer {
         display: grid;
         grid-template-columns: 1fr 3fr 1.6fr;
-        gap: 1.4rem;
+        gap: 4rem;
 
     }
 
     .leaderName {
         font-size: 1.6rem;
     }
+
     .leaderRole {
         font-size: 1.4rem;
     }

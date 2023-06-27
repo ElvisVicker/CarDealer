@@ -26,30 +26,25 @@ export default function VehicleDetail() {
 
 
     const filteredDC = selectedCarStored.equipment.filter((item) => item.category === "Driver Convenience");
-    let driverConvenience = filteredDC.map((item) => { return (<div>{item.label}</div>) })
-
-
-
-
-
+    let driverConvenience = filteredDC.map((item) => { return (<div>- {item.label}</div>) })
 
     const filteredEntertainment = selectedCarStored.equipment.filter((item) => item.category === "Entertainment");
-    let entertainment = filteredEntertainment.map((item) => { return (<div>{item.label}</div>) })
+    let entertainment = filteredEntertainment.map((item) => { return (<div>- {item.label}</div>) })
 
     const filteredExterior = selectedCarStored.equipment.filter((item) => item.category === "Exterior");
-    let exterior = filteredExterior.map((item) => { return (<div>{item.label}</div>) })
+    let exterior = filteredExterior.map((item) => { return (<div>- {item.label}</div>) })
 
     const filteredInterior = selectedCarStored.equipment.filter((item) => item.category === "Interior");
-    let interior = filteredInterior.map((item) => { return (<div>{item.label}</div>) })
+    let interior = filteredInterior.map((item) => { return (<div>- {item.label}</div>) })
 
     const filteredPacks = selectedCarStored.equipment.filter((item) => item.category === "Packs");
-    let packs = filteredPacks.map((item) => { return (<div>{item.label}</div>) })
+    let packs = filteredPacks.map((item) => { return (<div>- {item.label}</div>) })
 
     const filteredSecurity = selectedCarStored.equipment.filter((item) => item.category === "Security");
-    let security = filteredSecurity.map((item) => { return (<div>{item.label}</div>) })
+    let security = filteredSecurity.map((item) => { return (<div>- {item.label}</div>) })
 
     const filteredOther = selectedCarStored.equipment.filter((item) => item.category === "Other");
-    let other = filteredOther.map((item) => { return (<div>{item.label}</div>) })
+    let other = filteredOther.map((item) => { return (<div>- {item.label}</div>) })
 
 
     const [showFeature, setShowFeature] = useState(false);
@@ -83,7 +78,7 @@ export default function VehicleDetail() {
                 </div>
                 <div className='infoPerCarContainer'>
                     <div className='overviewTitle'>
-                        Overview
+                        OVERVIEW
                     </div>
                     <div className='companyALogo'>
                         <img src={selectedCarStored.logo} alt="" className='perCarLogo' />
@@ -108,7 +103,7 @@ export default function VehicleDetail() {
 
                 <div className='detailSpecificContainer'>
                     <div className='detailTitle'>
-                        Detail
+                        DETAIL
                     </div>
 
                     <div className='featureContainer'>
@@ -124,48 +119,36 @@ export default function VehicleDetail() {
                                         {driverConvenience}
                                     </div>
                                 </div>
-
-
                                 <div className='featureInfo'>
                                     <div className='featureTitle'>Entertainment</div>
                                     <div className='featureDes'>
                                         {entertainment}
                                     </div>
                                 </div>
-
-
                                 <div className='featureInfo'>
                                     <div className='featureTitle'>Exterior</div>
                                     <div className='featureDes'>
                                         {exterior}
                                     </div>
                                 </div>
-
-
                                 <div className='featureInfo'>
                                     <div className='featureTitle'>Interior</div>
                                     <div className='featureDes'>
                                         {interior}
                                     </div>
                                 </div>
-
-
                                 <div className='featureInfo'>
                                     <div className='featureTitle'>Packs</div>
                                     <div className='featureDes'>
                                         {packs}
                                     </div>
                                 </div>
-
-
                                 <div className='featureInfo'>
                                     <div className='featureTitle'>Security</div>
                                     <div className='featureDes'>
                                         {security}
                                     </div>
                                 </div>
-
-
                                 <div className='featureInfo'>
                                     <div className='featureTitle'>Other</div>
                                     <div className='featureDes'>
@@ -178,11 +161,8 @@ export default function VehicleDetail() {
 
                     <div className='specificationContainer'>
                         <div className='specificationBtn' onClick={() => setShowSpecification(!showSpecification)}>
-
                             <div>Specification </div>
                             <div> {showSpecification ? <SlArrowUp /> : <SlArrowDown />}</div>
-
-
                         </div>
                         {showSpecification &&
                             (<div className='specificationModal'>
@@ -213,26 +193,18 @@ export default function VehicleDetail() {
                                 <div className='specificationInfo'>
                                     <div className='specificationTitle'>Engine</div>
                                     <div className='specificationDesContainer'>
-
                                         <div className='subSpecificationDesContainer'>
                                             <div className='subDesTitle'>Engine Size</div>
                                             <div>{selectedCarStored.engine.size} L</div>
                                         </div>
-
-
-
                                         <div className='subSpecificationDesContainer'>
                                             <div className='subDesTitle'>Engine Power</div>
                                             <div>{selectedCarStored.power.maxHp} HP</div>
                                         </div>
-
-
-
                                         <div className='subSpecificationDesContainer'>
                                             <div className='subDesTitle'>Engine Power</div>
                                             <div>{selectedCarStored.power.maxKw} Kw</div>
                                         </div>
-
                                         <div className='subSpecificationDesContainer'>
                                             <div className='subDesTitle'>Transmission</div>
                                             <div>{selectedCarStored.transmission.type}</div>

@@ -56,7 +56,7 @@
 @media (max-width: 55rem) {
     .fullInfoVehicleContainer {
         gap: 1.8rem;
-        padding: 2rem 5.6rem;
+        padding: 2rem 3.8rem;
         grid-template-columns: 1fr;
     }
 
@@ -71,5 +71,109 @@
     .vehicleDetailPrice {
         font-size: 2.6rem;
         width: 16rem;
+    }
+
+    .detailTitle {
+        font-size: 4.4rem;
+        padding: 2rem 3.2rem;
+    }
+
+
+    .featureBtn {
+        padding: 2rem 3.2rem;
+    }
+
+    .featureModal {
+        padding: 2rem 3.2rem 4rem;
+    }
+
+
+    .specificationBtn {
+        padding: 2rem 3.2rem;
+    }
+
+    .specificationModal {
+        padding: 2rem 3.2rem 4rem;
+    }
+
+    .warrantyBtn {
+        padding: 2rem 3.2rem;
+    }
+
+    .warrantyModal {
+        padding: 2rem 3.2rem 4rem;
+
+    }
+}
+
+
+
+
+
+
+@media (max-width: 26rem) {
+    .fullInfoVehicleContainer {
+        padding: 2rem 2.4rem;
+    }
+
+    .detailTitle {
+        font-size: 4.4rem;
+        padding: 2rem 2.4rem;
+    }
+
+    .featureContainer {
+        font-size: 3.6rem;
+    }
+
+    .featureBtn {
+        padding: 2rem 2.4rem;
+    }
+
+    .featureModal {
+        padding: 2rem 2.4rem 4rem;
+    }
+
+
+    .featureTitle {
+        font-size: 3.2rem;
+    }
+
+    .featureDes {
+        font-size: 2.4rem;
+    }
+
+    .specificationContainer {
+        font-size: 3.6rem;
+    }
+
+
+    .specificationBtn {
+        padding: 2rem 2.4rem;
+    }
+
+    .specificationModal {
+        padding: 2rem 2.4rem 4rem;
+    }
+
+    .specificationTitle {
+        font-size: 3.2rem;
+    }
+
+    .subSpecificationDesContainer {
+        font-size: 2.4rem;
+    }
+
+    .warrantyContainer {
+        font-size: 3.6rem;
+    }
+
+
+    .warrantyBtn {
+        padding: 2rem 2.4rem;
+    }
+
+    .warrantyModal {
+        padding: 2rem 2.4rem 4rem;
+        font-size: 2.4rem;
     }
 }

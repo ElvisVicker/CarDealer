@@ -43,7 +43,7 @@
     height: 6rem;
     font-size: 2rem;
     font-weight: bold;
-    background-color: var(--mainTitle);
+    background-color: var(--normalTitle);
     color: #000000;
     border: 2px solid var(--btnBorderBackground);
     border-radius: 4px;

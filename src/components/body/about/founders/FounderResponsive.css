@@ -90,11 +90,6 @@
     }
 }
 
-
-
-
-
-
 @media (max-width: 30rem) {
     .founderContainer {
         display: grid;
@@ -102,26 +97,43 @@
         gap: 4rem;
     }
 
-} 
+    .btnClosePeople {
+        font-size: 2.6rem;
+    }
+
+    .showPeopleName {
+        font-size: 3.6rem;
+
+    }
+
+    .showPeopleRole {
+        font-size: 2.2rem;
+    }
 
 
+    .showPeopleDes {
+        font-size: 2rem;
+    }
+}
 
 @media (max-width: 28rem) {
     .founderContainer {
-        grid-template-columns: 1fr 2.5fr 2fr;    
+        grid-template-columns: 1fr 2.5fr 2fr;
+    }
+
+    .showPeopleDes {
+        font-size: 1.8rem;
     }
 }
-
 
 @media (max-width: 26rem) {
     .founderContainer {
-        grid-template-columns: 1fr 2.8fr 1.6fr;    
+        grid-template-columns: 1fr 2.8fr 1.6fr;
     }
 }
 
-
 @media (max-width: 24rem) {
     .founderContainer {
-        grid-template-columns: 1fr 3fr 1.4fr;    
+        grid-template-columns: 1fr 3fr 1.4fr;
     }
 }

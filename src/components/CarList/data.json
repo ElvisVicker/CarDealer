@@ -32,7 +32,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 6.9,
             "motorway": 5.7,
             "urban": 10.2
@@ -69,7 +69,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "six-speaker sound system",
+                "label": "Six-speaker sound system",
                 "category": "Entertainment"
             },
             {
@@ -77,11 +77,11 @@
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "automatic headlights",
+                "label": "Automatic headlights",
                 "category": "Exterior"
             },
             {
@@ -89,11 +89,11 @@
                 "category": "Interior"
             },
             {
-                "label": "heated front seats",
+                "label": "Heated front seats",
                 "category": "Interior"
             },
             {
-                "label": "dual-zone climate control",
+                "label": "Dual-zone climate control",
                 "category": "Interior"
             },
             {
@@ -161,7 +161,7 @@
         "logo": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo-500x281.png",
         "id": "2",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 2004,
@@ -171,7 +171,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 9.2,
             "motorway": 7.7,
             "urban": 11.8
@@ -188,15 +188,15 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "power mirrors",
+                "label": "Power mirrors",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rain sensing wipers",
+                "label": "Rain sensing wipers",
                 "category": "Driver Convenience"
             },
             {
-                "label": "cruise control",
+                "label": "Cruise control",
                 "category": "Driver Convenience"
             },
             {
@@ -208,19 +208,19 @@
                 "category": "Entertainment"
             },
             {
-                "label": " Bang & Olufsen sound system",
+                "label": "Bang & Olufsen sound system",
                 "category": "Entertainment"
             },
             {
-                "label": " LED daytime running lights",
+                "label": "LED daytime running lights",
                 "category": "Exterior"
             },
             {
-                "label": "power liftgate",
+                "label": "Power liftgate",
                 "category": "Exterior"
             },
             {
-                "label": "20-inch alloy wheels",
+                "label": "20-inch Alloy wheels",
                 "category": "Exterior"
             },
             {
@@ -228,11 +228,11 @@
                 "category": "Interior"
             },
             {
-                "label": "heated front seats",
+                "label": "Heated front seats",
                 "category": "Interior"
             },
             {
-                "label": " tri-zone electronic automatic temperature control",
+                "label": "Tri-zone electronic automatic temperature control",
                 "category": "Interior"
             },
             {
@@ -256,7 +256,7 @@
                 "category": "Security"
             },
             {
-                "label": " Intelligent 4WD",
+                "label": "Intelligent 4WD",
                 "category": "Other"
             },
             {
@@ -309,7 +309,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 8.2,
             "motorway": 7.0,
             "urban": 10.1
@@ -326,11 +326,11 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "power windows",
+                "label": "Power windows",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable and heated mirrors",
+                "label": "Power-adjustable and heated mirrors",
                 "category": "Driver Convenience"
             },
             {
@@ -342,7 +342,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "and smartphone integration",
+                "label": "Smartphone integration",
                 "category": "Entertainment"
             },
             {
@@ -350,11 +350,11 @@
                 "category": "Exterior"
             },
             {
-                "label": "power sliding doors",
+                "label": "Power sliding doors",
                 "category": "Exterior"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Exterior"
             },
             {
@@ -362,11 +362,11 @@
                 "category": "Interior"
             },
             {
-                "label": "air conditioning",
+                "label": "Air conditioning",
                 "category": "Interior"
             },
             {
-                "label": "power outlets",
+                "label": "Power outlets",
                 "category": "Interior"
             },
             {
@@ -382,15 +382,15 @@
                 "category": "Packs"
             },
             {
-                "label": "Remote central locking",
+                "label": "Remote Central locking",
                 "category": "Security"
             },
             {
-                "label": "load compartment partition with or without window",
+                "label": "Load compartment partition with or without window",
                 "category": "Security"
             },
             {
-                "label": "optional anti-theft alarm",
+                "label": "Optional anti-theft alarm",
                 "category": "Security"
             },
             {
@@ -443,7 +443,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 8.9,
             "motorway": 7.7,
             "urban": 11.4
@@ -460,19 +460,19 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "front and rear parking sensors",
+                "label": "Front and rear Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": "heated front seats",
+                "label": "Heated front seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
@@ -492,15 +492,15 @@
                 "category": "Exterior"
             },
             {
-                "label": "off-road front bumper",
+                "label": "Off-road front bumper",
                 "category": "Exterior"
             },
             {
-                "label": "side steps",
+                "label": "Side steps",
                 "category": "Exterior"
             },
             {
-                "label": "composite material bed liner",
+                "label": "Composite material bed liner",
                 "category": "Exterior"
             },
             {
@@ -508,11 +508,11 @@
                 "category": "Interior"
             },
             {
-                "label": "aluminum racing pedals",
+                "label": "Aluminum racing pedals",
                 "category": "Interior"
             },
             {
-                "label": " unique Raptor instrumentation",
+                "label": "Unique Raptor instrumentation",
                 "category": "Interior"
             },
             {
@@ -524,7 +524,7 @@
                 "category": "Security"
             },
             {
-                "label": " engine immobilizer",
+                "label": "Engine immobilizer",
                 "category": "Security"
             },
             {
@@ -540,7 +540,7 @@
                 "category": "Other"
             },
             {
-                "label": " Hill Descent Control (HDC)",
+                "label": "Hill Descent Control (HDC)",
                 "category": "Other"
             }
         ],
@@ -585,7 +585,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 7.9,
             "motorway": 6.6,
             "urban": 9.8
@@ -602,19 +602,19 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "auto on/off headlights",
+                "label": "Auto on/off headlights",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rain-sensing wipers",
+                "label": "Rain-sensing wipers",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
@@ -626,7 +626,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "smartphone integration",
+                "label": "Smartphone integration",
                 "category": "Entertainment"
             },
             {
@@ -634,19 +634,19 @@
                 "category": "Exterior"
             },
             {
-                "label": "power-adjustable side mirrors",
+                "label": "Power-adjustable side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "power tailgate lock",
+                "label": "Power tailgate lock",
                 "category": "Exterior"
             },
             {
-                "label": "tow hooks",
+                "label": "Tow hooks",
                 "category": "Exterior"
             },
             {
-                "label": " bed liner",
+                "label": "Bed liner",
                 "category": "Exterior"
             },
             {
@@ -654,11 +654,11 @@
                 "category": "Interior"
             },
             {
-                "label": "dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": "power-adjustable driver's seat",
+                "label": "Power-adjustable driver's seat",
                 "category": "Interior"
             },
             {
@@ -670,7 +670,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Winter Pack",
+                "label": "Winter Pack",
                 "category": "Packs"
             },
             {
@@ -682,7 +682,7 @@
                 "category": "Security"
             },
             {
-                "label": "engine immobilizer",
+                "label": "Engine immobilizer",
                 "category": "Security"
             },
             {
@@ -743,7 +743,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 5.8,
             "motorway": 4.7,
             "urban": 7.1
@@ -764,23 +764,23 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "automatic headlights and wipers",
+                "label": "Automatic headlights and wipers",
                 "category": "Driver Convenience"
             },
             {
-                "label": " rearview camera",
+                "label": " Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated seats",
+                "label": "Heated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " Infotainment system with Audi MMI touch technology",
+                "label": "Infotainment system with Audi MMI touch technology",
                 "category": "Entertainment"
             },
             {
@@ -788,23 +788,23 @@
                 "category": "Entertainment"
             },
             {
-                "label": "smartphone integration",
+                "label": "Smartphone integration",
                 "category": "Entertainment"
             },
             {
-                "label": " LED daytime running lights",
+                "label": "LED daytime running lights",
                 "category": "Exterior"
             },
             {
-                "label": "power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "sunroof",
+                "label": "Sunroof",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
@@ -812,11 +812,11 @@
                 "category": "Interior"
             },
             {
-                "label": "dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": "power-adjustable driver's seat",
+                "label": "Power-adjustable driver's seat",
                 "category": "Interior"
             },
             {
@@ -840,11 +840,11 @@
                 "category": "Security"
             },
             {
-                "label": "central locking",
+                "label": "Central locking",
                 "category": "Security"
             },
             {
-                "label": "engine immobilizer",
+                "label": "Engine immobilizer",
                 "category": "Security"
             },
             {
@@ -856,7 +856,7 @@
                 "category": "Other"
             },
             {
-                "label": " Lane Departure Warning",
+                "label": "Lane Departure Warning",
                 "category": "Other"
             }
         ],
@@ -901,7 +901,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 6.1,
             "motorway": 4.1,
             "urban": 9.2
@@ -914,7 +914,7 @@
         },
         "equipment": [
             {
-                "label": " Keyless Start",
+                "label": "Keyless Start",
                 "category": "Driver Convenience"
             },
             {
@@ -922,31 +922,31 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "automatic headlights and wipers",
+                "label": "Automatic headlights and wipers",
                 "category": "Driver Convenience"
             },
             {
-                "label": " parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": " rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "heated seats",
+                "label": "Heated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " memory seats",
+                "label": "Memory seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " power tailgate",
+                "label": "Power tailgate",
                 "category": "Driver Convenience"
             },
             {
-                "label": " Infotainment system with Audi MMI touch technology",
+                "label": "Infotainment system with Audi MMI touch technology",
                 "category": "Entertainment"
             },
             {
@@ -958,27 +958,27 @@
                 "category": "Entertainment"
             },
             {
-                "label": "smartphone integration",
+                "label": "Smartphone integration",
                 "category": "Entertainment"
             },
             {
-                "label": " LED daytime running lights",
+                "label": "LED daytime running lights",
                 "category": "Exterior"
             },
             {
-                "label": "power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": " sunroof",
+                "label": "Sunroof",
                 "category": "Exterior"
             },
             {
-                "label": " alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": " adaptive headlights",
+                "label": "Adaptive headlights",
                 "category": "Exterior"
             },
             {
@@ -986,15 +986,15 @@
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Interior"
             },
             {
-                "label": "ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
@@ -1010,7 +1010,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Navigation Pack",
+                "label": "Navigation Pack",
                 "category": "Packs"
             },
             {
@@ -1018,11 +1018,11 @@
                 "category": "Security"
             },
             {
-                "label": "central locking",
+                "label": "Central locking",
                 "category": "Security"
             },
             {
-                "label": "engine immobilizer",
+                "label": "Engine immobilizer",
                 "category": "Security"
             },
             {
@@ -1030,15 +1030,15 @@
                 "category": "Other"
             },
             {
-                "label": "adaptive cruise control",
+                "label": "Adaptive cruise control",
                 "category": "Other"
             },
             {
-                "label": " lane departure warning",
+                "label": "Lane departure warning",
                 "category": "Other"
             },
             {
-                "label": " automatic emergency braking",
+                "label": "Automatic Emergency braking",
                 "category": "Other"
             }
         ],
@@ -1083,7 +1083,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 5.7,
             "motorway": 4.8,
             "urban": 7.9
@@ -1108,27 +1108,27 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": " automatic headlights and wipers",
+                "label": "Automatic headlights and wipers",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": "heated seats",
+                "label": "Heated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "memory seats",
+                "label": "Memory seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Driver Convenience"
             },
             {
@@ -1144,7 +1144,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "smartphone integration",
+                "label": "Smartphone integration",
                 "category": "Entertainment"
             },
             {
@@ -1152,19 +1152,19 @@
                 "category": "Exterior"
             },
             {
-                "label": "power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "sunroof",
+                "label": "Sunroof",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "adaptive headlights",
+                "label": "Adaptive headlights",
                 "category": "Exterior"
             },
             {
@@ -1172,15 +1172,15 @@
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Interior"
             },
             {
-                "label": "ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
@@ -1212,11 +1212,11 @@
                 "category": "Security"
             },
             {
-                "label": "central locking",
+                "label": "Central locking",
                 "category": "Security"
             },
             {
-                "label": "engine immobilizer",
+                "label": "Engine immobilizer",
                 "category": "Security"
             },
             {
@@ -1224,19 +1224,19 @@
                 "category": "Other"
             },
             {
-                "label": "adaptive cruise control",
+                "label": "Adaptive cruise control",
                 "category": "Other"
             },
             {
-                "label": "lane departure warning",
+                "label": "Lane departure warning",
                 "category": "Other"
             },
             {
-                "label": "automatic emergency braking",
+                "label": "Automatic Emergency braking",
                 "category": "Other"
             },
             {
-                "label": " parking assistance",
+                "label": "Parking assistance",
                 "category": "Other"
             }
         ],
@@ -1281,7 +1281,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 6.1,
             "motorway": 4.0,
             "urban": 8.8
@@ -1306,27 +1306,27 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "automatic headlights and wipers",
+                "label": "Automatic headlights and wipers",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": " parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": "heated seats",
+                "label": "Heated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "memory seats",
+                "label": "Memory seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Driver Convenience"
             },
             {
@@ -1334,15 +1334,15 @@
                 "category": "Entertainment"
             },
             {
-                "label": " Bang & Olufsen sound system",
+                "label": "Bang & Olufsen sound system",
                 "category": "Entertainment"
             },
             {
-                "label": " Bluetooth connectivity",
+                "label": "Bluetooth connectivity",
                 "category": "Entertainment"
             },
             {
-                "label": "  smartphone integration",
+                "label": "Smartphone integration",
                 "category": "Entertainment"
             },
             {
@@ -1350,19 +1350,19 @@
                 "category": "Exterior"
             },
             {
-                "label": " power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "sunroof",
+                "label": "Sunroof",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "adaptive headlights",
+                "label": "Adaptive headlights",
                 "category": "Exterior"
             },
             {
@@ -1370,15 +1370,15 @@
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Interior"
             },
             {
-                "label": "ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
@@ -1410,35 +1410,35 @@
                 "category": "Security"
             },
             {
-                "label": "central locking",
+                "label": "Central locking",
                 "category": "Security"
             },
             {
-                "label": "engine immobilizer",
+                "label": "Engine immobilizer",
                 "category": "Security"
             },
             {
-                "label": " Audi Virtual Cockpit",
+                "label": "Audi Virtual Cockpit",
                 "category": "Other"
             },
             {
-                "label": "adaptive cruise control",
+                "label": "Adaptive cruise control",
                 "category": "Other"
             },
             {
-                "label": "lane departure warning",
+                "label": "Lane departure warning",
                 "category": "Other"
             },
             {
-                "label": "automatic emergency braking",
+                "label": "Automatic Emergency braking",
                 "category": "Other"
             },
             {
-                "label": " parking assistance",
+                "label": "Parking assistance",
                 "category": "Other"
             },
             {
-                "label": "quattro all-wheel-drive system",
+                "label": "Quattro all-wheel-drive system",
                 "category": "Other"
             }
         ],
@@ -1483,7 +1483,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 7.4,
             "motorway": 4.3,
             "urban": 8.2
@@ -1508,27 +1508,27 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "automatic headlights and wipers",
+                "label": "Automatic headlights and wipers",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": " parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": "heated seats",
+                "label": "Heated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "memory seats",
+                "label": "Memory seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Driver Convenience"
             },
             {
@@ -1536,7 +1536,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": " Bang & Olufsen sound system",
+                "label": "Bang & Olufsen sound system",
                 "category": "Entertainment"
             },
             {
@@ -1544,7 +1544,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "smartphone integration",
+                "label": "Smartphone integration",
                 "category": "Entertainment"
             },
             {
@@ -1552,23 +1552,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "sunroof",
+                "label": "Sunroof",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "adaptive headlights",
+                "label": "Adaptive headlights",
                 "category": "Exterior"
             },
             {
-                "label": " automatic high beams",
+                "label": "Automatic high beams",
                 "category": "Exterior"
             },
             {
@@ -1576,15 +1576,15 @@
                 "category": "Interior"
             },
             {
-                "label": " tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Interior"
             },
             {
-                "label": "ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
@@ -1600,7 +1600,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Technology Pack",
+                "label": "Technology Pack",
                 "category": "Packs"
             },
             {
@@ -1616,19 +1616,19 @@
                 "category": "Packs"
             },
             {
-                "label": " Security alarm",
+                "label": "Security alarm",
                 "category": "Security"
             },
             {
-                "label": "central locking",
+                "label": "Central locking",
                 "category": "Security"
             },
             {
-                "label": "engine immobilizer",
+                "label": "Engine immobilizer",
                 "category": "Security"
             },
             {
-                "label": "anti-theft wheel bolts",
+                "label": "Anti-theft wheel bolts",
                 "category": "Security"
             },
             {
@@ -1636,23 +1636,23 @@
                 "category": "Other"
             },
             {
-                "label": " adaptive cruise control",
+                "label": "Adaptive cruise control",
                 "category": "Other"
             },
             {
-                "label": "  lane departure warning",
+                "label": "Lane departure warning",
                 "category": "Other"
             },
             {
-                "label": "automatic emergency braking",
+                "label": "Automatic Emergency braking",
                 "category": "Other"
             },
             {
-                "label": "  parking assistance",
+                "label": "Parking assistance",
                 "category": "Other"
             },
             {
-                "label": "quattro all-wheel-drive system",
+                "label": "Quattro all-wheel-drive system",
                 "category": "Other"
             }
         ],
@@ -1697,7 +1697,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 8.2,
             "motorway": 5.8,
             "urban": 10.6
@@ -1722,31 +1722,31 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "automatic headlights and wipers",
+                "label": "Automatic headlights and wipers",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": " parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": "heated seats",
+                "label": "Heated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "memory seats",
+                "label": "Memory seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Driver Convenience"
             },
             {
-                "label": "soft-close doors",
+                "label": "Soft-close doors",
                 "category": "Driver Convenience"
             },
             {
@@ -1754,7 +1754,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": " Bang & Olufsen sound system",
+                "label": "Bang & Olufsen sound system",
                 "category": "Entertainment"
             },
             {
@@ -1762,7 +1762,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "smartphone integration",
+                "label": "Smartphone integration",
                 "category": "Entertainment"
             },
             {
@@ -1770,23 +1770,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "sunroof",
+                "label": "Sunroof",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "adaptive headlights",
+                "label": "Adaptive headlights",
                 "category": "Exterior"
             },
             {
-                "label": " power-closing doors",
+                "label": "Power-closing doors",
                 "category": "Exterior"
             },
             {
@@ -1794,19 +1794,19 @@
                 "category": "Interior"
             },
             {
-                "label": " multi-zone automatic climate control",
+                "label": "Multi-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Interior"
             },
             {
-                "label": "ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "massage seats",
+                "label": "Massage seats",
                 "category": "Interior"
             },
             {
@@ -1822,7 +1822,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Technology Pack",
+                "label": "Technology Pack",
                 "category": "Packs"
             },
             {
@@ -1842,19 +1842,19 @@
                 "category": "Packs"
             },
             {
-                "label": " Security alarm",
+                "label": "Security alarm",
                 "category": "Security"
             },
             {
-                "label": "central locking",
+                "label": "Central locking",
                 "category": "Security"
             },
             {
-                "label": "engine immobilizer",
+                "label": "Engine immobilizer",
                 "category": "Security"
             },
             {
-                "label": "anti-theft wheel bolts",
+                "label": "Anti-theft wheel bolts",
                 "category": "Security"
             },
             {
@@ -1866,23 +1866,23 @@
                 "category": "Other"
             },
             {
-                "label": " adaptive cruise control",
+                "label": "Adaptive cruise control",
                 "category": "Other"
             },
             {
-                "label": "  lane departure warning",
+                "label": "Lane departure warning",
                 "category": "Other"
             },
             {
-                "label": "automatic emergency braking",
+                "label": "Automatic Emergency braking",
                 "category": "Other"
             },
             {
-                "label": "  parking assistance",
+                "label": "Parking assistance",
                 "category": "Other"
             },
             {
-                "label": "quattro all-wheel-drive system",
+                "label": "Quattro all-wheel-drive system",
                 "category": "Other"
             },
             {
@@ -1890,11 +1890,11 @@
                 "category": "Other"
             },
             {
-                "label": "four-wheel steering system",
+                "label": "Four-wheel steering system",
                 "category": "Other"
             },
             {
-                "label": "predictive active suspension",
+                "label": "Predictive active suspension",
                 "category": "Other"
             }
         ],
@@ -1939,7 +1939,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 9.6,
             "motorway": 8.1,
             "urban": 12.5
@@ -1964,23 +1964,23 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": " parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
@@ -1988,15 +1988,15 @@
                 "category": "Entertainment"
             },
             {
-                "label": " nine-speaker Bose audio system",
+                "label": "Nine-speaker Bose audio system",
                 "category": "Entertainment"
             },
             {
-                "label": " wireless smartphone charging",
+                "label": "Wireless smartphone charging",
                 "category": "Entertainment"
             },
             {
-                "label": " Apple CarPlay and Android Auto compatibility",
+                "label": "Apple CarPlay and Android Auto compatibility",
                 "category": "Entertainment"
             },
             {
@@ -2004,23 +2004,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "rear spoiler",
+                "label": "Rear spoiler",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "dual-mode exhaust system",
+                "label": "Dual-mode exhaust system",
                 "category": "Exterior"
             },
             {
-                "label": "  heated power-adjustable side mirrors",
+                "label": "Heated Power-adjustable side mirrors",
                 "category": "Exterior"
             },
             {
@@ -2028,19 +2028,19 @@
                 "category": "Interior"
             },
             {
-                "label": "  ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": " flat-bottomed steering wheel",
+                "label": "Flat-bottomed steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "paddle shifters",
+                "label": "Paddle shifters",
                 "category": "Interior"
             },
             {
-                "label": " head-up display",
+                "label": "Head-up display",
                 "category": "Interior"
             },
             {
@@ -2056,15 +2056,15 @@
                 "category": "Packs"
             },
             {
-                "label": "  Wild Cherry Design Package",
+                "label": "Wild Cherry Design Package",
                 "category": "Packs"
             },
             {
-                "label": " Security alarm",
+                "label": "Security alarm",
                 "category": "Security"
             },
             {
-                "label": "remote keyless entry",
+                "label": "Remote keyless entry",
                 "category": "Security"
             },
             {
@@ -2072,11 +2072,11 @@
                 "category": "Security"
             },
             {
-                "label": "rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": "lane change alert with side blind zone alert",
+                "label": "Lane change alert with side blind zone alert",
                 "category": "Security"
             },
             {
@@ -2084,11 +2084,11 @@
                 "category": "Other"
             },
             {
-                "label": " Brembo performance brakes",
+                "label": "Brembo performance brakes",
                 "category": "Other"
             },
             {
-                "label": "   limited-slip differential",
+                "label": "Limited-slip differential",
                 "category": "Other"
             },
             {
@@ -2096,7 +2096,7 @@
                 "category": "Other"
             },
             {
-                "label": "  Performance Data Recorder",
+                "label": "Performance Data Recorder",
                 "category": "Other"
             }
         ],
@@ -2131,7 +2131,7 @@
         "logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
         "id": "13",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 1876,
@@ -2141,7 +2141,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 8.4,
             "motorway": 7.4,
             "urban": 9.8
@@ -2166,23 +2166,23 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": " parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
@@ -2190,15 +2190,15 @@
                 "category": "Entertainment"
             },
             {
-                "label": " Bose seven-speaker audio system",
+                "label": "Bose seven-speaker audio system",
                 "category": "Entertainment"
             },
             {
-                "label": " wireless smartphone charging",
+                "label": "Wireless smartphone charging",
                 "category": "Entertainment"
             },
             {
-                "label": " Apple CarPlay and Android Auto compatibility",
+                "label": "Apple CarPlay and Android Auto compatibility",
                 "category": "Entertainment"
             },
             {
@@ -2206,23 +2206,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": " black roof rails",
+                "label": "Black Roof rails",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "panoramic sunroof",
+                "label": "Panoramic Sunroof",
                 "category": "Exterior"
             },
             {
-                "label": "  HID headlights",
+                "label": "HID headlights",
                 "category": "Exterior"
             },
             {
@@ -2230,23 +2230,23 @@
                 "category": "Interior"
             },
             {
-                "label": "  ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": "flat-bottomed steering wheel",
+                "label": "Flat-bottomed steering wheel",
                 "category": "Interior"
             },
             {
-                "label": " rear seat reminder",
+                "label": "Rear seat reminder",
                 "category": "Interior"
             },
             {
-                "label": " Sport Package",
+                "label": "Sport Package",
                 "category": "Packs"
             },
             {
@@ -2258,11 +2258,11 @@
                 "category": "Packs"
             },
             {
-                "label": " Security alarm",
+                "label": "Security alarm",
                 "category": "Security"
             },
             {
-                "label": "remote keyless entry",
+                "label": "Remote keyless entry",
                 "category": "Security"
             },
             {
@@ -2270,11 +2270,11 @@
                 "category": "Security"
             },
             {
-                "label": "rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": "lane change alert with side blind zone alert",
+                "label": "Lane change alert with side blind zone alert",
                 "category": "Security"
             },
             {
@@ -2286,7 +2286,7 @@
                 "category": "Other"
             },
             {
-                "label": "  StabiliTrak electronic stability control",
+                "label": "StabiliTrak electronic stability control",
                 "category": "Other"
             },
             {
@@ -2294,7 +2294,7 @@
                 "category": "Other"
             },
             {
-                "label": "  Tire Pressure Monitoring System",
+                "label": "Tire Pressure Monitoring System",
                 "category": "Other"
             }
         ],
@@ -2339,7 +2339,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 10.8,
             "motorway": 10.4,
             "urban": 11.3
@@ -2364,27 +2364,27 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": " parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
-                "label": " hands-free liftgate",
+                "label": "Hands-free liftgate",
                 "category": "Driver Convenience"
             },
             {
@@ -2392,15 +2392,15 @@
                 "category": "Entertainment"
             },
             {
-                "label": " Bose premium eight-speaker audio system",
+                "label": "Bose premium eight-speaker audio system",
                 "category": "Entertainment"
             },
             {
-                "label": " wireless smartphone charging",
+                "label": "Wireless smartphone charging",
                 "category": "Entertainment"
             },
             {
-                "label": " Apple CarPlay and Android Auto compatibility",
+                "label": "Apple CarPlay and Android Auto compatibility",
                 "category": "Entertainment"
             },
             {
@@ -2408,23 +2408,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "  roof-mounted luggage rack",
+                "label": "Roof-mounted luggage rack",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "fog lamps",
+                "label": "Fog lamps",
                 "category": "Exterior"
             },
             {
-                "label": " automatic high beams",
+                "label": "Automatic high beams",
                 "category": "Exterior"
             },
             {
@@ -2432,23 +2432,23 @@
                 "category": "Interior"
             },
             {
-                "label": "  ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": " advanced safety package",
+                "label": "Advanced safety package",
                 "category": "Interior"
             },
             {
-                "label": " Redline Package",
+                "label": "Redline Package",
                 "category": "Packs"
             },
             {
@@ -2460,11 +2460,11 @@
                 "category": "Packs"
             },
             {
-                "label": " Security alarm",
+                "label": "Security alarm",
                 "category": "Security"
             },
             {
-                "label": "remote keyless entry",
+                "label": "Remote keyless entry",
                 "category": "Security"
             },
             {
@@ -2472,11 +2472,11 @@
                 "category": "Security"
             },
             {
-                "label": "rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": "lane change alert with side blind zone alert",
+                "label": "Lane change alert with side blind zone alert",
                 "category": "Security"
             },
             {
@@ -2488,7 +2488,7 @@
                 "category": "Other"
             },
             {
-                "label": "  StabiliTrak electronic stability control",
+                "label": "StabiliTrak electronic stability control",
                 "category": "Other"
             },
             {
@@ -2531,7 +2531,7 @@
         "logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
         "id": "15",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 2057,
@@ -2541,7 +2541,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 13.6,
             "motorway": 11.2,
             "urban": 14.6
@@ -2566,23 +2566,23 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": " parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
@@ -2594,15 +2594,15 @@
                 "category": "Entertainment"
             },
             {
-                "label": " wireless smartphone charging",
+                "label": "Wireless smartphone charging",
                 "category": "Entertainment"
             },
             {
-                "label": " Apple CarPlay and Android Auto compatibility",
+                "label": "Apple CarPlay and Android Auto compatibility",
                 "category": "Entertainment"
             },
             {
-                "label": " rear-seat entertainment system",
+                "label": "Rear-seat entertainment system",
                 "category": "Entertainment"
             },
             {
@@ -2610,23 +2610,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "power mirrors",
+                "label": "Power mirrors",
                 "category": "Exterior"
             },
             {
-                "label": " roof rails",
+                "label": " Roof rails",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "fog lamps",
+                "label": "Fog lamps",
                 "category": "Exterior"
             },
             {
-                "label": " automatic high beams",
+                "label": "Automatic high beams",
                 "category": "Exterior"
             },
             {
@@ -2634,27 +2634,27 @@
                 "category": "Interior"
             },
             {
-                "label": "  ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "power release second and third-row seats",
+                "label": "Power release second and third-row seats",
                 "category": "Interior"
             },
             {
-                "label": " Luxury Package",
+                "label": "Luxury Package",
                 "category": "Packs"
             },
             {
-                "label": " Performance Package",
+                "label": "Performance Package",
                 "category": "Packs"
             },
             {
-                "label": " Max Trailering Package",
+                "label": "Max Trailering Package",
                 "category": "Packs"
             },
             {
@@ -2662,7 +2662,7 @@
                 "category": "Security"
             },
             {
-                "label": "lane departure warning",
+                "label": "Lane departure warning",
                 "category": "Security"
             },
             {
@@ -2670,11 +2670,11 @@
                 "category": "Security"
             },
             {
-                "label": "rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": "safety alert seat",
+                "label": "Safety alert seat",
                 "category": "Security"
             },
             {
@@ -2686,7 +2686,7 @@
                 "category": "Other"
             },
             {
-                "label": " Hill Start Assist",
+                "label": "Hill Start Assist",
                 "category": "Other"
             },
             {
@@ -2725,7 +2725,7 @@
         "logo": "https://logos-world.net/wp-content/uploads/2021/03/Chevrolet-Logo.png",
         "id": "16",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 2499,
@@ -2735,7 +2735,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 13.4,
             "motorway": 10.8,
             "urban": 15.2
@@ -2756,23 +2756,23 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver seat",
+                "label": "Power-adjustable driver seat",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated front seats",
+                "label": "Heated front seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
-                "label": " rear window defogger",
+                "label": "Rear window defogger",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power windows with driver express-up/-down",
+                "label": "Power windows with driver express-up/-down",
                 "category": "Driver Convenience"
             },
             {
@@ -2784,7 +2784,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "  Bluetooth connectivity",
+                "label": "Bluetooth connectivity",
                 "category": "Entertainment"
             },
             {
@@ -2792,11 +2792,11 @@
                 "category": "Entertainment"
             },
             {
-                "label": "  SiriusXM with 360L and HD Radio",
+                "label": "SiriusXM with 360L and HD Radio",
                 "category": "Entertainment"
             },
             {
-                "label": " Bose premium sound system",
+                "label": "Bose premium sound system",
                 "category": "Entertainment"
             },
             {
@@ -2804,23 +2804,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "power mirrors",
+                "label": "Power mirrors",
                 "category": "Exterior"
             },
             {
-                "label": " spray-on bedliner",
+                "label": "Spray-on bedliner",
                 "category": "Exterior"
             },
             {
-                "label": "custom or standard wheels",
+                "label": "Custom or standard wheels",
                 "category": "Exterior"
             },
             {
-                "label": " trailering package",
+                "label": "Trailering package",
                 "category": "Exterior"
             },
             {
-                "label": " black grille",
+                "label": "Black grille",
                 "category": "Exterior"
             },
             {
@@ -2828,27 +2828,27 @@
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": " USB ports",
+                "label": "USB ports",
                 "category": "Interior"
             },
             {
-                "label": "power outlet",
+                "label": "Power outlet",
                 "category": "Interior"
             },
             {
-                "label": " storage compartmentst",
+                "label": "Storage compartmentst",
                 "category": "Interior"
             },
             {
-                "label": " Duramax Plus Package",
+                "label": "Duramax Plus Package",
                 "category": "Packs"
             },
             {
-                "label": " Safety Package",
+                "label": "Safety Package",
                 "category": "Packs"
             },
             {
@@ -2856,7 +2856,7 @@
                 "category": "Packs"
             },
             {
-                "label": " rear vision camera",
+                "label": "Rear vision camera",
                 "category": "Security"
             },
             {
@@ -2872,11 +2872,11 @@
                 "category": "Security"
             },
             {
-                "label": " Teen Driver",
+                "label": "Teen Driver",
                 "category": "Security"
             },
             {
-                "label": " Four-wheel drive",
+                "label": "Four-wheel drive",
                 "category": "Other"
             },
             {
@@ -2884,15 +2884,15 @@
                 "category": "Other"
             },
             {
-                "label": " Hill Start Assist",
+                "label": "Hill Start Assist",
                 "category": "Other"
             },
             {
-                "label": " trailer sway control",
+                "label": "Trailer sway control",
                 "category": "Other"
             },
             {
-                "label": " cargo bed lighting",
+                "label": "Cargo bed lighting",
                 "category": "Other"
             }
         ],
@@ -2927,7 +2927,7 @@
         "logo": "https://1000logos.net/wp-content/uploads/2020/03/Volvo-Logo-2013.png",
         "id": "17",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 1999,
@@ -2937,7 +2937,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 8.4,
             "motorway": 5.7,
             "urban": 10.5
@@ -2958,31 +2958,31 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "panoramic moonroof",
+                "label": "Panoramic moonroof",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
-                "label": "hands-free liftgate",
+                "label": "Hands-free liftgate",
                 "category": "Driver Convenience"
             },
             {
@@ -3002,7 +3002,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "rear-seat entertainment system",
+                "label": "Rear-seat entertainment system",
                 "category": "Entertainment"
             },
             {
@@ -3010,27 +3010,27 @@
                 "category": "Exterior"
             },
             {
-                "label": " power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": " roof rails",
+                "label": "Roof rails",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": " fog lamps",
+                "label": "Fog lamps",
                 "category": "Exterior"
             },
             {
-                "label": "automatic high beams",
+                "label": "Automatic high beams",
                 "category": "Exterior"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Exterior"
             },
             {
@@ -3038,19 +3038,19 @@
                 "category": "Interior"
             },
             {
-                "label": " ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "advanced safety package",
+                "label": "Advanced safety package",
                 "category": "Interior"
             },
             {
@@ -3074,23 +3074,23 @@
                 "category": "Security"
             },
             {
-                "label": "rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": " lane departure warning",
+                "label": "Lane departure warning",
                 "category": "Security"
             },
             {
-                "label": " vehicle intrusion sensor",
+                "label": "Vehicle intrusion sensor",
                 "category": "Security"
             },
             {
-                "label": " rear collision warning",
+                "label": "Rear collision warning",
                 "category": "Security"
             },
             {
-                "label": " Traction Control",
+                "label": "Traction Control",
                 "category": "Other"
             },
             {
@@ -3102,7 +3102,7 @@
                 "category": "Other"
             },
             {
-                "label": " Hill Descent Control",
+                "label": "Hill Descent Control",
                 "category": "Other"
             }
         ],
@@ -3137,7 +3137,7 @@
         "logo": "https://1000logos.net/wp-content/uploads/2020/03/Volvo-Logo-2013.png",
         "id": "18",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 1910,
@@ -3147,7 +3147,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 7.2,
             "motorway": 5.3,
             "urban": 8.3
@@ -3168,31 +3168,31 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "panoramic moonroof",
+                "label": "Panoramic moonroof",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "parking sensors",
+                "label": "Parking sensors",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
-                "label": "hands-free liftgate",
+                "label": "Hands-free liftgate",
                 "category": "Driver Convenience"
             },
             {
@@ -3212,7 +3212,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "rear-seat entertainment system",
+                "label": "Rear-seat entertainment system",
                 "category": "Entertainment"
             },
             {
@@ -3220,27 +3220,27 @@
                 "category": "Exterior"
             },
             {
-                "label": " power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": " roof rails",
+                "label": "Roof rails",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": " fog lamps",
+                "label": "Fog lamps",
                 "category": "Exterior"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Exterior"
             },
             {
-                "label": "heated windshield wipers",
+                "label": "Heated windshield wipers",
                 "category": "Exterior"
             },
             {
@@ -3248,19 +3248,19 @@
                 "category": "Interior"
             },
             {
-                "label": " ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "advanced safety package",
+                "label": "Advanced safety package",
                 "category": "Interior"
             },
             {
@@ -3268,7 +3268,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Premium Package",
+                "label": "Premium Package",
                 "category": "Packs"
             },
             {
@@ -3284,23 +3284,23 @@
                 "category": "Security"
             },
             {
-                "label": "rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": " vehicle intrusion sensor",
+                "label": "Vehicle intrusion sensor",
                 "category": "Security"
             },
             {
-                "label": " keyless anti-starting theft system",
+                "label": "Keyless anti-starting theft system",
                 "category": "Security"
             },
             {
-                "label": " rear collision warning",
+                "label": "Rear collision warning",
                 "category": "Security"
             },
             {
-                "label": " Traction Control",
+                "label": "Traction Control",
                 "category": "Other"
             },
             {
@@ -3312,7 +3312,7 @@
                 "category": "Other"
             },
             {
-                "label": " Hill Descent Control",
+                "label": "Hill Descent Control",
                 "category": "Other"
             }
         ],
@@ -3347,7 +3347,7 @@
         "logo": "https://1000logos.net/wp-content/uploads/2020/03/Volvo-Logo-2013.png",
         "id": "19",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 1850,
@@ -3357,7 +3357,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 7.9,
             "motorway": 5.1,
             "urban": 9.2
@@ -3374,27 +3374,27 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "panoramic moonroof",
+                "label": "Panoramic moonroof",
                 "category": "Driver Convenience"
             },
             {
-                "label": "rearview camera",
+                "label": "Rearview camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "park assist",
+                "label": "Park assist",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
@@ -3414,7 +3414,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "rear-seat entertainment system",
+                "label": "Rear-seat entertainment system",
                 "category": "Entertainment"
             },
             {
@@ -3422,23 +3422,23 @@
                 "category": "Exterior"
             },
             {
-                "label": " power side mirrors",
+                "label": "Power side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": " fog lamps",
+                "label": "Fog lamps",
                 "category": "Exterior"
             },
             {
-                "label": "power folding side mirrors",
+                "label": "Power folding side mirrors",
                 "category": "Exterior"
             },
             {
@@ -3446,19 +3446,19 @@
                 "category": "Interior"
             },
             {
-                "label": " ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "advanced safety package",
+                "label": "Advanced safety package",
                 "category": "Interior"
             },
             {
@@ -3466,7 +3466,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Luxury Package",
+                "label": "Luxury Package",
                 "category": "Packs"
             },
             {
@@ -3482,23 +3482,23 @@
                 "category": "Security"
             },
             {
-                "label": "rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": " vehicle intrusion sensor",
+                "label": "Vehicle intrusion sensor",
                 "category": "Security"
             },
             {
-                "label": " keyless anti-starting theft system",
+                "label": "Keyless anti-starting theft system",
                 "category": "Security"
             },
             {
-                "label": " rear collision warning",
+                "label": "Rear collision warning",
                 "category": "Security"
             },
             {
-                "label": " Traction Control",
+                "label": "Traction Control",
                 "category": "Other"
             },
             {
@@ -3510,7 +3510,7 @@
                 "category": "Other"
             },
             {
-                "label": " Hill Descent Control",
+                "label": "Hill Descent Control",
                 "category": "Other"
             }
         ],
@@ -3545,7 +3545,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Land_Rover_logo_black.svg/2560px-Land_Rover_logo_black.svg.png",
         "id": "20",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 1999,
@@ -3555,7 +3555,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 10.8,
             "motorway": 7.6,
             "urban": 12.8
@@ -3572,27 +3572,27 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "push-button start",
+                "label": "Push-button start",
                 "category": "Driver Convenience"
             },
             {
-                "label": "backup camera",
+                "label": "Backup camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "cruise control",
+                "label": "Cruise control",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
@@ -3600,7 +3600,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": " Apple CarPlay and Android Auto compatibility",
+                "label": "Apple CarPlay and Android Auto compatibility",
                 "category": "Entertainment"
             },
             {
@@ -3616,7 +3616,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "rear-seat entertainment system",
+                "label": "Rear-seat entertainment system",
                 "category": "Entertainment"
             },
             {
@@ -3624,19 +3624,19 @@
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": "heated windshield and mirrors",
+                "label": "Heated windshield and mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "tow hitch receiver",
+                "label": "Tow hitch receiver",
                 "category": "Exterior"
             },
             {
-                "label": "  front and rear fog lamps",
+                "label": "Front and rear Fog lamps",
                 "category": "Exterior"
             },
             {
@@ -3644,19 +3644,19 @@
                 "category": "Interior"
             },
             {
-                "label": " ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "advanced safety package",
+                "label": "Advanced safety package",
                 "category": "Interior"
             },
             {
@@ -3664,7 +3664,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Adventure Pack",
+                "label": "Adventure Pack",
                 "category": "Packs"
             },
             {
@@ -3676,7 +3676,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Off-Road Pack",
+                "label": "Off-Road Pack",
                 "category": "Packs"
             },
             {
@@ -3688,7 +3688,7 @@
                 "category": "Security"
             },
             {
-                "label": "emergency braking",
+                "label": "Emergency braking",
                 "category": "Security"
             },
             {
@@ -3696,11 +3696,11 @@
                 "category": "Security"
             },
             {
-                "label": " rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": " Traction Control",
+                "label": "Traction Control",
                 "category": "Other"
             },
             {
@@ -3712,7 +3712,7 @@
                 "category": "Other"
             },
             {
-                "label": " Hill Descent Control",
+                "label": "Hill Descent Control",
                 "category": "Other"
             }
         ],
@@ -3746,7 +3746,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Land_Rover_logo_black.svg/2560px-Land_Rover_logo_black.svg.png",
         "id": "21",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 2220,
@@ -3756,7 +3756,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 10.7,
             "motorway": 8.6,
             "urban": 13.5
@@ -3773,39 +3773,39 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "push-button start",
+                "label": "Push-button start",
                 "category": "Driver Convenience"
             },
             {
-                "label": "backup camera",
+                "label": "Backup camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "cruise control",
+                "label": "Cruise control",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "four-zone automatic climate control",
+                "label": "Four-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Driver Convenience"
             },
             {
-                "label": " Touch Pro Duo infotainment system",
+                "label": "Touch Pro Duo infotainment system",
                 "category": "Entertainment"
             },
             {
-                "label": " Bluetooth connectivity",
+                "label": "Bluetooth connectivity",
                 "category": "Entertainment"
             },
             {
@@ -3817,7 +3817,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "rear-seat entertainment system",
+                "label": "Rear-seat entertainment system",
                 "category": "Entertainment"
             },
             {
@@ -3825,23 +3825,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": " panoramic sunroof",
+                "label": "Panoramic Sunroof",
                 "category": "Exterior"
             },
             {
-                "label": "power fold side mirrors",
+                "label": "Power fold side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "  front and rear fog lamps",
+                "label": "Front and rear Fog lamps",
                 "category": "Exterior"
             },
             {
-                "label": "  tow hitch receiver",
+                "label": "Tow hitch receiver",
                 "category": "Exterior"
             },
             {
@@ -3849,23 +3849,23 @@
                 "category": "Interior"
             },
             {
-                "label": " ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "advanced safety package",
+                "label": "Advanced safety package",
                 "category": "Interior"
             },
             {
-                "label": " Dynamics Pack",
+                "label": "Dynamics Pack",
                 "category": "Packs"
             },
             {
@@ -3873,7 +3873,7 @@
                 "category": "Packs"
             },
             {
-                "label": " Luxury Interior Pack",
+                "label": "Luxury Interior Pack",
                 "category": "Packs"
             },
             {
@@ -3889,23 +3889,23 @@
                 "category": "Security"
             },
             {
-                "label": " rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": " 360-degree camera",
+                "label": "360-degree camera",
                 "category": "Security"
             },
             {
-                "label": "emergency braking",
+                "label": "Emergency braking",
                 "category": "Security"
             },
             {
-                "label": "keyless anti-starting theft system",
+                "label": "Keyless anti-starting theft system",
                 "category": "Security"
             },
             {
-                "label": " Traction Control",
+                "label": "Traction Control",
                 "category": "Other"
             },
             {
@@ -3917,7 +3917,7 @@
                 "category": "Other"
             },
             {
-                "label": " Hill Descent Control",
+                "label": "Hill Descent Control",
                 "category": "Other"
             }
         ],
@@ -3951,7 +3951,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/ToyotaLogoRedVer.svg/1200px-ToyotaLogoRedVer.svg.png",
         "id": "22",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 1980,
@@ -3961,7 +3961,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 10.9,
             "motorway": 7.4,
             "urban": 14.4
@@ -3978,39 +3978,39 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "push-button start",
+                "label": "Push-button start",
                 "category": "Driver Convenience"
             },
             {
-                "label": "backup camera",
+                "label": "Backup camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "cruise control",
+                "label": "Cruise control",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "four-zone automatic climate control",
+                "label": "Four-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power tailgate",
+                "label": "Power tailgate",
                 "category": "Driver Convenience"
             },
             {
-                "label": " Touchscreen infotainment system",
+                "label": "Touchscreen infotainment system",
                 "category": "Entertainment"
             },
             {
-                "label": " Bluetooth connectivity",
+                "label": "Bluetooth connectivity",
                 "category": "Entertainment"
             },
             {
@@ -4018,7 +4018,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "rear-seat entertainment system",
+                "label": "Rear-seat entertainment system",
                 "category": "Entertainment"
             },
             {
@@ -4030,23 +4030,23 @@
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": " power tilt/slide moonroof",
+                "label": "Power tilt/slide moonroof",
                 "category": "Exterior"
             },
             {
-                "label": "power fold side mirrors",
+                "label": "Power fold side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "  front and rear mudguards",
+                "label": "Front and rear mudguards",
                 "category": "Exterior"
             },
             {
-                "label": "  running boards",
+                "label": "Running boards",
                 "category": "Exterior"
             },
             {
@@ -4054,27 +4054,27 @@
                 "category": "Interior"
             },
             {
-                "label": " ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "advanced safety package",
+                "label": "Advanced safety package",
                 "category": "Interior"
             },
             {
-                "label": " Rain Sensing Windshield Wipers",
+                "label": "Rain Sensing Windshield Wipers",
                 "category": "Packs"
             },
             {
-                "label": " Power Doors And Windows",
+                "label": "Power Doors And Windows",
                 "category": "Packs"
             },
             {
@@ -4090,23 +4090,23 @@
                 "category": "Security"
             },
             {
-                "label": " rear cross-traffic alert",
+                "label": "Rear cross-traffic alert",
                 "category": "Security"
             },
             {
-                "label": " 360-degree camera",
+                "label": "360-degree camera",
                 "category": "Security"
             },
             {
-                "label": "emergency braking",
+                "label": "Emergency braking",
                 "category": "Security"
             },
             {
-                "label": " anti-theft system",
+                "label": "Anti-theft system",
                 "category": "Security"
             },
             {
-                "label": " Kinetic Dynamic Suspension System",
+                "label": "Kinetic Dynamic Suspension System",
                 "category": "Other"
             },
             {
@@ -4148,7 +4148,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/ToyotaLogoRedVer.svg/1200px-ToyotaLogoRedVer.svg.png",
         "id": "23",
         "transmission": {
-            "type": "automatic"
+            "type": "Automatic"
         },
         "dimensions": {
             "width": 1840,
@@ -4158,7 +4158,7 @@
             "unit": "mm"
         },
         "efficiency": {
-            "unit": "litersPerKilometers",
+            "unit": "L/100km",
             "combined": 7.6,
             "motorway": 4.9,
             "urban": 8.3
@@ -4175,35 +4175,35 @@
                 "category": "Driver Convenience"
             },
             {
-                "label": "push-button start",
+                "label": "Push-button start",
                 "category": "Driver Convenience"
             },
             {
-                "label": "backup camera",
+                "label": "Backup camera",
                 "category": "Driver Convenience"
             },
             {
-                "label": "cruise control",
+                "label": "Cruise control",
                 "category": "Driver Convenience"
             },
             {
-                "label": " heated and ventilated seats",
+                "label": "Heated and ventilated seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": "power-adjustable driver and passenger seats",
+                "label": "Power-adjustable driver and passenger seats",
                 "category": "Driver Convenience"
             },
             {
-                "label": " dual-zone automatic climate control",
+                "label": "Dual-zone automatic climate control",
                 "category": "Driver Convenience"
             },
             {
-                "label": " Touchscreen display audio system",
+                "label": "Touchscreen display audio system",
                 "category": "Entertainment"
             },
             {
-                "label": " Bluetooth connectivity",
+                "label": "Bluetooth connectivity",
                 "category": "Entertainment"
             },
             {
@@ -4211,7 +4211,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "rear-seat entertainment system",
+                "label": "Rear-seat entertainment system",
                 "category": "Entertainment"
             },
             {
@@ -4219,7 +4219,7 @@
                 "category": "Entertainment"
             },
             {
-                "label": "wireless smartphone charging",
+                "label": "Wireless smartphone charging",
                 "category": "Entertainment"
             },
             {
@@ -4227,19 +4227,19 @@
                 "category": "Exterior"
             },
             {
-                "label": "alloy wheels",
+                "label": "Alloy wheels",
                 "category": "Exterior"
             },
             {
-                "label": " power tilt/slide moonroof",
+                "label": "Power tilt/slide moonroof",
                 "category": "Exterior"
             },
             {
-                "label": "power fold side mirrors",
+                "label": "Power fold side mirrors",
                 "category": "Exterior"
             },
             {
-                "label": "panoramic sunroof (optional)",
+                "label": "Panoramic Sunroof (optional)",
                 "category": "Exterior"
             },
             {
@@ -4247,27 +4247,27 @@
                 "category": "Interior"
             },
             {
-                "label": " ambient lighting",
+                "label": "Ambient lighting",
                 "category": "Interior"
             },
             {
-                "label": "tri-zone automatic climate control",
+                "label": "Tri-zone automatic climate control",
                 "category": "Interior"
             },
             {
-                "label": " heated steering wheel",
+                "label": "Heated steering wheel",
                 "category": "Interior"
             },
             {
-                "label": "advanced safety package",
+                "label": "Advanced safety package",
                 "category": "Interior"
             },
             {
-                "label": " Convenience Package",
+                "label": "Convenience Package",
                 "category": "Packs"
             },
             {
-                "label": " Audio Upgrade Package",
+                "label": "Audio Upgrade Package",
                 "category": "Packs"
             },
             {
@@ -4283,15 +4283,15 @@
                 "category": "Security"
             },
             {
-                "label": "lane departure alert with steering assist",
+                "label": "Lane departure alert with steering assist",
                 "category": "Security"
             },
             {
-                "label": "pre-collision system with pedestrian detection",
+                "label": "Pre-collision system with pedestrian detection",
                 "category": "Security"
             },
             {
-                "label": "automatic high beams",
+                "label": "Automatic high beams",
                 "category": "Security"
             },
             {
@@ -4299,11 +4299,11 @@
                 "category": "Other"
             },
             {
-                "label": "paddle shifters",
+                "label": "Paddle shifters",
                 "category": "Other"
             },
             {
-                "label": "rear spoiler",
+                "label": "Rear spoiler",
                 "category": "Other"
             }
         ],
