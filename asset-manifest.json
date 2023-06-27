@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/CarDealer/static/css/main.2c2efeb1.css",
-    "main.js": "/CarDealer/static/js/main.1c981c47.js",
+    "main.css": "/CarDealer/static/css/main.5d04109f.css",
+    "main.js": "/CarDealer/static/js/main.a12b5d92.js",
     "static/media/cycauto.png": "/CarDealer/static/media/cycauto.79eb1a948f418860d5fb.png",
     "index.html": "/CarDealer/index.html",
-    "main.2c2efeb1.css.map": "/CarDealer/static/css/main.2c2efeb1.css.map",
-    "main.1c981c47.js.map": "/CarDealer/static/js/main.1c981c47.js.map"
+    "main.5d04109f.css.map": "/CarDealer/static/css/main.5d04109f.css.map",
+    "main.a12b5d92.js.map": "/CarDealer/static/js/main.a12b5d92.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c2efeb1.css",
-    "static/js/main.1c981c47.js"
+    "static/css/main.5d04109f.css",
+    "static/js/main.a12b5d92.js"
   ]
 }
