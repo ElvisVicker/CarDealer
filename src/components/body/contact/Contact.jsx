@@ -32,8 +32,8 @@ export default function Inventory() {
                 localStorage.setItem("contactInfo", JSON.stringify(contactInfo))
             }
             alert('Thank you for submiting, Have a nice day :D')
-            navigate('/')
             window.scrollTo({ top: 0, left: 0 });
+            navigate('/')
         }
     }
 
