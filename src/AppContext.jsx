@@ -5,9 +5,6 @@ import dataFounder from "./components/PeopleList/dataFounder.json"
 import dataLeader from "./components/PeopleList/dataLeader.json"
 export const AppContext = createContext({})
 export const AppProvider = ({ children }) => {
-
-
-
   // DATA FROM JSON========================================================
   const [list, setList] = useState(data)
   useEffect(() => {
