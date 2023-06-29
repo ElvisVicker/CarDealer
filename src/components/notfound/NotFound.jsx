@@ -1,11 +1,5 @@
-
 import './NotFound.css'
 import { Link } from 'react-router-dom';
-
-import { AiOutlineHome } from 'react-icons/ai';
-
-
-
 export default function NotFound() {
     return (
         <div className='notFound'>
