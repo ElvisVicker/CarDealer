@@ -99,11 +99,10 @@
         padding: 0rem 2.8rem;
     }
 
-
-
-
-
-
+    .companyLink {
+        margin: 1rem 0 10rem 3rem;
+        width: fit-content;
+    }
 }
 
 

@@ -243,16 +243,10 @@ export default function VehicleDetail() {
                                             <div className='subDesTitle'>EC Combined</div>
                                             <div>{selectedCarStored.efficiency.combined} {selectedCarStored.efficiency.unit}</div>
                                         </div>
-                                    </div>
-
-                                    <div className='specificationDesContainer'>
                                         <div className='subSpecificationDesContainer'>
                                             <div className='subDesTitle'>EC Extra Urban</div>
                                             <div>{selectedCarStored.efficiency.urban} {selectedCarStored.efficiency.unit}</div>
                                         </div>
-                                    </div>
-
-                                    <div className='specificationDesContainer'>
                                         <div className='subSpecificationDesContainer'>
                                             <div className='subDesTitle'>EC Urban</div>
                                             <div>{selectedCarStored.efficiency.motorway} {selectedCarStored.efficiency.unit}</div>

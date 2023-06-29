@@ -80,7 +80,7 @@
 
 .companyLink {
     margin: 1rem 0 10rem 4rem;
-    width: 18rem;
+    width: fit-content;
 }
 
 .btnLink {

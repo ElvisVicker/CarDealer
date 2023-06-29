@@ -53,7 +53,7 @@
 .aboutUsInfoWho {
     font-size: 4.4rem;
     font-weight: bold;
-    color: var(--normalTitle);
+    color: var(--mainTitle);
 }
 
 .aboutUsInfoDes {
