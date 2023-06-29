@@ -9,6 +9,7 @@ import VehicleDetail from './vehicledetail/VehicleDetail';
 import Offer from './vehicledetail/buyvehicle/offer/Offer';
 import PersonalDetail from './vehicledetail/buyvehicle/personaldetail/PersonalDetail';
 import Confirm from './vehicledetail/buyvehicle/confirm/Confirm';
+import NotFound from '../notfound/NotFound';
 export default function Body() {
     return (
         <div className="Body">
@@ -23,6 +24,8 @@ export default function Body() {
                 <Route path="/Inventory/VehicleDetail/:id/Offer" element={< Offer />}></Route>
                 <Route path="/Inventory/VehicleDetail/:id/PersonalDetail" element={< PersonalDetail />}></Route>
                 <Route path="/Inventory/VehicleDetail/:id/Confirm" element={< Confirm />}></Route>
+
+                <Route path="*" element={< NotFound />}></Route>
             </Routes>
         </div >
     );

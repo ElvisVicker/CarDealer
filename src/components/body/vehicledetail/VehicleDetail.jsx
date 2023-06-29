@@ -56,7 +56,6 @@ export default function VehicleDetail() {
     const [showWarranty, setShowWarranty] = useState(false);
 
 
-
     return (
         <div className='VehicleDetail'>
             <div className='vehicleNamePriceContainer'>

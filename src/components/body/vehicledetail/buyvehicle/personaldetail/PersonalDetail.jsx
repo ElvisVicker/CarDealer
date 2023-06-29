@@ -4,9 +4,10 @@ import { useContext, useEffect } from 'react';
 import { AppContext } from '../../../../../AppContext';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-
+import { useNavigate } from 'react-router-dom';
 export default function PersonalDetail() {
     const { selectedCar, setSelectedCar } = useContext(AppContext)
+    const navigate = useNavigate();
     if (!localStorage.getItem("carSelectedInfo")) {
         localStorage.setItem("carSelectedInfo", JSON.stringify(selectedCar))
     }
@@ -42,11 +43,13 @@ export default function PersonalDetail() {
         gender: `${genderValue}`
     }
 
+
     let saveBuyerInfo = (e) => {
         if (firstNameValue && lastNameValue && phoneNumberValue && phoneNumberValue.length == 10 && emailValue && emailValue.includes('@') && genderValue) {
             e.preventDefault()
             localStorage.setItem("buyerInfoWillStore", JSON.stringify(buyerInfo))
-            window.location.href = `/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`;
+            // window.location.href = `/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`;
+            navigate(`/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`)
         }
     }
 
