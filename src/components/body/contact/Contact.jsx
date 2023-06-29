@@ -2,7 +2,12 @@ import './Contact.css'
 import './ContactResponsive.css'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
+
+
 export default function Inventory() {
+    const navigate = useNavigate();
     const [contactName, setContactName] = useState('');
     const changeContactName = e => {
         setContactName(e.target.value);
@@ -29,7 +34,8 @@ export default function Inventory() {
                 localStorage.setItem("contactInfo", JSON.stringify(contactInfo))
             }
             alert('Thank you for submiting, Have a nice day :D')
-            window.location.href = `/`;
+            window.scrollTo({ top: 0, left: 0 });
+            navigate('/')
         }
     }
 
