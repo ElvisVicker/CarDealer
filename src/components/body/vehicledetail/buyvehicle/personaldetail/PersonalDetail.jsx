@@ -49,6 +49,7 @@ export default function PersonalDetail() {
             e.preventDefault()
             localStorage.setItem("buyerInfoWillStore", JSON.stringify(buyerInfo))
             // window.location.href = `/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`;
+            window.scrollTo({ top: 0, left: 0 });
             navigate(`/Inventory/VehicleDetail/${selectedCarStored.id}/Confirm`)
         }
     }

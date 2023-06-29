@@ -4,8 +4,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
-
-
 export default function Inventory() {
     const navigate = useNavigate();
     const [contactName, setContactName] = useState('');
@@ -34,8 +32,8 @@ export default function Inventory() {
                 localStorage.setItem("contactInfo", JSON.stringify(contactInfo))
             }
             alert('Thank you for submiting, Have a nice day :D')
-            window.scrollTo({ top: 0, left: 0 });
             navigate('/')
+            window.scrollTo({ top: 0, left: 0 });
         }
     }
 
