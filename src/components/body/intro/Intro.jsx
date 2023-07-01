@@ -8,11 +8,10 @@ import { Link } from "react-router-dom";
 export default function Intro() {
     const { list, cus1, TextSlideshow1, cus2, TextSlideshow2, logoCompany } = useContext(AppContext)
 
-
     return (
         <div className='Intro'>
             <div className="Background">
-                <img src="https://images4.alphacoders.com/988/988087.jpg" className="backgroundImg" alt="" srcset="" />
+                <img src="https://uhdwallpapers.org/uploads/converted/18/12/02/audi-e-tron-gt-picture-1920x1080_86575-mm-90.jpg" className="backgroundImg" alt="" srcset="" />
                 <div className="mainTitle">MADE FOR PEOPLE BY PEOPLE</div>
             </div>
             <div className='exploreContainer'>

@@ -10,11 +10,6 @@ import { useEffect } from 'react';
 
 export default function VehicleDetail() {
     const { selectedCar, setSelectedCar } = useContext(AppContext)
-
-
-
-
-
     if (!localStorage.getItem("carSelectedInfo")) {
         localStorage.setItem("carSelectedInfo", JSON.stringify(selectedCar))
     }
@@ -23,11 +18,6 @@ export default function VehicleDetail() {
     const clickImgAndShow = (imageUrl) => {
         setSelectedImage(imageUrl);
     };
-
-
-
-
-
 
     const filteredDC = selectedCarStored.equipment.filter((item) => item.category === "Driver Convenience");
     let driverConvenience = filteredDC.map((item) => { return (<div>- {item.label}</div>) })

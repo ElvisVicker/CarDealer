@@ -52,9 +52,6 @@
         height: 28rem;
     }
 
-
-
-
     .introCarImg:hover {
         transform: scale(1.2);
     }
@@ -119,9 +116,19 @@
         font-size: 5.2rem;
     }
 
+    .Background {
+        height: 90vh;
+    }
+
+    .backgroundImg {
+        height: 100%;
+    }
+
+
+
     /* EXPLORE MORE */
     .exploreContainer {
-        padding-top: 10rem;
+
         gap: 0rem;
         padding-top: 6rem;
 
@@ -210,6 +217,10 @@
         left: 10rem;
     }
 
+    .Background {
+        height: 77.5vh;
+    }
+
     /* EXPLORE MORE */
     .exploreContainer {
         padding-top: 6rem;
@@ -283,9 +294,13 @@
         padding: 6rem 8rem 1rem;
     }
 
+    .Background {
+        height: 57.5vh;
+    }
+
     .mainTitle {
-        font-size: 5.4rem;
-        top: 40rem;
+        font-size: 4.6rem;
+        top: 24rem;
         left: 6rem;
     }
 
@@ -378,6 +393,10 @@
         gap: 6rem;
     }
 
+    .Background {
+        height: 50vh;
+    }
+
     .companyIntro {
         height: 100%;
         display: flex;
@@ -430,23 +449,20 @@
 
 @media (max-width: 32rem) {
     .mainTitle {
-        font-size: 6.8rem;
-        top: 50rem;
-        left: 10rem;
+        font-size: 5rem;
+        top: 26rem;
+        left: 6rem;
     }
 }
 
-
-
 @media (max-width: 28rem) {
-    .mainTitle {
-        font-size: 6rem;
+    .Background {
+        height: 45vh;
     }
 
     .exploreContainer {
         gap: 2rem;
     }
-
 
     .introTitle {
         font-size: 2.8rem;
@@ -465,7 +481,6 @@
     .introCarImgs {
         padding: 1rem 3.6rem;
     }
-
 
     .logoContainer {
         gap: 2.4rem;

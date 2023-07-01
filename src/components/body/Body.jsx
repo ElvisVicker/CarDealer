@@ -24,7 +24,6 @@ export default function Body() {
                 <Route path="/Inventory/VehicleDetail/:id/Offer" element={< Offer />}></Route>
                 <Route path="/Inventory/VehicleDetail/:id/PersonalDetail" element={< PersonalDetail />}></Route>
                 <Route path="/Inventory/VehicleDetail/:id/Confirm" element={< Confirm />}></Route>
-
                 <Route path="*" element={< NotFound />}></Route>
             </Routes>
         </div >
