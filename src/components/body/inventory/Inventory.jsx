@@ -35,7 +35,7 @@ export default function Inventory() {
                 <img src={item.img[0]} alt="" className='carImg' />
               </div>
               <div className='carCardInfo'>
-                <div className='carName' >Name: {item.name}</div>
+                <div className='carName' >Name: {item.name} {item.year}</div>
                 <div className='carPrice'>Price: {item.price}$</div>
                 <div className='carBodyStyle'>Style: {item.bodystyle}</div>
               </div>

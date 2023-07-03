@@ -1,27 +1,24 @@
 import { createContext, useEffect, useState } from "react";
 import axios from "axios";
-import data from "./components/CarList/data.json"
-import dataFounder from "./components/PeopleList/dataFounder.json"
-import dataLeader from "./components/PeopleList/dataLeader.json"
+import getData from "./components/data/data.json"
+
 export const AppContext = createContext({})
 export const AppProvider = ({ children }) => {
   // DATA FROM JSON========================================================
-  const [list, setList] = useState(data)
+  const [list, setList] = useState(getData.data.allVehicles)
   useEffect(() => {
     setList(list)
   }, [])
 
-  const [listLeaders, setListLeaders] = useState(dataLeader)
+  const [listLeaders, setListLeaders] = useState(getData.data.leaders)
   useEffect(() => {
     setListLeaders(listLeaders)
   }, [])
 
-  const [listFounders, setListFounders] = useState(dataFounder)
+  const [listFounders, setListFounders] = useState(getData.data.founders)
   useEffect(() => {
     setListFounders(listFounders)
   }, [])
-
-
 
   // SCROLL TO TOP========================================================
   useEffect(() => {
