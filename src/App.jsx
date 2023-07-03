@@ -6,7 +6,7 @@ import { AppProvider } from "./AppContext";
 export default function App() {
   return (
     <div>
-      <img className='backgroundAll' src="https://rare-gallery.com/uploads/posts/505189-desktop-background.jpg" alt="" srcset="" />
+      <img className='backgroundAll' src="https://c1.wallpaperflare.com/preview/405/803/659/highway-light-trail-quick-travel.jpg" alt="" srcset="" />
       <AppProvider>
         <Header />
         <Body />
