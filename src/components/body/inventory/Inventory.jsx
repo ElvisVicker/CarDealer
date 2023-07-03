@@ -6,7 +6,8 @@ import { useContext } from 'react';
 import { Link } from "react-router-dom";
 
 export default function Inventory() {
-  const { pageLinks, itemsToDisplay, setSelectedCar, handleFilter, company } = useContext(AppContext)
+  const { pageLinks, itemsToDisplay, setSelectedCar, handleFilter, company, changeSearchName, inputMessage } = useContext(AppContext)
+
   return (
     <div className='Inventory'>
       <div className='inventoryImgTitle'>
@@ -26,6 +27,10 @@ export default function Inventory() {
               </div>
             ))}
           </div>
+
+
+          <input type="text" className='searchBar' placeholder='Search' onChange={changeSearchName} value={inputMessage} />
+
         </div>
 
         <div className='carListContainer'>

@@ -126,14 +126,27 @@ export const AppProvider = ({ children }) => {
 
 
   //FILTER==============================================================
+  const [inputMessage, setInputMessage] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [filteredData, setFilteredData] = useState(list);
   let handleFilter = function (company) {
     let filteredCar = list.filter(item => item.company === company)
     setFilteredData(filteredCar);
     setCurrentPage(1)
+    setInputMessage('');
     if (company == 'All') setFilteredData(list);
   }
+
+
+
+  //SEARCH========================================================================================
+  const changeSearchName = e => {
+    let searchedCar = list.filter(item => item.name.toLowerCase().includes(e.target.value.toLowerCase()))
+    setInputMessage(e.target.value);
+    setFilteredData(searchedCar);
+    setCurrentPage(1)
+  };
+
 
 
   // PAGINATION==============================================
@@ -219,7 +232,7 @@ export const AppProvider = ({ children }) => {
       selectedFounder, setSelectedFounder, showModalLeader, setShowModalLeader, selectedLeaderStored,
       showModalFounder, setShowModalFounder, selectedFounderStored, handleFilter, itemsToDisplay, pageLinks
       , setCurrentPage, setFilteredData, company, showListLink,
-      setShowListLink
+      setShowListLink, changeSearchName, inputMessage
     }}>
       {children}
     </AppContext.Provider>
